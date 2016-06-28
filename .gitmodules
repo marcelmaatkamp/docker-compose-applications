@@ -1,0 +1,9 @@
+[submodule "dns/docker-nodejs-dns"]
+	path = dns/docker-nodejs-dns
+	url = git@github.com:marcelmaatkamp/docker-nodejs-dns.git
+[submodule "dns/docker-nodejs-dns-mongodb"]
+	path = dns/docker-nodejs-dns-mongodb
+	url = git@github.com:marcelmaatkamp/docker-nodejs-dns-mongodb.git
+[submodule "dns/rabbitmq-dns2geo"]
+	path = dns/rabbitmq-dns2geo
+	url = git@github.com:DNPA/rabbitmq-dns2geo.git

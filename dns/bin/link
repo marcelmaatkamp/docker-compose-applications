@@ -1,0 +1,4 @@
+#!/bin/bash
+git submodule add git@github.com:marcelmaatkamp/docker-nodejs-dns.git
+git submodule add git@github.com:marcelmaatkamp/docker-nodejs-dns-mongodb.git
+git submodule add git@github.com:DNPA/rabbitmq-dns2geo.git
