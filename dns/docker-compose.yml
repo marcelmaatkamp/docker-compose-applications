@@ -107,10 +107,10 @@ services:
   environment:
    - MONGODB_URL=mongodb://mongodb:27017/dns 
 
-fabuleus_dns_geo:
- # image: ...
- build: rabbitmq-dns2geo
- env_file:
-  - default.env
-  - work.env
- 
+ fabuleus_dns_geo:
+  build: rabbitmq-dns2geo/
+  restart: always
+  env_file:
+   - work.env
+  links:
+   - rabbitmq:rabbitmq
