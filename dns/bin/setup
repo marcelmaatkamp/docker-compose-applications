@@ -1,11 +1,4 @@
 #!/bin/bash
-
-echo "You need to have installed the following packages for this program to run: "
-echo " - git"
-echo " - docker"
-echo " - docker-compose"
-echo 
-
 git clone --recursive https://github.com/marcelmaatkamp/docker-compose-applications.git &&\
  cd docker-compose-applications/dns &&\
  docker-compose up
