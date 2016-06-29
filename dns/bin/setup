@@ -6,7 +6,6 @@ echo " - docker"
 echo " - docker-compose"
 echo 
 
-git clone https://github.com/marcelmaatkamp/docker-compose-applications.git &&\
+git clone --recursive https://github.com/marcelmaatkamp/docker-compose-applications.git &&\
  cd docker-compose-applications/dns &&\
- git fetch --recurse-submodules &&\
  docker-compose up
