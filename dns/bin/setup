@@ -1,4 +1,11 @@
 #!/bin/bash
+
+echo "You need to have installed the following packages: "
+echo " - git"
+echo " - docker"
+echo " - docker-compose"
+echo 
+
 git checkout https://github.com/marcelmaatkamp/docker-compose-applications.git &&\
  cd docker-compose-applications/dns &&\
  docker-compose up
