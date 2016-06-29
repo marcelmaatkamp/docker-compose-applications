@@ -1,0 +1,4 @@
+#!/bin/bash
+git co https://github.com/marcelmaatkamp/docker-compose-applications &&\
+ cd docker-compose-applications/dns &&\
+ docker-compose up
