@@ -1,0 +1,2 @@
+#!/bin/bash
+git clone --recursive git@github.com:marcelmaatkamp/docker-luaradio.git

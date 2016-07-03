@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+
+ luaradio: 
+  build: docker-luaradio
+  # image: marcelmaatkamp/luaradio
+  restart: always
+  privileged: true
+  volumes:
+   - ./volumes/luaradio:/data
