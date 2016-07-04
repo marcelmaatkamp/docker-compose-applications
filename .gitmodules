@@ -7,3 +7,6 @@
 [submodule "dns/rabbitmq-dns2geo"]
 	path = dns/rabbitmq-dns2geo
 	url = https://github.com/DNPA/rabbitmq-dns2geo.git
+[submodule "luaradio/docker-luaradio"]
+	path = luaradio/docker-luaradio
+	url = https://github.com/marcelmaatkamp/docker-luaradio.git
