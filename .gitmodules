@@ -10,3 +10,6 @@
 [submodule "luaradio/docker-luaradio"]
 	path = luaradio/docker-luaradio
 	url = https://github.com/marcelmaatkamp/docker-luaradio.git
+[submodule "dns/docker-nodejs-dns-mongodb-viewer"]
+	path = dns/docker-nodejs-dns-mongodb-viewer
+	url = https://github.com/marcelmaatkamp/docker-nodejs-dns-mongodb-viewer.git
