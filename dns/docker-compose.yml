@@ -12,7 +12,7 @@ services:
 #   environment:
 #    - LETSENCRYPT_EMAIL=m.maatkamp@gmail.com
 #    - LETSENCRYPT_HOST=duval.servequake.com
-#   restart: always  
+#   restart: always
 
 #  proxy:
 #   image: jwilder/nginx-proxy
@@ -47,14 +47,14 @@ services:
 #  #   - 443:443
 #  environment:
 #   - PHPLDAPADMIN_LDAP_HOSTS=ldap
-#   - PHPLDAPADMIN_HTTPS=false 
+#   - PHPLDAPADMIN_HTTPS=false
 #   - VIRTUAL_HOST=duval.servequake.com
 #   - VIRTUAL_PROTO=https
 #  links:
 #   - ldap
 #   - rproxy
 
- rabbitmq: 
+ rabbitmq:
   image: marcelmaatkamp/rabbitmq-mqtt-ldap
   restart: always
   ports:
@@ -63,14 +63,14 @@ services:
   environment:
    - VIRTUAL_HOST=duval.servequake.com
    - VIRTUAL_PORT=15672
- 
+
  mongodb:
   image: mongo
   restart: always
   volumes:
    - "./volumes/mongodb/database:/data/db"
    - "./volumes/mongodb/config:/data/configdb"
-   
+
  fabuleus_dns:
   # image: marcelmaatkamp/nodejs-dns
   build: docker-nodejs-dns
@@ -81,7 +81,7 @@ services:
    - rabbitmq:rabbitmq
   environment:
    - AMQP_URL=amqp://rabbitmq
-   - DNS_PORT=53 
+   - DNS_PORT=53
 
  fabuleus_dns_mongodb:
   # image: marcelmaatkamp/nodejs-dns-mongodb:latest
@@ -94,10 +94,11 @@ services:
    - fabuleus_dns:fabuleus_dns
   environment:
    - AMQP_URL=amqp://rabbitmq
-   - MONGODB_URL=mongodb://mongodb:27017/dns 
+   - MONGODB_URL=mongodb://mongodb:27017/dns
 
  fabuleus_dns_mongodb_viewer:
-  image: marcelmaatkamp/nodejs-dns-mongodb-viewer
+  # image: marcelmaatkamp/nodejs-dns-mongodb-viewer
+  build: docker-nodejs-dns-mongodb-viewer/
   restart: always
   ports:
    - 1337:1337
@@ -105,7 +106,7 @@ services:
    - mongodb:mongodb
    - fabuleus_dns_mongodb:fabuleus_dns_mongodb
   environment:
-   - MONGODB_URL=mongodb://mongodb:27017/dns 
+   - MONGODB_URL=mongodb://mongodb:27017/dns
 
  fabuleus_dns_geo:
   build: rabbitmq-dns2geo/
