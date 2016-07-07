@@ -1,0 +1,2 @@
+#!/bin/bash
+git submodule add https://github.com/marcelmaatkamp/docker-luaradio.git

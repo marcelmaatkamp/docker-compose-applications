@@ -1,0 +1,3 @@
+[submodule "luaradio/docker-luaradio"]
+	path = luaradio/docker-luaradio
+	url = https://github.com/marcelmaatkamp/docker-luaradio.git

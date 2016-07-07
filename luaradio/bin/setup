@@ -1,0 +1,4 @@
+#!/bin/bash
+git clone --recursive https://github.com/marcelmaatkamp/docker-compose-applications.git &&\
+ cd docker-compose-applications/luaradio &&\
+ docker-compose up
