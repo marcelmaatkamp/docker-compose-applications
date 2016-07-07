@@ -1,0 +1,3 @@
+#!/bin/bash
+find . -name '._*' -exec rm {} \;
+docker-compose stop && docker-compose rm -f --all && docker-compose build && docker-compose up
