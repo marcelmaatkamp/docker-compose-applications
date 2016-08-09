@@ -1,15 +1,3 @@
-[submodule "dns/docker-nodejs-dns"]
-	path = dns/docker-nodejs-dns
-	url = https://github.com/marcelmaatkamp/docker-nodejs-dns.git
-[submodule "dns/docker-nodejs-dns-mongodb"]
-	path = dns/docker-nodejs-dns-mongodb
-	url = https://github.com/marcelmaatkamp/docker-nodejs-dns-mongodb.git
-[submodule "dns/rabbitmq-dns2geo"]
-	path = dns/rabbitmq-dns2geo
-	url = https://github.com/DNPA/rabbitmq-dns2geo.git
 [submodule "luaradio/docker-luaradio"]
 	path = luaradio/docker-luaradio
 	url = https://github.com/marcelmaatkamp/docker-luaradio.git
-[submodule "dns/docker-nodejs-dns-mongodb-viewer"]
-	path = dns/docker-nodejs-dns-mongodb-viewer
-	url = https://github.com/marcelmaatkamp/docker-nodejs-dns-mongodb-viewer.git

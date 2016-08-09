@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 git clone --recursive git@github.com:marcelmaatkamp/docker-luaradio.git
+=======
+git submodule add https://github.com/marcelmaatkamp/docker-luaradio.git
+>>>>>>> origin/master
