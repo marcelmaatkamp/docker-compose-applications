@@ -1,4 +1,0 @@
-#!/bin/bash
-git clone --recursive git@github.com:marcelmaatkamp/docker-nodejs-dns.git
-git clone --recursive git@github.com:marcelmaatkamp/docker-nodejs-dns-mongodb.git
-git clone --recursive git@github.com:DNPA/rabbitmq-dns2geo.git
