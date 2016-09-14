@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+ artifactorty:
+  image: jfrog-docker-reg2.bintray.io/jfrog/artifactory-oss:latest
+  restart: always
+  ports:
+   - 9090:9090
+  volumes:
+   - ./volumes/artifactory/backup:/var/opt/jfrog/artifactory/backup
+   - ./volumes/artifactory/data:/var/opt/jfrog/artifactory/data
+   - ./volumes/artifactory/logs:/var/opt/jfrog/artifactory/logs
