@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+ rabbitmq:
+  image: marcelmaatkamp/rabbitmq-mqtt-ldap
+  restart: always
+  hostname: rabbitmq
+  ports:
+   - 15672:15672
+  environment:
+    RABBITMQ_NODENAME: rabbitmq@rabbitmq
+  volumes:
+   - ./volumes/rabbitmq/mnesia:/var/lib/rabbitmq/mnesia

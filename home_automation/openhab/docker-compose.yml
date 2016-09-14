@@ -1,0 +1,38 @@
+version: '2'
+
+services:
+
+ rabbitmq:
+  image: marcelmaatkamp/rabbitmq-mqtt-ldap
+  restart: always
+  hostname: rabbitmq
+  ports:
+   - 15672:15672
+  environment:
+    RABBITMQ_NODENAME: rabbitmq@rabbitmq
+  volumes:
+   - ./volumes/rabbitmq/mnesia:/var/lib/rabbitmq/mnesia
+
+ mongodb:
+  image: mongo
+  restart: always
+  volumes:
+   - "./volumes/mongodb/database:/data/db"
+   - "./volumes/mongodb/config:/data/configdb"
+
+ openhab:
+  image: openhab/openhab:amd64-offline
+  command: "server"
+  restart: always
+  links:
+   - rabbitmq:rabbitmq
+   - mongodb:mongodb
+  ports:
+   - 8081:8080
+   - 8443:8443
+   - 5555:5555
+  volumes:
+   - /etc/localtime:/etc/localtime:ro
+   - /etc/timezone:/etc/timezone:ro
+   - ./volumes/openhab/userdata:/openhab/userdata
+   - ./volumes/openhab/conf:/openhab/conf

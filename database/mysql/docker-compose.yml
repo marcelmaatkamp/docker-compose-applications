@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+ mysql:
+  image: mysql/mysql-server:latest
+  hostname: mysql
+  environment:
+   - MYSQL_ROOT_PASSWORD=my-secret-pw
+  volumes:
+   - ./volumes/mysql:/var/lib/mysql

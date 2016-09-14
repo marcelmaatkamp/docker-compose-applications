@@ -1,0 +1,31 @@
+version: '2'
+
+services: 
+
+ rabbitmq:
+  image: marcelmaatkamp/rabbitmq-mqtt-ldap
+  restart: always
+  hostname: rabbitmq
+  environment:
+    RABBITMQ_NODENAME: rabbitmq@rabbitmq
+  volumes:
+   - ./volumes/rabbitmq/mnesia:/var/lib/rabbitmq/mnesia
+
+ mongodb:
+  image: mongo
+  restart: always
+  volumes:
+   - "./volumes/mongodb/database:/data/db"
+   - "./volumes/mongodb/config:/data/configdb"
+
+ alerta: 
+  image: alerta/alerta-web
+  hostname: alerta
+  links:
+   - mongodb:mongodb
+   - rabbitmq:rabbitmq
+  environment:
+   - MONGO_HOST=mongodb
+   - MONGO_PORT=27017
+   - AMQP_URL="amqp://guest:guest@rabbitmq:5672//"
+   - AMQP_TOPIC="alerta"

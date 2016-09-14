@@ -1,0 +1,6 @@
+version: '2'
+
+services:
+ flapjack:
+  image: flapjack/flapjack
+  hostname: flapjack

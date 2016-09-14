@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+ domoticz:
+  image:  sdesbure/domoticz
+  restart: always
+  links:
+   - rabbitmq:rabbitmq
+   - mongodb:mongodb
+  ports:
+   - 443:443
+   - 8080:8080 
+   - 6144:6144
+  volumes:
+   - /etc/localtime:/etc/localtime:ro
+   - ./volumes/domoticz:/config

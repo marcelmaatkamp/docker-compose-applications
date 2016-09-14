@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+ phpmyadmin:
+  image: phpmyadmin/phpmyadmin
+  hostname: phpmyadmin
+  links:
+   - mysql:db
+  volumes:
+   - ./volumes/phpmyadmin:/sessions§

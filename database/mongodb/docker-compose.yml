@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+ mongodb:
+  image: mongo
+  restart: always
+  volumes:
+   - "./volumes/mongodb/database:/data/db"
+   - "./volumes/mongodb/config:/data/configdb"

@@ -1,0 +1,20 @@
+version: '2'
+
+services:
+ matrix:
+  image: silviof/docker-matrix
+  hostname: matrix
+  command: start
+  ports:
+   - 3478:3478
+   - 8448:8448
+  volumes: 
+   - ./volumes/matrix:/data 
+
+ vector:
+  image: silviof/docker-matrix-vector
+  hostname: vector
+  volumes:
+   - ./volumes/matrix:/data
+  links:
+   - matrix:maxtrix
