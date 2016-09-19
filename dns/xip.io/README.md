@@ -9,7 +9,7 @@ There is a solution!
 
 Suppose your server has an ip-adress of 93.191.128.252 and runs docker. With the help of xip.io any docker container 
 
-docker-compose.yml
+Take for example this docker-compose.yml file which starts a webserver and serves it contents on https://hello.93.191.128.252.xip.io
 ```
 version: '2'
 
@@ -24,23 +24,16 @@ services:
     - hello
   restart: always
   environment:
-    DOMAINS: 'hello.93.191.128.252.xip.io -> http://hello, wordpress.93.191.128.252.xip.io -> wordpress'
+    DOMAINS: 'hello.93.191.128.252.xip.io -> http://hello'
     STAGE: 'production'
     FORCE_RENEW: 'true'
 
  hello:
   image: tutum/hello-world
   hostname: hello
+```
 
- wordpress:
-  image: wordpress
-  links:
-   -  wordpress-db:mysql
-  environment:
-   - VIRTUAL_HOST=93.191.128.252.xip.io
+A more elaborate example with 2 sites:
+```
 
- wordpress-db:
-  image: mariadb
-  environment:
-    MYSQL_ROOT_PASSWORD: example
 ```
