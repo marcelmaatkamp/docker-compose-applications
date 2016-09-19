@@ -2,7 +2,7 @@
 
 ## Wildcard dns
 
-So you want to run [Wordpress/Magnolia/Node-RED/.. any kind of webserver]? And want it secure with https? And have those SSL certificates automatically renewed with letscencrypt? And running it all in docker instances? And also for free? There is a solution!
+So you want to run Wordpress/Magnolia/Node-RED, Just any kind of webserver? And want those secure with https? And have those SSL certificates automatically renewed with letscencrypt? And running it all in docker instances? And also for free? There is a solution!
 
 ## Installation
 
