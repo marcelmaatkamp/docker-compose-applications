@@ -33,7 +33,54 @@ services:
   hostname: hello
 ```
 
-A more elaborate example with 2 sites:
+A more elaborate example with 2 sites, https://hello.93.191.128.252.xip.io serving static content and https://wordpress.93.191.128.252.xip.io serving a Wordpress site:
 ```
+version: "2"
 
+services:
+
+ https-portal:
+  image: steveltn/https-portal
+  ports:
+    - "80:80"
+    - "443:443"
+  restart: always
+  volumes:
+   - data-https_portal:/etc/nginx/conf.d/
+   - /var/run/docker.sock:/var/run/docker.sock
+  environment:
+    DOMAINS: "hello.93.191.128.252.xip.io -> http://hello, wordpress.93.191.128.252.xip.io -> http://wordpress"
+    STAGE: "production"
+    FORCE_RENEW: "true"
+
+ hello:
+  image: tutum/hello-world
+  hostname: hello
+  depends_on:
+   - https-portal
+
+ wordpress:
+  image: wordpress
+  hostname: wordpress
+  depends_on:
+   - https-portal
+  links:
+   -  wordpress-db:mysql
+  environment:
+   - WORDPRESS_DB_PASSWORD=${MYSQL_ROOT_PASSWORD}
+
+ wordpress-db:
+  image: mariadb
+  restart: "always"
+  volumes:
+   - data-mysql:/var/lib/mysql
+  environment:
+   - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+   - MYSQL_USER=${MYSQL_USER}
+   - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+   - MYSQL_DATABASE=${MYSQL_DATABASE}
+
+volumes:
+ data-mysql:
+ data-https_portal:
 ```
