@@ -24,8 +24,8 @@ $ docker-compose up
 
 This will start 
  * https frontend
- * Wordpress on https://wordpress.<ip_address>.xip.io
- * And some static frontend running on http://hello.<ip_address>.xip.io
+ * Wordpress on https://wordpress.11.22.33.44.xip.io
+ * And some static frontend running on http://hello.11.22.33.44.xip.io
 
 docker.compose.yml
 ```
