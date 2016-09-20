@@ -9,12 +9,12 @@ services:
     - "443:443"
   restart: always
   volumes:
-   - data-https_portal:/etc/nginx/conf.d/
+   - data-https_portal:/var/lib/https-portal/
    - /var/run/docker.sock:/var/run/docker.sock
   environment:
-    DOMAINS: "hello.93.191.128.252.xip.io -> http://hello, wordpress.93.191.128.252.xip.io -> http://wordpress"
-    STAGE: "production"
-    FORCE_RENEW: "true"
+    DOMAINS: "hello.${IP_ADDRESS}.xip.io -> http://hello, wordpress.${IP_ADDRESS}.xip.io -> http://wordpress"
+    # STAGE: "production"
+    # FORCE_RENEW: "true"
 
  hello:
   image: tutum/hello-world
@@ -29,6 +29,8 @@ services:
    - https-portal
   links:
    -  wordpress-db:mysql
+  volumes:
+   - data-wordpress:/var/www/html
   environment:
    - WORDPRESS_DB_PASSWORD=${MYSQL_ROOT_PASSWORD}
 
@@ -46,3 +48,4 @@ services:
 volumes:
  data-mysql:
  data-https_portal:
+ data-wordpress:
