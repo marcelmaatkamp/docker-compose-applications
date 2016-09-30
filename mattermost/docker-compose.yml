@@ -21,10 +21,10 @@ services:
   restart: always
   image: mysql:latest
   environment:
-    - MYSQL_USER=mattermost
-    - MYSQL_PASSWORD=password
-    - MYSQL_DATABASE=mattermost
-    - MYSQL_ROOT_PASSWORD=password
+   - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
+   - MYSQL_USER=${MYSQL_USER}
+   - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+   - MYSQL_DATABASE=${MYSQL_DATABASE}
   volumes:
     - data-mysql:/var/lib/mysql
 
