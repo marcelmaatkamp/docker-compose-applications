@@ -1,0 +1,49 @@
+version: '2'
+
+services:
+
+ https-portal:
+  image: steveltn/https-portal
+  ports:
+  # - "80:80"
+    - "443:443"
+  restart: always
+  volumes:
+   - data-https:/var/lib/https-portal/
+   - /var/run/docker.sock:/var/run/docker.sock
+  environment:
+    IP_ADDRESS=11.22.33.44
+    DOMAINS: "mattermost.${IP_ADDRESS}.xip.io -> http://mattermost"
+    # STAGE: "production"
+    # FORCE_RENEW: "true"
+
+ mysql:
+  restart: always
+  image: mysql:latest
+  environment:
+    - MYSQL_USER=mattermost
+    - MYSQL_PASSWORD=password
+    - MYSQL_DATABASE=mattermost
+    - MYSQL_ROOT_PASSWORD=password
+  volumes:
+    - data-mysql:/var/lib/mysql
+
+ mattermost:
+  restart: always
+  image: marcelmaatkamp/mattermost:3.4.0
+  links:
+    - mysql:mysql
+  ports:
+    - "8080:80"
+  environment:
+    - MATTERMOST_SECRET_KEY=long-and-random-alphanumeric-string
+    - MATTERMOST_LINK_SALT=long-and-random-alphanumeric-string
+    - MATTERMOST_RESET_SALT=long-and-random-alphanumeric-string
+    - MATTERMOST_INVITE_SALT=long-and-random-alphanumeric-string
+  volumes:
+    - data-mattermost:/mattermost:/opt/mattermost/data
+
+volumes:
+ data-https:
+ data-mysql:
+ data-mattermost:
