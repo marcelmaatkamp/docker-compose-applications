@@ -4,6 +4,8 @@ services:
 
  https-portal:
   image: steveltn/https-portal
+  links:
+   - mattermost-web
   ports:
   # - "80:80"
     - "443:443"
@@ -12,38 +14,45 @@ services:
    - data-https:/var/lib/https-portal/
    - /var/run/docker.sock:/var/run/docker.sock
   environment:
-    IP_ADDRESS=11.22.33.44
-    DOMAINS: "mattermost.${IP_ADDRESS}.xip.io -> http://mattermost"
-    # STAGE: "production"
-    # FORCE_RENEW: "true"
+    - IP_ADDRESS=11.22.33.44
+    - DOMAINS=mattermost.${IP_ADDRESS}.xip.io -> http://mattermost-web
+    # - STAGE="production"
+    # - FORCE_RENEW="true"
 
- mysql:
-  restart: always
-  image: mysql:latest
-  environment:
-   - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD}
-   - MYSQL_USER=${MYSQL_USER}
-   - MYSQL_PASSWORD=${MYSQL_PASSWORD}
-   - MYSQL_DATABASE=${MYSQL_DATABASE}
+ mattermost-db:
+  image: mattermost/mattermost-prod-db
+  hostname: db
   volumes:
-    - data-mysql:/var/lib/mysql
+    - data-mattermost-data:/var/lib/postgresql/data
+    - /etc/localtime:/etc/localtime:ro
 
- mattermost:
-  restart: always
-  image: marcelmaatkamp/mattermost:3.4.0
+ mattermost-app:
+  image: mattermost/mattermost-prod-app
+  hostname: app
   links:
-    - mysql:mysql
-  ports:
-    - "8080:80"
-  environment:
-    - MATTERMOST_SECRET_KEY=long-and-random-alphanumeric-string
-    - MATTERMOST_LINK_SALT=long-and-random-alphanumeric-string
-    - MATTERMOST_RESET_SALT=long-and-random-alphanumeric-string
-    - MATTERMOST_INVITE_SALT=long-and-random-alphanumeric-string
+    - mattermost-db:db
   volumes:
-    - data-mattermost:/mattermost:/opt/mattermost/data
+    - data-mattermost-config:/mattermost/config:rw
+    - data-mattermost-data:/mattermost/data:rw
+    - /etc/localtime:/etc/localtime:ro
+
+ mattermost-web:
+  image: mattermost/mattermost-prod-web
+  hostname: web
+  ports:
+    - 80
+    - 443
+  links:
+    - mattermost-app:app
+  volumes:
+    - data-mattermost-certs:/cert:ro
+    - /etc/localtime:/etc/localtime:ro
+  environment:
+    - MATTERMOST_ENABLE_SSL=false
+    - PLATFORM_PORT_80_TCP_PORT=80
 
 volumes:
  data-https:
- data-mysql:
- data-mattermost:
+ data-mattermost-data:
+ data-mattermost-config:
+ data-mattermost-certs:
