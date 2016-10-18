@@ -1,0 +1,4077 @@
+~ $ gem search -rd fluent-plugin
+
+*** REMOTE GEMS ***
+
+fluent-plugin-5rocks (0.0.1)
+    Author: hokuts
+
+    Fluentd plugin to store data into 5Rocks
+
+fluent-plugin-access (0.0.2)
+    Author: kkaneko
+    Homepage: https://github.com/kenjikaneko/fluent-plugin-access
+
+    filtreing access log
+
+fluent-plugin-add (0.0.6)
+    Author: yu yamada
+    Homepage: https://github.com/yu-yamada/fluent-plugin-add
+
+    Output filter plugin to add messages
+
+fluent-plugin-add_empty_array (0.0.2)
+    Author: Hirokazu Hata
+
+    Fluentd plugin to add empty array
+
+fluent-plugin-aerospike (0.0.0)
+    Author: Hatayama Hideharu
+    Homepage: https://bitbucket.org/hidepiy/fluent-plugin-aerospike
+
+    Fluent BufferedOutput plugin for Aerospike
+
+fluent-plugin-aerospike-cluster (0.0.2)
+    Author: kadzuya
+    Homepage: http://github.com/kadzuya/fluent-plugin-aerospike-cluster
+
+    fluent plugin to insert Aerospike.
+
+fluent-plugin-aes-forward (0.0.2)
+    Author: Keiji Matsuzaki
+    Homepage: https://github.com/aiming/fluent-plugin-aes-forward
+
+    This plugin is encrypt data at AES while transfer data.
+
+fluent-plugin-airbrake-logger (0.0.4)
+    Author: Shuichi Ohsawa
+    Homepage:
+    https://github.com/ohsawa0515/fluent-plugin-airbrake-logger
+
+    Fluent output plugin to Airbrake(Errbit) by fluent-logger
+
+fluent-plugin-airbrake-python (0.2)
+    Author: Moriyoshi Koizumi
+    Homepage: https://github.com/moriyoshi/fluent-plugin-airbrake-python
+
+    Airbrake (Python) plugin for Fluentd
+
+fluent-plugin-aliyun-odps (0.1.7)
+    Authors: Xiao Dong, Zongtao Sun
+    Homepage: https://github.com/aliyun/aliyun-odps-fluentd-plugin
+
+    Aliyun ODPS output plugin for Fluentd event collector
+
+fluent-plugin-amazon_sns (0.0.4)
+    Author: Tatsuhiko Miyagawa
+
+    Fluent output plugin to send to Amazon SNS
+
+fluent-plugin-amplifier-filter (0.2.1)
+    Author: TAGOMORI Satoshi
+    Homepage: http://github.com/tagomoris/fluent-plugin-amplifier-filter
+
+    plugin to re-emit messages with amplified values
+
+fluent-plugin-amqp (0.9.3)
+    Authors: Hiromi Ishii, Team Giraffi, HiganWorks LLC, Toby Jackson
+    Homepage: http://github.com/giraffi/fluent-plugin-amqp
+
+    AMQP input/output plugin or fluentd
+
+fluent-plugin-amqp2 (0.1.0)
+    Authors: Augusto Becciu, Juan Manuel Barreneche
+    Homepage: https://github.com/restorando/fluent-plugin-amqp
+
+    AMQP output plugin for Fluent
+
+fluent-plugin-andon (0.0.5)
+    Author: Masaki Matsushita
+
+    Fluentd plugin for role based log collection
+
+fluent-plugin-anomalydetect (0.1.7)
+    Author: Muddy Dixon
+    Homepage: https://github.com/muddydixon/fluent-plugin-anomalydetect
+
+    detect anomal sequential input casually
+
+fluent-plugin-anonymizer (0.4.1)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-anonymizer
+
+    Fluentd filter output plugin to anonymize records with HMAC of
+    MD5/SHA1/SHA256/SHA384/SHA512 algorithms. This data masking plugin
+    protects privacy data such as UserID, Email, Phone number, IPv4/IPv6
+    address and so on.
+
+fluent-plugin-apache_modstatus (0.0.5)
+    Author: Jason Westbrook
+    Homepage:
+    https://github.com/jwestbrook/fluent-plugin-apache_modstatus
+
+    Gather the status from the Apache mod_status Module
+
+fluent-plugin-appdynamics (0.0.6)
+    Author: chandrashekar Tippur
+    Homepage: https://github.com/ctippur/fluent-plugin-appdynamics
+
+    Fluentd input plugin for appdynamics alerts
+
+fluent-plugin-arango (0.0.1)
+    Author: tamtam180
+
+    ArangoDB plugin for Fluent event collector
+
+fluent-plugin-arduino (0.0.1)
+    Author: futoase
+
+    fluent-plugin-arduino
+
+fluent-plugin-assert (0.0.1)
+    Author: Fukui ReTu
+    Homepage: https://github.com/fukuiretu/fluent-plugin-assert
+
+    Output Filter plugin to assertion
+
+fluent-plugin-aurora-slowquerylog (0.0.3)
+    Author: Takayuki WATANABE
+    Homepage:
+    https://github.com/takanabe/fluent-plugin-aurora-slowquerylog
+
+    A fluentd plugin that collects AWS Aurora slow query logs with
+    `log_output=FILE`
+
+fluent-plugin-avro (0.0.2)
+    Author: Shun Takebayashi
+    Homepage: https://github.com/takebayashi/fluent-plugin-avro
+
+    Avro formatter plugin for Fluentd
+
+fluent-plugin-aws-elasticsearch-service (0.1.6)
+    Author: atomita
+    Homepage:
+    https://github.com/atomita/fluent-plugin-aws-elasticsearch-service
+
+    Output plugin to post to "Amazon Elasticsearch Service".
+
+fluent-plugin-axlsx (0.0.1)
+    Author: MATSUMOTO Katsuyoshi
+    Homepage: https://github.com/katsyoshi/fluent-plugin-axlsx
+
+    fluentd output plugin for excel
+
+fluent-plugin-azureeventhubs (0.0.4)
+    Author: Hidemasa Togashi
+    Homepage: https://github.com/htgc/fluent-plugin-azureeventhubs
+
+    Fluentd output plugin for Azure Event Hubs
+
+fluent-plugin-azuresearch (0.1.2)
+    Author: Yoichi Kawasaki
+    Homepage: http://github.com/yokawasa/fluent-plugin-azuresearch
+
+    Azure Search output plugin for Fluentd
+
+fluent-plugin-azurestorage (0.0.7)
+    Author: Hidemasa Togashi
+    Homepage: https://github.com/htgc/fluent-plugin-azurestorage
+
+    Azure Storage output plugin for Fluentd event collector
+
+fluent-plugin-azuretables (0.0.1)
+    Author: Anh Phong
+    Homepage: https://github.com/heocoi/fluent-plugin-azuretables
+
+    Fluent plugin to add event record into Azure Tables Storage.
+
+fluent-plugin-backlog (0.0.2)
+    Author: Hiroshi Toyama
+    Homepage: https://github.com/toyama0919/fluent-plugin-backlog
+
+    output plugin for Backlog.
+
+fluent-plugin-base64-parser (0.0.3)
+    Author: nori3tsu
+    Homepage: https://github.com/nori3tsu/fluent-plugin-base64-parser
+
+    Fluentd plugin to suppor Base64 format for parsing logs.
+
+fluent-plugin-beats (0.1.2)
+    Author: Masahiro Nakagawa
+    Homepage: https://github.com/repeatedly/fluent-plugin-beats
+
+    Elastic beats plugin for Fluentd event collector
+
+fluent-plugin-better-timestamp (0.1.0)
+    Author: Kenichi Otsuka
+    Homepage: https://github.com/shivaken/fluent-plugin-better-timestamp
+
+    Output filter plugin which put timestamp
+
+fluent-plugin-better-timestamp-timekey (0.1.2)
+    Author: Kenichi Otsuka
+    Homepage: https://github.com/spynode/fluent-plugin-better-timestamp
+
+    Output filter plugin which put timestamp with configurable time_key
+
+fluent-plugin-bigobject (0.0.12)
+    Author: Andrea Sung
+    Homepage: https://github.com/bigobject-inc/fluent-plugin-bigobject
+
+    Fluentd output plugin to insert/update/delete data in BIGOBJECT
+
+fluent-plugin-bigobject_avro (0.0.1)
+    Author: Andrea Sung
+    Homepage:
+    https://github.com/bigobject-inc/fluent-plugin-bigobject_avro
+
+    Fluentd output plugin to insert BIGOBJECT
+
+fluent-plugin-bigquery (0.3.0)
+    Author: Naoya Ito
+    Homepage: https://github.com/kaizenplatform/fluent-plugin-bigquery
+
+    Fluentd plugin to store data on Google BigQuery
+
+fluent-plugin-bigquery-custom (0.3.10)
+    Author: Tomohiro Hashidate
+    Homepage: https://github.com/joker1007/fluent-plugin-bigquery-custom
+
+    Fluentd plugin to store data on Google BigQuery
+
+fluent-plugin-bin (0.2)
+    Author: Klaus Wölfel
+    Homepage: https://lab.nexedi.com/klaus/fluent-plugin-bin
+
+    Fluentd input plugin for binary files
+
+fluent-plugin-boundio (0.1.1)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-boundio
+
+    Fluentd Output plugin to make a call with boundio by KDDI. This
+    Multilingual speech synthesis system uses VoiceText.
+
+fluent-plugin-buffer-ephemeral (0.1.1)
+    Author: Yuki Ito
+
+
+
+fluent-plugin-buffer-event_limited (0.1.6)
+    Author: Gergo Sulymosi
+    Homepage:
+    https://github.com/trekdemo/fluent-plugin-buffer-event_limited
+
+    Alternative file buffer plugin for Fluentd to limit events in a
+    buffer not it's size
+
+fluent-plugin-buffer-lightening (0.0.2)
+    Author: TAGOMORI Satoshi
+    Homepage:
+    https://github.com/tagomoris/fluent-plugin-buffer-lightening
+
+    Alternative memory buffer plugin for Fluentd to realize less delay
+
+fluent-plugin-buffer-pullpool (0.0.1)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-buffer-pullpool
+
+    Fluentd file buffer plugin to buffer data for pullers
+
+fluent-plugin-buffered-filter (0.1.0)
+    Author: Genki Sugawara
+    Homepage:
+    https://bitbucket.org/winebarrel/fluent-plugin-buffered-filter
+
+    Versatile filtering plugin
+
+fluent-plugin-buffered-hipchat (0.2.0)
+    Author: Keisuke SOGAWA
+    Homepage: https://github.com/sowawa/fluent-plugin-buffered-hipchat
+
+    fluent buffered HipChat plugin
+
+fluent-plugin-buffered-resque (1.0.0)
+    Authors: Hsiu-Fan Wang, Yuichi Tateno
+    Homepage: https://github.com/hfwang/fluent-plugin-buffered-resque
+
+    Resque output plugin for fluent event collector. Has extra features
+    like buffering and setting a worker class in the config.
+
+fluent-plugin-buffered-stdout (0.0.2)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-buffered-stdout
+
+    Buffered stdout output plugin for Fluentd
+
+fluent-plugin-bufferize (0.0.1)
+    Author: Masahiro Sano
+    Homepage: https://github.com/sabottenda/fluent-plugin-bufferize
+
+    A fluentd plugin that enhances existing non-buffered output plugin
+    as buffered plugin.
+
+fluent-plugin-bugsnag (0.1.0)
+    Author: koshigoe
+    Homepage: https://github.com/koshigoe/fluent-plugin-bugsnag
+
+    Fluentd output plubin for Bugsnag.
+
+fluent-plugin-burrow (1.2)
+    Author: Tim Gunter
+    Homepage: https://github.com/vanilla/fluent-plugin-burrow
+
+    Fluentd output filter plugin. Extract a single key (in formats
+    Fluent can natively understand) from an event and re-emit a new
+    event that replaces the entire original record with that key's
+    values.
+
+fluent-plugin-cadvisor (0.3.1)
+    Author: Woorank
+    Homepage: https://github.com/Woorank/fluent-plugin-cadvisor
+
+    cadvisor input plugin for Fluent event collector
+
+fluent-plugin-calc (0.2.0)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-calc
+
+    Fluentd plugin to calcucate statistics in messages
+
+fluent-plugin-cassandra (0.0.2)
+    Author: Kazutaka Tomita
+    Homepage: http://github.com/tomitakazutaka/fluent-plugin-cassandra
+
+    Cassandra output plugin for Fluent event collector
+
+fluent-plugin-cassandra-cql (0.0.5)
+    Author: obie quelland
+    Homepage: http://github.com/obieq/fluent-plugin-cassandra-cql
+
+    Fluent output plugin for Cassandra
+
+fluent-plugin-cat-sweep (0.1.3)
+    Authors: Civitaspo(takahiro.nakayama), Naotoshi Seo
+    Homepage: https://github.com/civitaspo/fluent-plugin-cat-sweep
+
+    Fluentd plugin to cat files and move them.
+
+fluent-plugin-ceph (0.1.0)
+    Author: Avinash Jha
+    Homepage: http://github.com/aavinashjha/fluent-plugin-ceph
+
+    Ceph Input plugin for Fluent event collector
+
+fluent-plugin-cf_query_filter (0.1.3)
+    Author: kazuki nozawa
+    Homepage:
+    https://github.com/kazuki1213/fluent-plugin-cf_query_filter.git
+
+    fluentd plugin to filter cs-uri-query from cloudfront log
+
+fluent-plugin-chef-api (0.3.2)
+    Author: Yamashita Yuu
+    Homepage: https://github.com/yyuu/fluent-plugin-chef-api
+
+    A fluentd plugin for Chef's API
+
+fluent-plugin-chef-client (0.3.2)
+    Author: Yamashita Yuu
+    Homepage: https://github.com/yyuu/fluent-plugin-chef-client
+
+    a fluent plugin for chef-client
+
+fluent-plugin-chriak2 (0.0.7)
+    Authors: Kota UENISHI, Matt Nunogawa
+    Homepage: https://github.com/collectivehealth/fluent-plugin-riak
+
+    Riak 2 plugin for Fluent event collector
+
+fluent-plugin-cloud-feeds (1.3.2)
+    Authors: David Kowis, Tyler Royal
+    Homepage: https://github.com/rackerlabs/fluent-plugin-cloud-feeds
+
+    Fluentd output plugin for output to Rackspace Cloud Feeds
+
+fluent-plugin-cloud-pubsub (0.0.2)
+    Author: Keiji Yoshida
+    Homepage: https://github.com/yosssi/fluent-plugin-cloud-pubsub
+
+    Fluentd plugin for sending data to Cloud Pub/Sub
+
+fluent-plugin-cloudfront-log (0.0.4)
+    Author: kubihie
+    Homepage: https://github.com/kubihie/fluent-plugin-cloudfront-log
+
+    AWS CloudFront log input plugin.
+
+fluent-plugin-cloudsearch (0.1.1)
+    Author: Kensaku Araga
+    Homepage: https://github.com/ken39arg/fluent-plugin-cloudsearch
+
+    Amazon CloudSearch output plugin for Fluent event collector.
+
+fluent-plugin-cloudstack (0.1.3)
+    Author: Yuichi UEMURA
+    Homepage: https://github.com/u-ichi/fluent-plugin-cloudstack
+
+    Fluentd input plugin to get usages and events from CloudStack API
+
+fluent-plugin-cloudwatch (1.2.15)
+    Authors: Yusuke Nomura, kenjiskywalker, FUJIWARA Shunichiro
+    Homepage: https://github.com/yunomu/fluent-plugin-cloudwatch
+
+    Input plugin for AWS CloudWatch.
+
+fluent-plugin-cloudwatch-logs (0.3.4)
+    Author: Ryota Arai
+    Homepage: https://github.com/ryotarai/fluent-plugin-cloudwatch-logs
+
+    CloudWatch Logs Plugin for Fluentd
+
+fluent-plugin-cloudwatch-transform (0.0.8)
+    Author: Ling Zhang
+    Homepage:
+    https://github.com/lingzhang-lyon/fluent-plugin-cloudwatch-transform
+
+    Fluentd output plugin for transform cloudwatch alerts
+
+fluent-plugin-cloudwatch_ya (0.0.2)
+    Author: suz-lab
+    Homepage: http://suz-lab.github.com/fluent-plugin-cloudwatch_ya/
+
+    Yet Another (Input/Output) Plugin for Amazon CloudWatch
+
+fluent-plugin-collectd-influxdb (0.1.0)
+    Author: Giuseppe Iannello
+    Homepage:
+    https://github.com/giannello/fluent-plugin-collectd-influxdb
+
+    Output filter plugin to rewrite Collectd JSON output to be inserted
+    into InfluxDB
+
+fluent-plugin-collectd-unroll (0.1.1)
+    Author: Manoj Sharma
+    Homepage: https://github.com/CiscoZeus/fluent-plugin-collectd-unroll
+
+    Output filter plugin to rewrite Collectd JSON output to flat json
+
+fluent-plugin-color-stripper (0.0.3)
+    Author: Matthew O'Riordan
+    Homepage:
+    https://github.com/mattheworiordan/fluent-plugin-color-stripper
+
+    Output plugin to strip ANSI color codes in the logs.
+
+fluent-plugin-combiner (0.0.2)
+    Author: karahiyo
+    Homepage: https://github.com/karahiyo/fluent-plugin-combiner
+
+    Combine buffer output data to cut-down net-i/o load
+
+fluent-plugin-concat (2.0.0)
+    Author: Kenji Okimoto
+    Homepage: https://github.com/okkez/fluent-plugin-concat
+
+    Fluentd Filter plugin to concat multiple event messages
+
+fluent-plugin-conditional_filter (0.0.2)
+    Author: Kentaro Kuribayashi
+    Homepage: http://github.com/kentaro/fluent-plugin-conditional_filter
+
+    A fluent plugin that provides conditional filters
+
+fluent-plugin-config-expander (0.2.0)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-config-expander
+
+    Fluentd plugin to serve some DSL directives in configuration
+
+fluent-plugin-config_pit (0.0.2)
+    Author: Naoya Ito
+    Homepage: https://github.com/naoya/fluent-plugin-config_pit
+
+    Fluentd plugin to enable pit in configuration
+
+fluent-plugin-config_reloader (0.0.1)
+    Author: bash0C7
+    Homepage: https://github.com/bash0C7/fluent-plugin-config_reloader
+
+    Fluentd plugin to reload child plugin's config
+
+fluent-plugin-consul (0.0.3)
+    Author: foostan
+    Homepage: https://github.com/foostan/fluent-plugin-consul
+
+    Store Fluentd event to Consul Key/Value Storage
+
+fluent-plugin-container_logs_filter (0.0.4)
+    Author: Mike Martinson
+
+    Filters aggregated docker contqainer logs
+
+fluent-plugin-convert-value-to-sha (0.1.1)
+    Author: Keiji Matsuzaki
+
+    fluentd convert value to sha plugin.
+
+fluent-plugin-copy_ex (0.0.2)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-copy_ex
+
+    Fluentd out_copy extension
+
+fluent-plugin-couch (0.7.0)
+    Author: Yuri Odagiri
+    Homepage: http://github.com/ixixi/fluent-plugin-couch
+
+    CouchDB output plugin for Fluentd event collector
+
+fluent-plugin-couch-sharded (0.6.3)
+    Author: Yudai Odagiri, James Birmingham
+    Homepage: http://github.com/jimflip/fluent-plugin-couch-shard
+
+    CouchDB output plugin for Fluentd event collector, forked to add
+    'sharding' features
+
+fluent-plugin-couchbase (0.0.2)
+    Author: obie quelland
+    Homepage: http://github.com/obieq/fluent-plugin-couchbase
+
+    Fluent output plugin for Couchbase 2.0
+
+fluent-plugin-dag (1.0.2)
+    Author: iij
+    Homepage: http://www.iij.ad.jp/biz/storage/
+
+    Dag output plugin for Fluentd event collector
+
+fluent-plugin-dashing (0.0.0)
+    Author: bash0C7
+    Homepage: https://github.com/bash0C7/fluent-plugin-dashing
+
+    Fluentd output plugin to post data to dashing
+
+fluent-plugin-data-rejecter (1.0.0)
+    Author: Hirotaka Tajiri
+    Homepage:
+    https://github.com/hirotaka-tajiri/fluent-plugin-data-rejecter
+
+    Output filter plugin to reject key pair
+
+fluent-plugin-datacalculator (0.0.6)
+    Author: Muddy Dixon
+    Homepage: https://github.com/muddydixon/fluent-plugin-datacalculator
+
+    Output filter plugin to calculate messages that matches specified
+    conditions
+
+fluent-plugin-datacounter (0.4.5)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-datacounter
+
+    Fluentd plugin to count records with specified regexp patterns
+
+fluent-plugin-datadog_event (0.1.3)
+    Author: Yohei Kawahara(inokappa)
+    Homepage: https://github.com/inokappa/fluent-plugin-datadog_event
+
+    fluentd plugin for datadog event
+
+fluent-plugin-datahub (0.0.1)
+    Author: Aliyun
+    Homepage: https://datahub.console.aliyun.com/datahub
+
+    Aliyun Datahub output plugin for Fluentd event collector
+
+fluent-plugin-dbi (1.0.0)
+    Author: TERAOKA Yoshinori
+    Homepage: https://github.com/yteraoka/fluent-plugin-dbi
+
+    fluentd output plugin using dbi
+
+fluent-plugin-dd (0.1.8)
+    Author: Genki Sugawara
+    Homepage: https://github.com/winebarrel/fluent-plugin-dd
+
+    Output plugin for Datadog
+
+fluent-plugin-debug (0.0.2)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-debug
+
+    Fluentd plugin to investigate incoming messages in a short-hand
+
+fluent-plugin-decode_location (0.0.3)
+    Author: L. Srednicki
+
+    Fluentd plugin to decode location
+
+fluent-plugin-dedot_filter (0.2.0)
+    Author: Tomoyuki Sugimura
+    Homepage: https://github.com/lunardial/fluent-plugin-dedot_filter
+
+    de-dot field name for elasticsearch 2.x
+
+fluent-plugin-dedup (0.3.0)
+    Author: edvakf
+    Homepage: https://github.com/edvakf/fluent-plugin-dedup
+
+    fluentd plugin for removing duplicate logs
+
+fluent-plugin-deis-graphite (0.2.0)
+    Author: Matt Knox
+    Homepage: http://github.com/OrbotixInc/fluent-plugin-deis-graphite
+
+    A Fluentd plugin that gathers response code metrics from the deis
+    router.
+
+fluent-plugin-delay-inspector (0.0.3)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-delay-inspector
+
+    Fluentd plugin to inspect diff of real-time and log-time
+
+fluent-plugin-delayed (0.0.1)
+    Author: Shuhei Tanuma
+    Homepage: http://github.com/chobie/fluent-plugin-delayed
+
+    Delayed output plugin for Fluent event collector
+
+fluent-plugin-derive (0.0.4)
+    Author: Nobuhiro Nikushi
+    Homepage: https://github.com/niku4i/fluent-plugin-derive
+
+    fluentd plugin to derive rate
+
+fluent-plugin-deskcom (0.0.3)
+    Author: Toru Takahashi
+    Homepage: https://github.com/toru-takahashi/fluent-plugin-deskcom
+
+    Input plugin to collect data from Deskcom.
+
+fluent-plugin-df (0.0.6)
+    Author: tiwakawa
+    Homepage: https://github.com/tiwakawa/fluent-plugin-df
+
+    Df input plugin for Fluent event collector
+
+fluent-plugin-df-multi (0.0.1)
+    Author: Shota Ito
+    Homepage: https://github.com/st1t/fluent-plugin-df-multi
+
+    Df Multi info input plugin for Fluentd event collector
+
+fluent-plugin-diskusage (0.0.2)
+    Author: Jason Westbrook
+
+    Disk Usage plugin for FluentD
+
+fluent-plugin-docker (0.1.0)
+    Author: Eduardo Silva
+    Homepage: https://github.com/edsiper/fluent-plugin-docker
+
+    fluentd plugin to handle and format Docker logs.
+
+fluent-plugin-docker-format (0.2.3)
+    Author: Alex Hornung
+    Homepage: https://github.com/bwalex/fluent-plugin-docker-format
+
+    fluentd output filter plugin to parse the docker config.json related
+    to a container log file.
+
+fluent-plugin-docker-format_nebo15 (0.2.5)
+    Author: Alex Hornung
+    Homepage: https://github.com/bwalex/fluent-plugin-docker-format
+
+    fluentd output filter plugin to parse the docker config.json related
+    to a container log file.
+
+fluent-plugin-docker-inspect (0.0.4)
+    Author: WAKAYAMA Shirou
+    Homepage: https://github.com/shirou/fluent-plugin-docker-inspect
+
+
+
+fluent-plugin-docker-metrics (0.0.2)
+    Author: kiyoto
+    Homepage: https://github.com/kiyoto/fluent-plugin-docker-metrics
+
+    Fluentd plugin to collect Docker container metrics
+
+fluent-plugin-docker-tag-resolver (0.2.0)
+    Author: Naoki AINOYA
+    Homepage:
+    https://github.com/ainoya/fluent-plugin-docker-tag-resolver
+
+    Fluentd output plugin to resolve container name from docker
+    container-id in record tags.
+
+fluent-plugin-docker_hostname (0.1.4)
+    Author: Woorank
+    Homepage: https://github.com/Woorank/fluent-plugin-docker_hostname
+
+    Output container's hostname for a given docker container's id
+
+fluent-plugin-docker_image_name (0.0.3)
+    Author: Woorank
+    Homepage: https://github.com/Woorank/fluent-plugin-docker_image_name
+
+    Output the name of the image for a given docker container_id
+
+fluent-plugin-docker_metadata_filter (0.1.3)
+    Author: Jimmi Dyson
+    Homepage:
+    https://github.com/fabric8io/fluent-plugin-docker_metadata_filter
+
+    Filter plugin to add Docker metadata
+
+fluent-plugin-dockerid2name (0.0.2)
+    Author: Woorank
+    Homepage: https://github.com/Woorank/fluent-plugin-dockerid2name
+
+    Output the name of the image for a given docker container_id
+
+fluent-plugin-documentdb (0.2.1)
+    Author: Yoichi Kawasaki
+    Homepage: http://github.com/yokawasa/fluent-plugin-documentdb
+
+    Azure DocumentDB output plugin for Fluentd
+
+fluent-plugin-dogstatsd (0.0.6)
+    Author: Ryota Arai
+    Homepage: https://github.com/ryotarai/fluent-plugin-dogstatsd
+
+    Fluent plugin for Dogstatsd, that is statsd server for Datadog.
+
+fluent-plugin-dos_block_acl (0.0.4)
+    Author: Hiroshi Toyama
+    Homepage: https://github.com/toyama0919/fluent-plugin-dos_block_acl
+
+    access block by aws network acl.
+
+fluent-plugin-downcase-keys (0.1)
+    Author: Matt Land
+    Homepage: https://github.com/matt-land/fluent-downcase-keys
+
+    Fluentd output plugin. Downcases all keys and re-emit the records.
+
+fluent-plugin-droonga (1.0.1)
+    Author: Droonga Project
+    Homepage: https://github.com/droonga/fluent-plugin-droonga
+
+    Droonga (distributed Groonga) plugin for Fluent event collector
+
+fluent-plugin-dstat (0.3.2)
+    Author: Shunsuke Mikami
+    Homepage: http://github.com/shun0102/fluent-plugin-dstat
+
+    Dstat Input plugin for Fluent event collector
+
+fluent-plugin-dummydata-producer (0.0.3)
+    Author: TAGOMORI Satoshi
+    Homepage:
+    https://github.com/tagomoris/fluent-plugin-dummydata-producer
+
+    Fluentd plugin to produce dummy data and emit it
+
+fluent-plugin-dynamodb (0.1.11)
+    Author: Takashi Matsuno
+    Homepage: https://github.com/gonsuke/fluent-plugin-dynamodb
+
+    Amazon DynamoDB output plugin for Fluent event collector
+
+fluent-plugin-dynamodb-alt (0.1.5)
+    Author: Genki Sugawara
+    Homepage: https://github.com/winebarrel/fluent-plugin-dynamodb-alt
+
+    Fluent plugin to output to DynamoDB.
+
+fluent-plugin-dynamodb-drc (0.0.5)
+    Authors: Takashi Matsuno, Sadayuki Furuhashi, CaDs
+    Homepage: https://github.com/kumapon/fluent-plugin-dynamodb-drc
+
+    Amazon DynamoDB output plugin for Fluent event collector
+
+fluent-plugin-dynamodb-streams (0.0.3)
+    Author: Takumi Sakamoto
+    Homepage: https://github.com/takus/fluent-plugin-dynamodb-streams
+
+    Amazon DynamoDB Streams input plugin for Fluentd
+
+fluent-plugin-ec2-metadata (0.0.12)
+    Author: SAKAMOTO Takumi
+    Homepage: https://github.com/takus/fluent-plugin-ec2-metadata
+
+    Fluentd output plugin to add ec2 metadata fields to a event record
+
+fluent-plugin-ecs-filter (0.1.1)
+    Author: Joseph Hughes
+    Homepage: https://github.com/joshughes/fluent-plugin-ecs-filter
+
+    Filter plugin to add AWS ECS metadata to fluentd
+
+fluent-plugin-elapsed-time (0.0.7)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-elapsed-time
+
+    Fluentd plugin to measure elapsed time to process messages
+
+fluent-plugin-elasticsearch (1.7.0)
+    Authors: diogo, pitr
+    Homepage: https://github.com/uken/fluent-plugin-elasticsearch
+
+    ElasticSearch output plugin for Fluent event collector
+
+fluent-plugin-elasticsearch-check-size (0.1.0)
+    Author: Nao Akechi
+    Homepage: https://github.com/nakc/fluent-plugin-elasticsearch
+
+    ElasticSearch output plugin for Fluent event collector
+
+fluent-plugin-elasticsearch-cluster (0.1.0)
+    Author: HeartSaVioR
+    Homepage:
+    https://github.com/HeartSaVioR/fluent-plugin-elasticsearch-cluster
+
+    ElasticSearch output plugin for Fluent event collector, based on
+    fluent-plugin-elasticsearch, with support cluster
+
+fluent-plugin-elasticsearch-ruby (0.0.3)
+    Author: Jon
+
+    Use this plugin in conjunction with elasticsearch and fluentd to log
+    events.
+
+fluent-plugin-elasticsearch-sm (1.4.1)
+    Authors: diogo, pitr, static-max
+    Homepage: https://github.com/static-max/fluent-plugin-elasticsearch
+
+    ElasticSearch output plugin for Fluent event collector
+
+fluent-plugin-elasticsearch-ssl-verify (0.0.2)
+    Author: yosssi
+    Homepage: https://github.com/yosssi/fluent-plugin-elasticsearch
+
+    ElasticSearch output plugin for Fluent event collector
+
+fluent-plugin-elasticsearch-timestamp-check (0.1.1)
+    Author: Richard Li
+    Homepage:
+    https://github.com/ecwws/fluent-plugin-elasticsearch-timestamp-check
+
+    fluent timestamp checker filter
+
+fluent-plugin-elasticsearchfork (0.5.1)
+    Authors: diogo, pitr
+    Homepage: https://github.com/tomodian/fluent-plugin-elasticsearch
+
+    ElasticSearch output plugin for Fluent event collector
+
+fluent-plugin-elb-access-log (0.3.3)
+    Author: Genki Sugawara
+    Homepage: https://github.com/winebarrel/fluent-plugin-elb-access-log
+
+    Fluentd input plugin for AWS ELB Access Logs.
+
+fluent-plugin-elb-log (0.2.7)
+    Author: shinsaka
+    Homepage: https://github.com/shinsaka/fluent-plugin-elb-log
+
+    Amazon ELB log input plugin
+
+fluent-plugin-embedded-elasticsearch (0.0.2)
+    Author: kiyoto
+    Homepage:
+    https://github.com/kiyioto/fluent-plugin-embedded-elasticsearch
+
+    Fluentd plugin to serve ElasticSearch as a subprocess
+
+fluent-plugin-encrypt (0.1.1)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-encrypt
+
+    Fluentd filter plugin to encrypt fields
+
+fluent-plugin-esslowquery (1.1.0)
+    Author: Boguslaw Mista
+    Homepage: https://github.com/iaintshine/fluent-plugin-esslowquery
+
+    Fluent parser plugin for Elasticsearch slow query and slow indexing
+    log files.
+
+fluent-plugin-eval-filter (0.1.0)
+    Author: Yuzuki Masaru
+    Homepage: https://github.com/ephemeralsnow/fluent-plugin-eval-filter
+
+    Fluentd Output eval filter plugin.
+
+fluent-plugin-event-sniffer (0.0.1)
+    Author: OKUNO Akihiro
+    Homepage: https://github.com/choplin/fluent-plugin-event-sniffer
+
+    Fluentd Event Sniffer
+
+fluent-plugin-event-tail (0.0.2)
+    Author: Mario Freitas
+    Homepage: https://github.com/imkira/fluent-plugin-event-tail
+
+    fluentd input plugin for reading [tag, time, record] messages from a
+    file
+
+fluent-plugin-eventcounter (0.0.5.1)
+    Authors: Sean Dick, Change.org
+    Homepage: https://github.com/change/fluent-plugin-eventcounter
+
+    Fluentd plugin to count occurences of values in a field and emit
+    them or write them to redis
+
+fluent-plugin-eventlastvalue (0.0.6)
+    Authors: Michael Arick, Change.org
+    Homepage: https://github.com/change/fluent-plugin-eventlastvalue
+
+    Fluentd plugin to find the last value in a time-period of a field
+    and emit it or write it to redis
+
+fluent-plugin-everysense (0.0.7)
+    Author: Toyokazu Akiyama
+    Homepage: https://github.com/toyokazu/fluent-plugin-everysense
+
+    Fluent Input/Output plugin for EverySense Framework
+
+fluent-plugin-exclude-filter (0.0.1)
+    Author: yu yamada
+    Homepage: https://github.com/yu-yamada/fluent-plugin-exclude-filter
+
+    Output filter plugin to exclude records
+
+fluent-plugin-exec-sudo (0.0.3)
+    Author: Tatsuya Deguchi
+    Homepage: https://github.com/deg84/fluent-plugin-exec-sudo
+
+    out_exec with sudo for Fluentd
+
+fluent-plugin-exec_cron (0.0.3)
+    Author: Hiroshi Toyama
+    Homepage: https://github.com/toyama0919/fluent-plugin-exec_cron
+
+    executes external programs with cron syntax.
+
+fluent-plugin-exec_placeholder (0.0.2)
+    Author: toyama0919
+    Homepage:
+    https://github.com/toyama0919/fluent-plugin-exec_placeholder
+
+    execute external command with placeholder plugin for fluentd
+
+fluent-plugin-explode_filter (0.2.0)
+    Author: Jonathan Serafini
+    Homepage:
+    https://github.com/JonathanSerafini/fluent-plugin-explode_filter
+
+    A fluentd filter plugin that will split period separated fields to
+    nested hashes.
+
+fluent-plugin-extract_query_params (0.0.12)
+    Author: Kentaro Kuribayashi
+    Homepage:
+    http://github.com/kentaro/fluent-plugin-extract_query_params
+
+    Fluentd plugin to extract key/values from URL query parameters
+
+fluent-plugin-feedly (0.0.3)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-feedly
+
+    Fluentd input plugin to fetch RSS/ATOM feed via feedly Cloud API.
+
+fluent-plugin-field-flatten-json (0.1.1)
+    Author: Manoj Sharma
+    Homepage:
+    https://github.com/CiscoZeus/fluent-plugin-field-flatten-json
+
+    Fluent output plugin for flattening a json field
+
+fluent-plugin-field-multiregex (0.1.3)
+    Author: Manoj Sharma
+    Homepage:
+    https://github.com/CiscoZeus/fluent-plugin-field-multiregex
+
+    Fluent output plugin for reforming a record using multiple named
+    capture regular expressions
+
+fluent-plugin-fields-autotype (0.1.1)
+    Author: Manoj Sharma
+    Homepage: https://github.com/CiscoZeus/fluent-plugin-fields-autotype
+
+    Fluent output filter plugin for parsing key/value fields in records.
+    Automatically determines type of the value as integer, float or
+    string
+
+fluent-plugin-fields-parser (0.1.1)
+    Author: Tomas Pokorny
+    Homepage:
+    https://github.com/tomas-zemres/fluent-plugin-fields-parser
+
+    Fluent output filter plugin for parsing key/value fields in records
+
+fluent-plugin-file-alternative (0.2.2)
+    Author: TAGOMORI Satoshi
+    Homepage:
+    https://github.com/tagomoris/fluent-plugin-file-alternative
+
+    alternative implementation of out_file
+
+fluent-plugin-file-sprintf (0.0.7)
+    Author: Hiroshi Toyama
+    Homepage: https://github.com/toyama0919/fluent-plugin-file-sprintf/
+
+    sprintf output file plugin for Fluentd.
+
+fluent-plugin-filter (0.0.4)
+    Author: Muddy Dixon
+    Homepage: https://github.com/muddydixon/fluent-plugin-filter
+
+    Simple output filter
+
+fluent-plugin-filter-geoip (0.3.0)
+    Author: Minoru Osuka
+    Homepage: https://github.com/mosuka/fluent-plugin-filter-geoip
+
+    Fluent filter plugin for adding GeoIP data to record.
+
+fluent-plugin-filter-jq (0.1.0)
+    Author: Genki Sugawara
+    Homepage: https://github.com/winebarrel/fluent-plugin-filter-jq
+
+    Filter Plugin to create a new record containing the values converted
+    by jq.
+
+fluent-plugin-filter-object-flatten (0.1.2)
+    Author: Genki Sugawara
+    Homepage:
+    https://github.com/winebarrel/fluent-plugin-filter-object-flatten
+
+    Filter Plugin to convert the hash record to records of key-value
+    pairs.
+
+fluent-plugin-filter-parse-postfix (0.2.3)
+    Author: Genki Sugawara
+    Homepage:
+    https://github.com/winebarrel/fluent-plugin-filter-parse-postfix
+
+    Filter Plugin to parse Postfix status line log.
+
+fluent-plugin-filter-record-map (0.1.4)
+    Author: Genki Sugawara
+    Homepage:
+    https://github.com/winebarrel/fluent-plugin-filter-record-map
+
+    Filter Plugin to create a new record containing the values converted
+    by Ruby script.
+
+fluent-plugin-filter_codec (0.0.2)
+    Author: Neozaru
+    Homepage: https://github.com/Neozaru/fluent-plugin-filter_codec.git
+
+    Fluentd custom plugin to encode/decode fields
+
+fluent-plugin-filter_keys (0.0.2)
+    Author: Kohei Hasegawa
+    Homepage: https://github.com/banyan/fluent-plugin-filter_keys
+
+    Fluentd plugin to filter if a specific key is present or not in
+    event logs.
+
+fluent-plugin-filter_linefeeder (0.0.2)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-filter_linefeeder
+
+    A Fluentd filter plugin to convert ' ' to " " (line feed)
+
+fluent-plugin-filter_typecast (0.0.2)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-filter_typecast
+
+    A Fluentd filter plugin to cast record types
+
+fluent-plugin-finagle (0.0.3)
+    Author: Kai Sasaki
+    Homepage: http://github.com/Lewuathe/fluent-plugin-finagle
+
+    fluentd input plugin for Finagle metric
+
+fluent-plugin-firehose (0.0.11)
+    Author: Amazon Web Services
+
+    Fluentd output plugin that sends events to Amazon Kinesis Firehose.
+
+fluent-plugin-flatten (0.0.10)
+    Author: Kentaro Kuribayashi
+    Homepage: http://github.com/kentaro/fluent-plugin-flatten
+
+    Fluentd plugin to extract values for nested key paths and re-emit
+    them as flat tag/record pairs.
+
+fluent-plugin-flatten-hash (0.4.0)
+    Author: Masahiro Sano
+    Homepage: https://github.com/kazegusuri/fluent-plugin-flatten-hash
+
+    A fluentd plugin to flatten nested hash structure as a flat record
+
+fluent-plugin-flowcounter (0.4.2)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-flowcounter
+
+    Fluent plugin to count message flow
+
+fluent-plugin-flowcounter-simple (0.0.4)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-flowcounter-simple
+
+    Simple Fluentd Plugin to count number of messages and outputs to log
+
+fluent-plugin-flume (0.1.2)
+    Author: Muga Nishizawa
+    Homepage: https://github.com/fluent/fluent-plugin-flume
+
+    Flume Input/Output plugin for Fluentd event collector
+
+fluent-plugin-fnordmetric (0.0.1)
+    Author: Eduardo Aceituno
+    Homepage: https://github.com/achied/fluent-plugin-fnordmetric
+
+    fnordmetric plugin for fluent, an event collector
+
+fluent-plugin-forest (0.3.3)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-forest
+
+    plugin to create output plugin instances per tags dynamically
+
+fluent-plugin-fork (0.1.3)
+    Author: Daisuke Taniwaki
+    Homepage: https://github.com/dtaniwaki/fluent-plugin-fork
+
+    Fork output by separating values for fluentd
+
+fluent-plugin-format (0.0.1)
+    Author: Akinori Machino
+    Homepage: https://github.com/mach/fluent-plugin-format
+
+    Output plugin to format fields and re-emit them.
+
+fluent-plugin-formatter_linebyline (0.0.1)
+    Author: Manraj Tatla
+
+    Formats output for key value pairs to be shown line by line
+
+fluent-plugin-formatter_pretty_json (0.0.2)
+    Author: Yoshihiro MIYAI
+    Homepage:
+    https://github.com/mia-0032/fluent-plugin-formatter_pretty_json
+
+    Fluentd formatter plugin pretty json.
+
+fluent-plugin-formatter_simple_tsv (0.1.0)
+    Author: Hiroshi Hatake
+    Homepage:
+    https://github.com/cosmo0920/fluent-plugin-formatter_simple_tsv
+
+    Fluentd Simple TSV formatter plugin
+
+fluent-plugin-formatter_sprintf (0.0.4)
+    Author: Hiroshi Toyama
+    Homepage:
+    https://github.com/toyama0919/fluent-plugin-formatter_sprintf
+
+    Fluentd Free formatter plugin, Use sprintf.
+
+fluent-plugin-formatter_tsv (0.0.1)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-formatter_tsv
+
+    Fluentd TSV formatter plugin
+
+fluent-plugin-fortigate-log-parser (0.2.1)
+    Author: Yoshinori TERAOKA
+    Homepage:
+    https://github.com/yteraoka/fluent-plugin-fortigate-log-parser
+
+    fluentd plugin for parse FortiGate log
+
+fluent-plugin-forward-aws (0.1.8)
+    Author: Tomohisa Ota
+    Homepage: http://github.com/tomohisaota/fluent-plugin-forward-aws
+
+    Fluentd In/Out plugin to forward log through AWS(S3/SNS/SQS)
+
+fluent-plugin-free (0.0.1)
+    Author: TATEZONO Masaki
+    Homepage: https://github.com/zonomasa/fluent-plugin-free
+
+    Input plugin for fluentd to collect memory usage from free command.
+
+fluent-plugin-ftp (0.0.1)
+    Author: Kazuki Ohta
+    Homepage: https://github.com/kzk/fluent-plugin-ftp
+
+    FTP input / output plugin for Fluentd data collector
+
+fluent-plugin-fw1_loggrabber_parser (1.0.0)
+    Author: Tomoyuki Sugimura
+    Homepage: https://localhost.localdomain
+
+    parse checkpoint firewall-1 LEA formatted log
+
+fluent-plugin-gamobile (0.3.0)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-gamobile
+
+    Fluentd Output plugin to send access report with "Google Analytics
+    for mobile".
+
+fluent-plugin-ganglia (0.0.2)
+    Author: Hiroshi Sakai
+    Homepage: https://github.com/ziguzagu/fluent-plugin-ganglia
+
+    Fluentd output plugin to ganglia
+
+fluent-plugin-gc (0.0.2)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-gc
+
+    Fluentd plugin to disable GC and start GC at arbitrary interval
+
+fluent-plugin-gcloud-pubsub (0.0.5)
+    Author: Masayuki DOI
+    Homepage: https://github.com/mdoi/fluent-plugin-gcloud-pubsub
+
+    Google Cloud Pub/Sub input/output plugin for Fluentd event collector
+
+fluent-plugin-gcloud-pubsub-custom (0.1.4)
+    Author: Yoshihiro MIYAI
+    Homepage:
+    https://github.com/mia-0032/fluent-plugin-gcloud-pubsub-custom
+
+    Google Cloud Pub/Sub input/output plugin for Fluentd event collector
+
+fluent-plugin-gcloud-storage (0.1.2)
+    Author: Gergő Sulymosi
+    Homepage: https://github.com/trekdemo/fluent-plugin-gcloud-storage
+
+    Google Cloud Storage output plugin for fluentd event collector
+
+fluent-plugin-geoblipper (0.0.4.6)
+    Authors: Sean Dick, Change.org
+    Homepage: https://github.com/seanmdick/fluent-plugin-geoblipper
+
+    Fluentd plugin to send a buffered list of lat/long pairs to pubnub
+
+fluent-plugin-geoip (0.6.1)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-geoip
+
+    Fluentd Filter plugin to add information about geographical location
+    of IP addresses with Maxmind GeoIP databases.
+
+fluent-plugin-geoip-filter (0.3.0)
+    Author: Yuri Umezaki
+    Homepage: https://github.com/bungoume/fluent-plugin-geoip-filter
+
+    Fluentd filter plugin to add geoip
+
+fluent-plugin-github-activities (0.5.0)
+    Author: YUKI Hiroshi
+    Homepage: https://github.com/groonga/fluent-plugin-groonga
+
+    Fluentd plugin to crawl public activities on the GitHub.
+
+fluent-plugin-glusterfs (1.0.0)
+    Author: Keisuke Takahashi
+    Homepage: https://github.com/keithseahus/fluent-plugin-glusterfs
+
+    Fluentd plugin for GlusterFS
+
+fluent-plugin-google-cloud (0.5.2)
+    Authors: Todd Derr, Alex Robinson
+    Homepage:
+    https://github.com/GoogleCloudPlatform/fluent-plugin-google-cloud
+
+    fluentd output plugin for the Google Cloud Logging API
+
+fluent-plugin-google-cloud-storage (1.0.0)
+    Author: Hsiu-Fan Wang
+    Homepage:
+    https://github.com/hfwang/fluent-plugin-google-cloud-storage
+
+    Fluentd plugin to write data to Google Cloud Storage
+
+fluent-plugin-google-cloud-storage-out (0.1.12)
+    Author: Hideki Matsuoka
+    Homepage:
+    https://github.com/matsuokah/fluent-plugin-google-cloud-storage-out
+
+    Fluentd out plugin for store to Google Cloud Storage
+
+fluent-plugin-google-sheets (0.1.0)
+    Author: Fumiaki MATSUSHIMA
+    Homepage: https://github.com/esminc/fluent-plugin-google-sheets
+
+    Fluentd output plugin to store data on Google Sheets.
+
+fluent-plugin-graphite (0.0.6)
+    Author: Satoshi SUZUKI
+    Homepage: https://github.com/studio3104/fluent-plugin-graphite
+
+    fluentd output plugin to send metrics to graphite
+
+fluent-plugin-grassland (0.1.2)
+    Author: Ripplation Inc.
+    Homepage: http://www.ripplation.co.jp
+
+    Output filter plugin for Grassland
+
+fluent-plugin-graylog (1.0.1)
+    Author: Funding Circle
+
+    GrayLog output plugin for Fluentd
+
+fluent-plugin-gree_community (0.0.3)
+    Author: todesking
+    Homepage: https://github.com/todesking/fluent-plugin-gree_community
+
+    Fluentd input plugin, source from GREE community
+
+fluent-plugin-grep (0.3.4)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-grep
+
+    fluentd plugin to grep messages
+
+fluent-plugin-grepcount-filter (0.0.1)
+    Author: Shuichi Ohsawa
+    Homepage:
+    https://github.com/ohsawa0515/fluent-plugin-grepcount-filter
+
+    Fluentd filter plugin to count matched messages and stream if exceed
+    the threshold.
+
+fluent-plugin-grepcounter (0.5.6)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-grepcounter
+
+    Fluentd plugin to count the number of matched messages, and emit if
+    exceeds the threshold
+
+fluent-plugin-grok-parser (2.0.0)
+    Author: kiyoto
+    Homepage: https://github.com/kiyoto/fluent-plugin-grok-parser
+
+    Fluentd plugin to support Logstash-inspired Grok format for parsing
+    logs
+
+fluent-plugin-grok_pure-parser (0.0.8)
+    Author: Alex Hornung
+    Homepage: https://github.com/bwalex/fluent-plugin-grok_pure-parser
+
+    fluentd parser plugin to be able to use Grok patterns
+
+fluent-plugin-groonga (1.1.6)
+    Author: Kouhei Sutou
+    Homepage: https://github.com/groonga/fluent-plugin-groonga
+
+    Fluentd plugin to store data into Groonga and implement Groonga
+    replication system.
+
+fluent-plugin-groonga-query-log (1.0.0)
+    Author: Kouhei Sutou
+    Homepage: https://github.com/groonga/fluent-plugin-groonga-query-log
+
+    Fluentd plugin to parse Groonga's query log.
+
+fluent-plugin-groupcounter (0.2.3)
+    Authors: Ryosuke IWANAGA, Naotoshi Seo
+    Homepage: https://github.com/riywo/fluent-plugin-groupcounter
+
+    Fluentd plugin to count like SELECT COUNT(\*) GROUP BY
+
+fluent-plugin-growl (0.0.5)
+    Author: TAKEI Yuya
+    Homepage: https://github.com/takei-yuya/fluent-plugin-growl
+
+    Growl output plugin for Fluent Event Collector
+
+fluent-plugin-growthforecast (0.2.10)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-growthforecast
+
+    Fluentd output plugin to post numbers to GrowthForecast (by
+    kazeburo)
+
+fluent-plugin-gstore (0.3.2)
+    Author: Tatsuo Ikeda
+    Homepage: https://github.com/ikeikeikeike/fluent-plugin-gstore
+
+    Google Cloud Storage output plugin for the Fluent.
+
+fluent-plugin-gsvsoc_pubsub (0.1.0)
+    Author: pivelpin
+    Homepage: https://github.com/guardsight/fluent-plugin-gsvsoc_pubsub
+
+    Fluentd plugin for Google Cloud Pub/Sub
+
+fluent-plugin-haproxy_stats (0.1.1)
+    Author: Yohei Kawahara
+
+    Fluentd plugin fo HAProxy info and stats
+
+fluent-plugin-has-keys (0.0.1)
+    Author: Trickey
+    Homepage: https://github.com/TrickyMonkey/fluent-plugin-has-keys
+
+    Fluentd plugin to filter records without essential keys
+
+fluent-plugin-hash-forward (0.3.5)
+    Authors: Ryosuke IWANAGA, Naotoshi Seo
+    Homepage: https://github.com/riywo/fluent-plugin-hash-forward
+
+    Fluentd plugin to keep forwarding messsages of a specific tag
+    pattern to a specific node
+
+fluent-plugin-hato (0.0.1)
+    Author: Kentaro Kuribayashi
+    Homepage: http://github.com/kentaro/fluent-plugin-hato
+
+    A fluent plugin to send messages to Hato
+
+fluent-plugin-hatohol (1.0.0)
+    Author: Project Hatohol
+    Homepage: https://github.com/project-hatohol/fluent-plugin-hatohol
+
+    A Fluentd plugin to send events to Hatohol
+
+fluent-plugin-hbase (0.1.2)
+    Author: KUOKA Yusuke
+    Homepage: https://github.com/Furyu/fluent-plugin-hbase
+
+    HBase output plugin for Fluent event collector
+
+fluent-plugin-hekk_redshift (0.0.5)
+    Author: Masashi Miyazaki
+    Homepage: https://github.com/hekk/fluent-plugin-redshift
+
+    Amazon Redshift output plugin for Fluentd
+
+fluent-plugin-heroku-postgres (0.0.5)
+    Author: Naohiro Sakuma
+    Homepage: https://github.com/sakuma/fluent-plugin-heroku-postgres
+
+    fluent plugin to insert on Heroku Postgre.
+
+fluent-plugin-heroku-syslog (0.1.1)
+    Author: Kazuyuki Honda
+    Homepage: https://github.com/hakobera/fluent-plugin-heroku-syslog
+
+    fluent plugin to drain heroku syslog
+
+fluent-plugin-hipchat (0.1.7)
+    Author: Yuichi Tateno
+    Homepage: https://github.com/hotchpotch/fluent-plugin-hipchat
+
+    fluent HipChat plugin
+
+fluent-plugin-histogram (0.2.4)
+    Author: Yusuke SHIMIZU
+    Homepage: https://github.com/karahiyo/fluent-plugin-histogram
+
+    Combine inputs data and make histogram which helps to detect a
+    hotspot.
+
+fluent-plugin-hoop (0.1.4)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/fluent/fluent-plugin-hoop
+
+    Cloudera Hoop (Hadoop HDFS HTTP Proxy) plugin for Fluent event
+    collector
+
+fluent-plugin-hostname (0.0.2)
+    Author: Tatsuya Fukata
+    Homepage: https://github.com/fukata/fluent-plugin-hostname
+
+    Fluentd plugin put the hostname in the data
+
+fluent-plugin-hrforecast (0.0.2)
+    Author: do-aki
+    Homepage: https://github.com/do-aki/fluent-plugin-hrforecast
+
+    Fluentd output plugin to post to HRForecast
+
+fluent-plugin-http-enhanced (0.0.5)
+    Author: Abhishek Parolkar
+    Homepage: https://github.com/parolkar/fluent-plugin-http-enhanced
+
+    Enhanced HTTP input plugin for Fluent event collector
+
+fluent-plugin-http-ex (0.0.3)
+    Author: hiro-su
+    Homepage: https://github.com/hiro-su/fluent-plugin-http-ex
+
+    fluent plugin to accept multiple json/msgpack events in HTTP request
+
+fluent-plugin-http-heartbeat (0.0.4)
+    Author: Junjie Chen
+    Homepage: https://github.com/Jackyjjc/fluent-plugin-http-heartbeat
+
+    Fluentd input plugin that responses with HTTP status 200. Can be
+    used for elb healthcheck.
+
+fluent-plugin-http-list (0.1.0)
+    Author: Paul McCann
+    Homepage: https://github.com/m3dev/fluent-plugin-http-list
+
+    fluent plugin to accept multiple events in one HTTP request
+
+fluent-plugin-http-puma (0.0.2)
+    Author: Masahiro Nakagawa
+    Homepage: https://github.com/repeatedly/fluent-plugin-http-puma
+
+    Puma based HTTP(S) plugin for Fluentd
+
+fluent-plugin-http-record-modifier (0.0.3)
+    Author: Augusto Nishi
+    Homepage:
+    http://github.com/DEVTecnologia/fluent-plugin-http-record-modifier
+
+    fluentd filter plugin for modifing record based on a HTTP request
+
+fluent-plugin-http-status (0.0.4)
+    Author: hiro-su
+
+    Fluentd input plugin for to get the http status
+
+fluent-plugin-http_file_upload (0.1.3)
+    Author: TAGOMORI Satoshi
+    Homepage:
+    https://github.com/tagomoris/fluent-plugin-http_file_upload
+
+    Fluentd output plugin to send buffered data to http servers as HTTP
+    file upload
+
+fluent-plugin-http_forward (0.1.0)
+    Author: Jonathan Serafini
+    Homepage:
+    https://github.com/JonathanSerafini/fluent-plugin-http_forward
+
+    A buffered HTTP batching output for Fluentd
+
+fluent-plugin-http_shadow (0.1.0)
+    Author: Hiroshi Toyama
+    Homepage: https://github.com/toyama0919/fluent-plugin-http_shadow
+
+    copy http request. use shadow proxy server.
+
+fluent-plugin-https-json (0.0.1)
+    Author: Jay OConnor
+    Homepage: https://github.com/jdoconnor/fluentd_https_out
+
+    Fluentd output plugin to buffer logs as json arrays to a url
+
+fluent-plugin-idobata (0.0.3)
+    Author: bash0C7
+    Homepage: https://github.com/bash0C7/fluent-plugin-idobata
+
+    Fluentd output plugin to send data to idobata
+
+fluent-plugin-ignore-filter (1.1.0)
+    Author: Yuri Umezaki
+    Homepage: https://github.com/bungoume/fluent-plugin-ignore-filter
+
+    Fluentd filter plugin to ignore messages
+
+fluent-plugin-ikachan (0.2.6)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-ikachan
+
+    output plugin for IRC-HTTP gateway 'ikachan'
+
+fluent-plugin-imagefile (0.0.1)
+    Author: bash0C7
+    Homepage: https://github.com/bash0C7/fluent-plugin-imagefile
+
+    Output plugin to save image file from massages attribute value
+
+fluent-plugin-imkayac (0.0.1)
+    Author: FUJIWARA Shunichiro
+    Homepage: https://github.com/fujiwara/fluent-plugin-imkayac
+
+    fluentd plugin output to im.kayac.com
+
+fluent-plugin-in-kinesis (0.0.2)
+    Author: yusuke yamatani
+    Homepage: https://github.com/yusukeyamatani/fluent-plugin-in-kinesis
+
+    Fluentd plugin to count records with specified regexp patterns
+
+fluent-plugin-in-udp-event (0.0.2)
+    Author: Alexander Blagoev
+    Homepage: https://github.com/ablagoev/fluent-plugin-in-udp-event
+
+    Event driven udp input plugin for fluentd
+
+fluent-plugin-in-websocket (0.1.2)
+    Author: Sebastian Szewczyk
+    Homepage: https://github.com/sebryu/fluent_plugin_in_websocket
+
+    Fluent plugin for websocket input
+
+fluent-plugin-in_elb_healthcheck (0.0.3)
+    Author: aihara
+    Homepage: http://argmax.jp
+
+    fluentd plug-in for ELB Health Check
+
+fluent-plugin-in_http_healthcheck (0.0.1)
+    Author: Zaki_XL
+    Homepage: http://need4answer.blogspot.jp/
+
+    fluentd plug-in for HTTP Health Check
+
+fluent-plugin-incremental (0.0.1)
+    Author: toyama0919
+    Homepage: https://github.com/toyama0919/fluent-plugin-incremental/
+
+    numeric incremental output plugin for Fluentd.
+
+fluent-plugin-influxdb (0.2.8)
+    Authors: Masahiro Nakagawa, FangLi
+    Homepage: https://github.com/fangli/fluent-plugin-influxdb
+
+    A buffered output plugin for fluentd and influxDB
+
+fluent-plugin-influxdb_metrics (0.0.4)
+    Author: lxfontes
+    Homepage: https://github.com/lxfontes/fluent-plugin-influxdb_metrics
+
+    output plugin for fluentd
+
+fluent-plugin-inline-classifier (0.1.0)
+    Author: Yoshihisa Tanaka
+
+    Fluentd plugin to classify each message and inject the result into
+    it
+
+fluent-plugin-input-gelf (0.1.1)
+    Author: Daniel Malon
+    Homepage: https://github.com/MerlinDMC/fluent-plugin-input-gelf
+
+    A GELF input plugin for fluentd
+
+fluent-plugin-irc (0.0.8)
+    Author: OKUNO Akihiro
+    Homepage: https://github.com/choplin/fluent-plugin-irc
+
+    Output plugin for IRC
+
+fluent-plugin-ironio (0.0.3)
+    Author: chandrashekar Tippur
+    Homepage: https://github.com/ctippur/fluent-plugin-ironio
+
+    Fluentd input plugin for ironio alerts
+
+fluent-plugin-jabber (0.4.0)
+    Author: todesking
+    Homepage: https://github.com/todesking/fluent-plugin-jabber
+
+    Fluentd output plugin for XMPP(Jabber) protocol
+
+fluent-plugin-jmx (0.0.1)
+    Author: Hidenori Suzuki
+    Homepage: https://github.com/6pongi/fluent-plugin-jmx
+
+    a fluent plugin
+
+fluent-plugin-journal-parser (0.1.0)
+    Author: Emil Renner Berthing
+    Homepage: https://github.com/One-com/fluent-plugin-journal-parser
+
+    Fluentd plugin to parse systemd journal export format.
+
+fluent-plugin-json-api (0.0.2)
+    Author: Freddie Fujiwara
+    Homepage: http://github.com/freddiefujiwara/fluent-plugin-json-api
+
+    json-api plugin for Fluentd
+
+fluent-plugin-json-in-json (0.1.4)
+    Author: Gavin M. Roy
+    Homepage: https://github.com/gmr/fluent-plugin-json-in-json
+
+    Parser plugin that parses JSON attributes with JSON strings in them
+
+fluent-plugin-json-nest2flat (0.0.5)
+    Author: Fukui ReTu
+    Homepage: https://github.com/fukuiretu/fluent-plugin-json-nest2flat
+
+    Output filter plugin to convert to a flat structure the JSON that is
+    nest
+
+fluent-plugin-json-parser (0.0.3)
+    Author: anarcher
+    Homepage: https://github.com/anarcher/fluent-plugin-json-parser
+
+    plugin to parse/combine fluentd log messages
+
+fluent-plugin-json-schema-filter (0.0.3)
+    Author: Anthony Johnson
+    Homepage: https://github.com/ansoni/fluent-plugin-json-schema-filter
+
+    Fluentd Filter plugin to validate incoming records against a json
+    schema
+
+fluent-plugin-json-transform (0.0.2)
+    Authors: Grayson Chao, Matthew Jourard
+    Homepage: https://github.com/mjourard/fluent-plugin-json-transform/
+
+    Input parser plugin which allows arbitrary transformation of input
+    JSON
+
+fluent-plugin-json_expander (0.1.0)
+    Author: Uchio KONDO
+    Homepage: https://github.com/udzura/fluent-plugin-json_expander
+
+    Run the sub-matcher created from accepted json data
+
+fluent-plugin-json_serializer (0.0.4)
+    Author: Zaki_XL
+    Homepage: http://need4answer.blogspot.jp/
+
+    fluent plugin for Json serialize
+
+fluent-plugin-jsonbucket (0.0.2)
+    Author: moaikids
+    Homepage: https://github.com/moaikids/fluent-plugin-jsonbucket
+
+    Fluentd plugin
+
+fluent-plugin-jsontcp (1.1)
+    Author: Kim Gert Nielsen
+    Homepage: https://greyhat.dk
+
+    Plugin for fluentd to send JSON to a TCP socket
+
+fluent-plugin-jstat (0.0.3)
+    Author: wukawa
+    Homepage: https://github.com/wyukawa/fluent-plugin-jstat
+
+    jstat input plugin for Fluent event collector
+
+fluent-plugin-jubatus (0.0.2)
+    Author: MATSUMOTO Katsuyoshi
+    Homepage: https://github.com/katsyoshi/fluent-plugin-jubatus
+
+    Jubatus output plugin for fluentd
+
+fluent-plugin-juniper-telemetry (0.2.11)
+    Author: Damien Garros
+    Homepage:
+    https://github.com/JNPRAutomate/fluentd-plugin-juniper-telemetry
+
+    Input plugin for Fluentd for Juniper devices telemetry data
+    streaming : Jvision / analyticsd etc ..
+
+fluent-plugin-jvm-gclog (0.0.4)
+    Author: Shinji Tanaka
+    Homepage: https://github.com/stanaka/fluent-plugin-jvm-gclog
+
+    Fluentd input plugin for JavaVM gc.log.
+
+fluent-plugin-jvmwatcher (0.1.5)
+    Author: MasayukiMiyake
+    Homepage:
+    https://github.com/MasayukiMiyake97/fluent-plugin-jvmwatcher.git
+
+    It is the input plugin of fluentd which collects the condition of
+    Java VM.
+
+fluent-plugin-jwt-filter (0.0.5)
+    Author: Toyokazu Akiyama
+    Homepage: https://github.com/toyokazu/fluent-plugin-jwt-filter
+
+    Fluent Filter plugin for encrypting and decrypting messages using
+    JSON Web Token technology (JSON Web Encryption, JSON Web Signature
+    and JSON Web Key)
+
+fluent-plugin-kafka (0.3.3)
+    Authors: Hidemasa Togashi, Masahiro Nakagawa
+    Homepage: https://github.com/fluent/fluent-plugin-kafka
+
+    Fluentd plugin for Apache Kafka &gt; 0.8
+
+fluent-plugin-kafka-zendesk (0.1.4)
+    Author: Hidemasa Togashi
+    Homepage: https://github.com/khouse/fluent-plugin-kafka
+
+    Fluentd plugin for Apache Kafka &gt; 0.8
+
+fluent-plugin-kafkaclient (0.0.1)
+    Author: Kazuki Minamiya
+    Homepage: https://github.com/nantani/fluent-plugin-kafkaclient
+
+    Kafka client plugin which supports version 0.9 of kafka.
+
+fluent-plugin-kanicounter (0.0.1)
+    Author: tatsuhito
+    Homepage:
+    https://github.com/TatsuhitoMuramatsu/fluent-plugin-kanicounter
+
+    Output filter plugin to count messages that matches "kani"
+
+fluent-plugin-katsubushi (0.1.0)
+    Author: FUJIWARA Shunichiro
+    Homepage: https://github.com/fujiwara/fluent-plugin-katsubushi
+
+    A fluentd filter plugin to inject id getting from katsubushi.
+
+fluent-plugin-keep-forward (0.1.8)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-keep-forward
+
+    Fluentd plugin to keep forwarding to a node
+
+fluent-plugin-kestrel (0.2.2)
+    Author: Junichiro Takagi
+    Homepage: http://github.com/tjun/fluent-plugin-kestrel
+
+    fluentd input/output plugin for kestrel.
+
+fluent-plugin-key-picker (0.0.3)
+    Author: Carlos Donderis
+    Homepage: http://github.com/cads/fluent-plugin-key-picker
+
+    Pick those keys you want to use and discard the rest
+
+fluent-plugin-kibana-server (0.0.2)
+    Author: OKUNO Akihiro
+    Homepage: https://github.com/choplin/fluent-plugin-kibana-server
+
+    Fluentd plugin which serves Kibana within fluentd process
+
+fluent-plugin-kinesis (1.1.1)
+    Author: Amazon Web Services
+    Homepage: https://github.com/awslabs/aws-fluent-plugin-kinesis
+
+    Fluentd output plugin that sends events to Amazon Kinesis.
+
+fluent-plugin-kinesis-aggregation (0.2.2)
+    Author: Atlassian
+    Homepage:
+    https://github.com/atlassian/fluent-plugin-kinesis-aggregation
+
+    Fluentd output plugin that sends KPL style aggregated events to
+    Amazon Kinesis.
+
+fluent-plugin-kinesis-alt (0.0.2)
+    Author: Genki Sugawara
+    Homepage: https://bitbucket.org/winebarrel/fluent-plugin-kinesis-alt
+
+    Output filter plugin for Amazon Kinesis
+
+fluent-plugin-kinesis-firehose (0.1.1)
+    Author: Genki Sugawara
+    Homepage:
+    https://github.com/winebarrel/fluent-plugin-kinesis-firehose
+
+    Fluentd output plugin for Amazon Kinesis Firehose.
+
+fluent-plugin-kubernetes (0.3.1)
+    Author: Jimmi Dyson
+    Homepage: https://github.com/fabric8io/fluent-plugin-kubernetes
+
+    Output filter plugin to add Kubernetes metadata
+
+fluent-plugin-kubernetes_metadata_filter (0.26.1)
+    Author: Jimmi Dyson
+    Homepage:
+    https://github.com/fabric8io/fluent-plugin-kubernetes_metadata_filte
+    r
+
+    Filter plugin to add Kubernetes metadata
+
+fluent-plugin-kubernetes_metadata_filter_v0.14 (0.24.1)
+    Author: Jimmi Dyson
+    Homepage:
+    https://github.com/fabric8io/fluent-plugin-kubernetes_metadata_filte
+    r
+
+    Filter plugin to add Kubernetes metadata
+
+fluent-plugin-kubernetes_metadata_input (0.21.11)
+    Author: Anton Sherkhonov
+    Homepage:
+    https://github.com/t0ffel/fluent-plugin-kubernetes_metadata_input
+
+    Input plugin to collect Kubernetes metadata
+
+fluent-plugin-kuromoji (0.0.2)
+    Author: Hiroshi Toyama
+    Homepage: https://github.com/toyama0919/fluent-plugin-kuromoji
+
+    Output kuromoji analysis Plugin for fluentd
+
+fluent-plugin-kv-parser (0.0.1)
+    Author: kiyoto
+    Homepage: https://github.com/kiyoto/fluent-plugin-kv-parser
+
+    Fluentd parser plugin to parse key value pairs
+
+fluent-plugin-lambda (0.2.1)
+    Author: Genki Sugawara
+    Homepage: https://github.com/winebarrel/fluent-plugin-lambda
+
+    Output plugin for AWS Lambda.
+
+fluent-plugin-latency (0.0.2)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-latency
+
+    Fluentd plugin to measure latency until receiving the messages
+
+fluent-plugin-lazy-json-parser (0.0.4)
+    Author: mathpl
+    Homepage: https://github.com/mathpl/fluent-plugin-lazy-json-parser
+
+    plugin to parse/combine fluentd log messages if possible
+
+fluent-plugin-leftronic (0.0.4)
+    Author: toyama0919
+    Homepage: https://github.com/toyama0919/fluent-plugin-leftronic/
+
+    Leftronic output plugin for Fluentd.
+
+fluent-plugin-librato (0.0.1)
+    Author: kiyoto
+    Homepage: https://github.com/kiyoto/fluent-plugin-librato
+
+    Fluentd plugin to post data to Librato Metrics
+
+fluent-plugin-librato-metrics (0.2.3)
+    Author: Sadayuki Furuhashi
+
+    Librato metrics output plugin for Fluent event collector
+
+fluent-plugin-line-notify (0.1.0)
+    Author: Atsushi Takayama
+    Homepage: https://github.com/edvakf/fluent-plugin-line-notify
+
+    fluentd output plugin for LINE Notify
+
+fluent-plugin-loadaverage (0.0.1)
+    Author: mogulla3
+    Homepage: https://github.com/mogulla3/fluent-plugin-loadaverage
+
+    Fluent input plugin to collect load average via uptime command.
+
+fluent-plugin-logentries (0.2.10)
+    Author: Woorank
+    Homepage: https://github.com/Woorank/fluent-plugin-logentries
+
+    Logentries output plugin for Fluent event collector
+
+fluent-plugin-logentries-tmpfix (0.2.13)
+    Author: bigwheel
+    Homepage: https://github.com/bigwheel/fluent-plugin-logentries
+
+    Logentries output plugin for Fluent event collector
+
+fluent-plugin-logfmt-parser (0.0.1)
+    Author: forresty
+    Homepage: https://github.com/forresty/fluent-plugin-logfmt-parser
+
+    Fluentd parser plugin to parse logfmt format
+
+fluent-plugin-loggly (0.0.9)
+    Author: Patrik Antonsson
+    Homepage: https://github.com/patant/fluent-plugin-loggly
+
+    Fluentd plugin for output to loggly
+
+fluent-plugin-logio (1.1.0)
+    Author: Black Roland
+    Homepage: https://github.com/black-roland/fluent-plugin-logio
+
+    Fluentd Log.io plugin
+
+fluent-plugin-logmatic (0.8.1)
+    Author: Logmatic support team
+    Homepage: http://logmatic.io
+
+    Logmatic output plugin for Fluent event collector
+
+fluent-plugin-logsene (0.0.3)
+    Author: Sematext
+    Homepage: https://github.com/mbonaci/fluent-plugin-logsene
+
+    Logsene is a centralized log management solution from Sematext. The
+    plugin is fluentd output plugin for Logsene
+
+fluent-plugin-logtank-http (0.0.5)
+    Author: Peter Grman
+    Homepage: https://github.com/logtank/fluent-plugin-http
+
+    enhanced input plugin for HTTP
+
+fluent-plugin-logtank-rethinkdb (0.2.3)
+    Authors: Vinh Nguyen, Peter Grman
+    Homepage: https://github.com/logtank/fluent-plugin-rethink
+
+    RethinkDB plugin for Fluentd
+
+fluent-plugin-logzio (0.0.6)
+    Authors: Yury Kotov, Roi Rav-Hon
+    Homepage: https://github.com/logzio/fluent-plugin-logzio
+
+    Fluentd plugin for output to Logz.io
+
+fluent-plugin-lookup (0.0.3)
+    Author: Neozaru
+    Homepage: https://github.com/Neozaru/fluent-plugin-lookup.git
+
+    Fluentd custom plugin to replace fields values using lookup table
+    file
+
+fluent-plugin-lossycount (0.0.1)
+    Author: moaikids
+    Homepage: https://github.com/moaikids/fluent-plugin-lossycount
+
+    Lossy count output plugin for Fluentd
+
+fluent-plugin-ltsv-parser (0.0.12)
+    Author: anarcher
+    Homepage: https://github.com/anarcher/fluent-plugin-ltsv-parser
+
+    plugin to parse/combine fluentd log messages
+
+fluent-plugin-mackerel (0.1.3)
+    Authors: tksmd, hatz48, stanaka, Songmu
+    Homepage: https://github.com/mackerelio/fluent-plugin-mackerel
+
+    fluent plugin to send metrics to mackerel.io
+
+fluent-plugin-mail (0.2.4)
+    Authors: Yuichi UEMURA, Naotoshi Seo
+    Homepage: https://github.com/u-ichi/fluent-plugin-mail
+
+    output plugin for Mail
+
+fluent-plugin-mailrelay (0.0.0)
+    Author: Yudai Kato
+    Homepage: https://github.com/yudai09/fluent-plugin-mailrelay.git
+
+    Output plugin to trace mail relayed in intranetwork.
+
+fluent-plugin-map (0.0.6)
+    Author: Kohei Tomita
+    Homepage: https://github.com/tomity/fluent-plugin-map
+
+    fluent-plugin-map is the non-buffered plugin that can convert an
+    event log to different event log(s).
+
+fluent-plugin-measure_time (0.2.1)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-measure_time
+
+    Fluentd plugin to measure elapsed time to process messages
+
+fluent-plugin-mecab (0.0.1)
+    Author: MATSUMOTO Katsuyoshi
+    Homepage: http://github.com/katsyoshi/fluent-plugin-mecab
+
+    fluentd plugin for MeCab
+
+fluent-plugin-memcached (0.0.7)
+    Author: innossh
+    Homepage: https://github.com/innossh/fluent-plugin-memcached
+
+    Memcached output plugin for Fluent
+
+fluent-plugin-mesosphere-filter (0.1.11)
+    Author: Joseph Hughes
+    Homepage:
+    https://github.com/joshughes/fluent-plugin-mesosphere-filter
+
+    Filter plugin to add Mesosphere metadata to fluentd from Chronos and
+    Marathon
+
+fluent-plugin-metricsense (0.3.1)
+    Author: Sadayuki Furuhashi
+    Homepage: https://github.com/treasure-data/fluent-plugin-metricsense
+
+    MetricSense - application metrics aggregation plugin for Fluentd
+
+fluent-plugin-midi (0.1.0)
+    Author: meganemura
+    Homepage: https://github.com/meganemura/fluent-plugin-midi
+
+    MIDI Input/Output plugin for Fluentd event collector
+
+fluent-plugin-mixi_community (0.0.3)
+    Author: todesking
+    Homepage: https://github.com/todesking/fluent-plugin-mixi_community
+
+    Fluentd input plugin, source from Mixi community
+
+fluent-plugin-mixpanel (0.0.9)
+    Author: Kazuyuki Honda
+    Homepage: https://github.com/hakobera/fluent-plugin-mixpanel
+
+    Fluentd plugin to input/output event track data to mixpanel
+
+fluent-plugin-mobile-carrier (0.0.4)
+    Author: HARUYAMA Seigo
+    Homepage: http://github.com/haruyama/fluent-plugin-mobile-carrier
+
+    Fluentd plugin to judge mobile carrier by ip address.
+
+fluent-plugin-mongo (0.7.16)
+    Author: Masahiro Nakagawa
+    Homepage: https://github.com/fluent/fluent-plugin-mongo
+
+    MongoDB plugin for Fluentd
+
+fluent-plugin-mongo-slow-query (0.1.1)
+    Author: Siyang Cao
+    Homepage:
+    https://github.com/caosiyang/fluent-plugin-mongo-slow-query
+
+    Fluent input plugin for MongoDB to collect slow operation log
+
+fluent-plugin-mongo-typed (0.1.0)
+    Author: MORIYA Taro
+    Homepage: http://github.com/tarom/fluent-plugin-mongo-typed
+
+    Typed mongo output plugin
+
+fluent-plugin-mongokpi (0.0.2)
+    Author: Hatayama Hideharu
+    Homepage: https://bitbucket.org/hidepiy/fluent-plugin-mongokpi
+
+    Fluent BufferedOutput plugin: counting chunk, inserting counts to
+    make kpi count on MongoDB
+
+fluent-plugin-monolog (0.1.5)
+    Author: imunew
+
+    Fluentd parser plugin to parse log text from monolog
+
+fluent-plugin-monolog-influxdb (0.1.0)
+    Author: Giuseppe Iannello
+    Homepage:
+    https://github.com/giannello/fluent-plugin-monolog-influxdb
+
+    Output filter plugin to rewrite Monolog JSON output to be inserted
+    into InfluxDB
+
+fluent-plugin-mqtt (0.0.7)
+    Author: Yuuna Kurita
+    Homepage: http://github.com/yuuna/fluent-plugin-mqtt
+
+    fluentd input plugin for mqtt server
+
+fluent-plugin-mqtt-io (0.2.3)
+    Author: Toyokazu Akiyama
+    Homepage: https://github.com/toyokazu/fluent-plugin-mqtt-io
+
+    fluentd input/output plugin for mqtt broker
+
+fluent-plugin-msgpack-parser (0.1.0)
+    Author: Tomás Rojas
+    Homepage: https://github.com/bitex-la/fluent-plugin-msgpack-parser
+
+    MessagePack parser for Fluentd
+
+fluent-plugin-msgpack-rpc (0.3.0)
+    Author: Nobuyuki Kubota
+    Homepage: https://github.com/fluent/fluent-plugin-msgpack-rpc
+
+    Input plugin for Fluent using MessagePack-RPC
+
+fluent-plugin-mssql (0.0.1)
+    Author: Hidemasa Togashi
+    Homepage: http://github.com/htgc/fluent-plugin-mssql/fork
+
+    Fluentd plugin to insert into Microsoft SQL Server.
+
+fluent-plugin-mssql2 (0.0.8)
+    Author: u89012
+    Homepage: http://github.com/u89012/fluent-plugin-mssql2
+
+    A no frills fluentd buffered plugin to write to microsoft sql server
+
+fluent-plugin-multi-format-parser (0.0.2)
+    Author: Masahiro Nakagawa
+    Homepage:
+    https://github.com/repeatedly/fluent-plugin-multi-format-parser
+
+    Multi format parser plugin for Fluentd
+
+fluent-plugin-multiline-parser (0.1.1)
+    Author: Jerry Zhou
+    Homepage:
+    https://github.com/quick-sort/fluent-plugin-multiline-parser
+
+    plugin to parse/combine multiline fluentd log messages
+
+fluent-plugin-multiprocess (0.2.1)
+    Author: Sadayuki Furuhashi
+    Homepage: https://github.com/fluent/fluent-plugin-multiprocess
+
+    Multiprocess agent plugin for Fluentd event collector
+
+fluent-plugin-munin (0.3.2)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-munin
+
+    Fluentd Input plugin to fetch munin-node metrics data with custom
+    intervals. It supports all of munin plugins.
+
+fluent-plugin-munin-node (0.1.7)
+    Author: Genki Sugawara
+    Homepage: https://github.com/winebarrel/fluent-plugin-munin-node
+
+    Fluentd input plugin for Munin node.
+
+fluent-plugin-mutate_filter (0.2.1)
+    Author: Jonathan Serafini
+    Homepage:
+    https://github.com/JonathanSerafini/fluent-plugin-mutate_filter
+
+    A mutate filter for Fluent which functions like Logstash.
+
+fluent-plugin-mysql (0.1.4)
+    Authors: TAGOMORI Satoshi, Toyama Hiroshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-mysql
+
+    fluent plugin to insert mysql
+
+fluent-plugin-mysql-binlog (0.0.2)
+    Author: IZUMIYA Hiroyuki
+    Homepage: https://github.com/izumiya/fluent-plugin-mysql-binlog
+
+    MySQL Binlog input plugin for Fluentd event collector.
+
+fluent-plugin-mysql-bulk (0.0.8)
+    Author: Hiroshi Toyama
+    Homepage: https://github.com/toyama0919/fluent-plugin-mysql-bulk
+
+    fluent plugin mysql bulk insert is high performance and on duplicate
+    key update respond.
+
+fluent-plugin-mysql-load (0.0.2)
+    Author: Fukui ReTu
+    Homepage: https://github.com/fukuiretu/fluent-plugin-mysql-load
+
+    BufferedOutput plugin to mysql import
+
+fluent-plugin-mysql-prepared-statement (0.0.5)
+    Author: Hiroshi Toyama
+    Homepage:
+    https://github.com/toyama0919/fluent-plugin-mysql-prepared-statement
+
+    fluent plugin mysql prepared statement
+
+fluent-plugin-mysql-query (0.3.0)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-mysql-query
+
+    Fluentd Input plugin to execute mysql query and fetch rows. It is
+    useful for stationary interval metrics measurement.
+
+fluent-plugin-mysql-replicator (0.5.2)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-mysql-replicator
+
+    Fluentd input plugin to track insert/update/delete event from MySQL
+    database server. Not only that, it could multiple table replication
+    and generate nested document for Elasticsearch/Solr. It's comming
+    support replicate to another RDB/noSQL.
+
+fluent-plugin-mysql_explain (0.0.1)
+    Author: Takahiro Kikumoto
+    Homepage: https://github.com/kikumoto/fluent-plugin-mysql_explain
+
+    A Fluent filter plugin to execute EXPLAIN in mysql for a sql
+    specified by the key
+
+fluent-plugin-mysqlrecord (0.0.1)
+    Author: polidog
+
+    test
+
+fluent-plugin-mysqlslowquery (0.0.7)
+    Author: Yuku Takahashi
+    Homepage: https://github.com/taka84u9/fluent-plugin-mysqlslowquery
+
+    Fluent input plugin for MySQL slow query log file.
+
+fluent-plugin-mysqlslowquerylog (0.0.2)
+    Author: Satoshi SUZUKI
+    Homepage:
+    https://github.com/studio3104/fluent-plugin-mysqlslowquerylog
+
+    Fluentd plugin to concat MySQL slowquerylog.
+
+fluent-plugin-named_pipe (0.1.2)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-named_pipe
+
+    Named pipe input/output plugin for Fluentd
+
+fluent-plugin-namedpipe (0.0.2)
+    Author: anarcher
+    Homepage: https://github.com/anarcher/fluent-plugin-namedpipe
+
+    fluentd plugin to named pipe input
+
+fluent-plugin-nata2 (0.0.1)
+    Author: studio3104
+    Homepage: https://github.com/studio3104/fluent-plugin-nata2
+
+    fluent-plugin to post slow query logs to Nata2 server
+
+fluent-plugin-nats (0.0.5)
+    Author: Eduardo Aceituno
+    Homepage: https://github.com/achied/fluent-plugin-nats
+
+    nats plugin for fluentd, an event collector
+
+fluent-plugin-ncmb (0.1.1)
+    Authors: suzuki.yuta, goya.tomohiro
+    Homepage: http://mb.cloud.nifty.com/
+
+    fluentd plugin for NIFTY Cloud mobile backend
+
+fluent-plugin-nested-hash-filter (0.2.0)
+    Author: sugilog
+    Homepage:
+    https://github.com/sugilog/fluent-plugin-nested-hash-filter
+
+    Fluent Plugin for converting nested hash into flatten key-value
+    pair.
+
+fluent-plugin-netflow (0.2.4)
+    Author: Masahiro Nakagawa
+    Homepage: https://github.com/repeatedly/fluent-plugin-netflow
+
+    Netflow plugin for Fluentd
+
+fluent-plugin-netflow-multiplier (0.1.1)
+    Author: Shintaro Kojima
+    Homepage:
+    https://github.com/codeout/fluent-plugin-netflow-multiplier
+
+    Fluentd filter plugin to multiply sampled netflow counters by
+    sampling rate.
+
+fluent-plugin-network-probe (0.1.0)
+    Author: Yuichi UEMURA
+    Homepage: https://github.com/u-ichi/fluent-plugin-network-probe
+
+    Fluentd input plugin to probe network latency and keepalive, similar
+    to smokeping
+
+fluent-plugin-newrelic-summary (0.0.2)
+    Author: Hiroaki Sano
+    Homepage: https://github.com/hiroakis/fluent-plugin-newrelic-summary
+
+    Fluent input plugin to get NewRelic application summary.
+
+fluent-plugin-newrelic_metrics (0.0.3)
+    Author: Hiroshi Toyama
+    Homepage:
+    https://github.com/toyama0919/fluent-plugin-newrelic_metrics
+
+    Newrelic metrics input plugin for fluentd
+
+fluent-plugin-newrelictransform (0.0.3)
+    Author: chandrashekar Tippur
+    Homepage: https://github.com/ctippur/fluent-plugin-newrelic
+
+    Fluentd input plugin for Newrelic alerts
+
+fluent-plugin-newsyslog (0.1.1)
+    Author: Kevin Scheunemann
+    Homepage: https://github.com/athenahealth/fluent-plugin-newsyslog
+
+    A better fluentd syslog input and parser plugin
+
+fluent-plugin-nginx-status (1.0.0)
+    Author: Robert Pitt
+    Homepage: https://github.com/robertpitt/fluent-plugin-nginx-status
+
+    Nginx status page monitor for FleuntD
+
+fluent-plugin-nicorepo (0.0.1)
+    Author: upinetree
+
+    Fluent input plugin for Nicorepo
+
+fluent-plugin-norikra (0.4.2)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/norikra/fluent-plugin-norikra
+
+    Fluentd plugin to do CEP with norikra
+
+fluent-plugin-norikra-patched-7 (0.2.2)
+    Author: Yohei Yoshimuta
+    Homepage: https://github.com/yoheimuta/fluent-plugin-norikra
+
+    Fluentd plugin to do CEP with norikra
+
+fluent-plugin-nostat (0.2.2)
+    Author: No JinHo
+    Homepage: http://github.com/nozino/fluent-plugin-nostat
+
+    Linux Resource Monitoring Input plugin for Fluent event collector
+
+fluent-plugin-notifier (0.2.4)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-notifier
+
+    check matched messages and emit alert message
+
+fluent-plugin-nsca (1.0.0)
+    Author: MIYAKAWA Taku
+    Homepage: https://github.com/miyakawataku/fluent-plugin-nsca
+
+    Fluentd output plugin to send service checks to an NSCA / Nagios
+    monitoring server
+
+fluent-plugin-nsq (0.0.6)
+    Authors: lxfontes, dterror
+    Homepage: https://github.com/uken/fluent-plugin-nsq
+
+    output plugin for fluentd
+
+fluent-plugin-numeric-counter (0.2.3)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-numeric-counter
+
+    Fluentd plugin to count messages with specified numeric values
+
+fluent-plugin-numeric-monitor (0.1.9)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-numeric-monitor
+
+    Fluentd plugin to calculate min/max/avg/Xpercentile values
+
+fluent-plugin-ohai (0.0.1)
+    Author: Florian Rosenberg
+
+    Plugin for fluentd to read data from ohai.
+
+fluent-plugin-onlineuser (0.0.1)
+    Author: Yuyang Lan
+    Homepage: https://github.com/lanyuyang/fluent-plugin-onlineuser
+
+    Online Users Counter
+
+fluent-plugin-oomkiller (0.0.1)
+    Author: Megumi Nakamura
+    Homepage: https://github.com/nakamegu/fluent-plugin-oomkiller
+
+    Fluentd plugin to get oom killer log.
+
+fluent-plugin-openldap-monitor (0.0.1)
+    Author: Satoshi SUZUKI
+    Homepage:
+    https://github.com/studio3104/fluent-plugin-openldap-monitor
+
+    fluentd input plugin to get openldap monitor
+
+fluent-plugin-openshift_metadata_input (0.1.1)
+    Author: Anton Sherkhonov
+    Homepage:
+    https://github.com/viaq/fluent-plugin-openshift_metadata_input
+
+    Input plugin to collect Openshift metadata
+
+fluent-plugin-opentsdb (0.1.1)
+    Author: Emmet Murphy
+    Homepage: https://github.com/emurphy/fluent-plugin-opentsdb
+
+    Fluentd plugin to graph fluent-plugin-numeric-monitor values in
+    OpenTSDB
+
+fluent-plugin-order (0.0.1)
+    Author: Fukui ReTu
+    Homepage: https://github.com/fukuiretu/fluent-plugin-order
+
+    Output filter plugin to rearrange the order of the elements
+
+fluent-plugin-osmocom-spectrum-sense (0.0.3)
+    Author: enukane
+    Homepage:
+    https://github.com/enukane/fluent-plugin-osmocom-spectrum-sense
+
+    fluentd plugin for SDR input
+
+fluent-plugin-osquery (0.0.1)
+    Author: Hidenori Suzuki
+    Homepage: https://github.com/6pongi/fluent-plugin-osquery
+
+    a fluent plugin
+
+fluent-plugin-out-falcon (0.1.7)
+    Author: tsingakbar
+    Homepage: https://github.com/tsingakbar/fluent-plugin-out-falcon
+
+    A Fluentd output plugin to send logs to falcon's push API
+
+fluent-plugin-out-file-with-fix-path (0.1.0)
+    Author: fetaro
+    Homepage:
+    https://github.com/fetaro/fluent-plugin-out-file-with-fix-path.git
+
+    Extention of fluentd out_file plugin
+
+fluent-plugin-out-http (0.1.4)
+    Author: Marica Odagaki
+    Homepage: https://github.com/ento/fluent-plugin-out-http
+
+    A generic Fluentd output plugin to send logs to an HTTP endpoint
+
+fluent-plugin-out-http-buffered (0.0.1)
+    Author: Alexander Blagoev
+    Homepage: http://github.com/ablagoev/fluent-plugin-out-http-buffered
+
+    Fluentd http buffered output plugin
+
+fluent-plugin-out-http-ext (0.1.8)
+    Author: Toshiya Kawasaki
+
+    A generic Fluentd output plugin to send logs to an HTTP endpoint
+    with SSL and Header option
+
+fluent-plugin-out-http-ext-ignore-ssl-errors (0.0.1)
+    Author: Joyce Chan
+
+    A generic Fluentd output plugin to send logs to an HTTP endpoint
+    with SSL and Header option, extended from
+    kawasakitoshiya@gmail.com's similarily named gem'
+
+fluent-plugin-out-kafka-rest (0.1.1.2)
+    Author: dobachi
+    Homepage: https://github.com/dobachi/fluent-plugin-out-kafka-rest
+
+    A fluentd output plugin for sending logs to Kafka REST Proxy
+
+fluent-plugin-out-solr (0.0.8)
+    Authors: diogo, pitr, haruyama
+    Homepage: https://github.com/haruyama/fluent-plugin-out-solr
+
+    Solr output plugin for Fluent event collector
+
+fluent-plugin-out_apache_log_format (0.0.6)
+    Author: jorge moratilla
+    Homepage:
+    https://bitbucket.org/jmoratilla/fluent-plugin-out_apache_log_format
+
+    This output filter generates Combined Common Log Format entries
+
+fluent-plugin-out_chatwork (0.0.3)
+    Author: sue445
+    Homepage: https://github.com/sue445/fluent-plugin-out_chatwork
+
+    fluentd output plugin for post to chatwork
+
+fluent-plugin-out_datadog_event (0.1.2)
+    Author: Yohei Kawahara(inokappa)
+    Homepage:
+    https://github.com/inokappa/fluent-plugin-out_datadog_event
+
+    fluentd output plugin for datadog event
+
+fluent-plugin-out_hosted_graphite (0.0.2)
+    Author: inokappa
+    Homepage:
+    https://github.com/inokappa/fluent-plugin-out_hosted_graphite
+
+    fluentd output plugin for post to Hosted Graphite
+
+fluent-plugin-out_rawtcp (0.0.1)
+    Author: lxfontes
+    Homepage: https://github.com/lxfontes/fluent-plugin-out_rawtcp
+
+    output plugin for fluentd
+
+fluent-plugin-output-solr (0.3.1)
+    Author: Minoru Osuka
+    Homepage: https://github.com/mosuka/fluent-plugin-output-solr
+
+    Fluent output plugin for sending data to Apache Solr.
+
+fluent-plugin-parse_cookie (0.0.3)
+    Author: Hirokazu Hata
+
+    Fluentd plugin to parse cookie
+
+fluent-plugin-parse_multiple_value_query (0.0.4)
+    Author: Hirokazu Hata
+
+    Fluentd plugin to parse query string with rails format
+
+fluent-plugin-parser (0.6.1)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-parser
+
+    plugin to parse/combine fluentd log messages
+
+fluent-plugin-parserequestbody (0.0.3)
+    Author: Keiichiro Nagashima
+    Homepage: https://github.com/k1row/fluent-plugin-requestbody.git
+
+    Fluentd plugin for parse request body
+
+fluent-plugin-pcapng (0.0.1)
+    Author: enukane
+    Homepage: https://github.com/enukane/fluent-plugin-pcapng
+
+    Fluentd input plugin for monitoring packets received in specified
+    interface
+
+fluent-plugin-pgdist (0.2.0)
+    Author: Kenji Hara
+    Homepage: http://github.com/haracane/fluent-plugin-pgdist
+
+    Fluentd plugin for distribute insert into PostgreSQL
+
+fluent-plugin-pghstore (0.2.6)
+    Author: WAKAYAMA Shirou
+    Homepage: https://github.com/shirou/fluent-plugin-pghstore
+
+    Output to PostgreSQL database which has a hstore extension
+
+fluent-plugin-pgjson (0.0.8)
+    Author: OKUNO Akihiro
+    Homepage: https://github.com/choplin/fluent-plugin-pgjson
+
+
+
+fluent-plugin-pi (0.0.11)
+    Author: Derek Endres
+    Homepage: https://github.com/osisoftresearch
+
+    Fluentd plugin to either get data from OSISoft PI, send to OSISoft
+    PI or send to OSISoft QI.
+
+fluent-plugin-ping-message (0.2.0)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-ping-message
+
+    Fluentd plugin to send/check ping messages
+
+fluent-plugin-ping_port (0.0.2)
+    Author: Hiroshi Toyama
+    Homepage: https://github.com/toyama0919/fluent-plugin-ping_port
+
+    health check with port plugin for fluentd.
+
+fluent-plugin-postgres (0.0.1)
+    Authors: TAGOMORI Satoshi, Diogo Terror, pitr
+    Homepage: https://github.com/uken/fluent-plugin-postgres
+
+    fluent plugin to insert on PostgreSQL
+
+fluent-plugin-postgres-replicator (0.0.2)
+    Author: innossh
+    Homepage:
+    https://github.com/innossh/fluent-plugin-postgres-replicator
+
+    PostgreSQL replication input plugin for Fluent
+
+fluent-plugin-presto_query (0.0.3)
+    Author: Hiroshi Toyama
+    Homepage: https://github.com/toyama0919/fluent-plugin-presto_query
+
+    Fluentd Input plugin to execute Presto query and fetch rows.
+
+fluent-plugin-prometheus (0.2.1)
+    Author: Masahiro Sano
+    Homepage: https://github.com/kazegusuri/fluent-plugin-prometheus
+
+    A fluent plugin that collects metrics and exposes for Prometheus.
+
+fluent-plugin-prometheus-thread (0.1.3)
+    Authors: Masahiro Sano, James Harlow
+    Homepage: https://github.com/hythloday/fluent-plugin-prometheus
+
+    A td-agent plugin that collects metrics and exposes for Prometheus.
+
+fluent-plugin-protocols-filter (0.0.1)
+    Author: airforon
+    Homepage: https://github.com/airforon/fluent-plugin-protocols-filter
+
+    Converts the protocol name protocol number.
+
+fluent-plugin-pull_forward (0.0.2)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-pull_forward
+
+    Fluentd plugin to forward data, by pulling from input plugin
+
+fluent-plugin-pushover (1.0.0)
+    Author: Jan Karásek
+    Homepage: https://github.com/hkar/fluent-plugin-pushover
+
+    Fluentd Output plugin to make a call with Pushover API.
+
+fluent-plugin-qqwry (0.1.0)
+    Author: Chris Song
+    Homepage: https://github.com/fakechris/fluent-plugin-qqwry
+
+    Fluentd output filter plugin to add information about geographical
+    location of IP addresses with QQWry databases.
+
+fluent-plugin-querycombiner (0.0.3)
+    Author: Takahiro Kamatani
+    Homepage: https://github.com/buhii/fluent-plugin-querycombiner
+
+    Fluent plugin to combine multiple queries.
+
+fluent-plugin-rabbitmq-json-trace-parser (0.1.0)
+    Author: Max Riveiro
+    Homepage:
+    https://github.com/kavu/fluent-plugin-rabbitmq-json-trace-parser
+
+    Fluentd Parser plugin for RabbitMQ Trace log in JSON format.
+
+fluent-plugin-rackspace-cloud-files (0.0.4)
+    Author: Brint O'Hearn
+    Homepage:
+    https://github.com/brint/fluent-plugin-rackspace-cloud-files
+
+    Rackspace Cloud Files output plugin for fluentd
+
+fluent-plugin-rambler (0.1.1)
+    Author: Keisuke Nishida
+    Homepage: https://github.com/k24d/fluent-plugin-rambler
+
+    Amazon S3 / Redshift output plugin for Fluentd event collector
+
+fluent-plugin-rancher (0.1.0)
+    Author: BinZhao
+    Homepage: https://github.com/we87/fluent-plugin-rancher
+
+    Output filter plugin to add rancher metadata
+
+fluent-plugin-random (0.0.1)
+    Author: Neozaru
+    Homepage: https://github.com/Neozaru/fluent-plugin-random.git
+
+    Fluentd custom plugin to generate random values
+
+fluent-plugin-randomtag (0.0.2)
+    Authors: Neozaru, davidwin93
+    Homepage: https://github.com/go2mobi/fluent-plugin-random
+
+    Fluentd custom plugin to generate random values in tag
+
+fluent-plugin-raven-decoder (0.1.1)
+    Author: Genki Sugawara
+    Homepage: https://github.com/winebarrel/fluent-plugin-raven-decoder
+
+    Fluentd plugin to decode Raven data.
+
+fluent-plugin-rawexec (0.0.4)
+    Author: FangLi
+    Homepage: https://github.com/fangli/fluent-plugin-rawexec
+
+    Execute user script with RAW message output plugin for Fluentd
+
+fluent-plugin-rds-log (0.1.7)
+    Author: shinsaka
+    Homepage: https://github.com/shinsaka/fluent-plugin-rds-log
+
+    Amazon RDS slow_log and general_log input plugin for Fluent event
+    collector
+
+fluent-plugin-rds-pgsql-log (0.1.0)
+    Author: shinsaka
+    Homepage: https://github.com/shinsaka/fluent-plugin-rds-pgsql-log
+
+    Amazon RDS for PostgreSQL log input plugin
+
+fluent-plugin-rds-pgsql-slow-query-log (0.1.2)
+    Author: hSATAC
+    Homepage: https://github.com/hSATAC/fluent-plugin-rds-pgsql-log
+
+    Amazon RDS for PostgreSQL log input plugin with slow query support
+
+fluent-plugin-rds-slowlog (0.0.7)
+    Authors: kenjiskywalker, winebarrel
+    Homepage:
+    https://github.com/kenjiskywalker/fluent-plugin-rds-slowlog
+
+    Amazon RDS slow_log input plugin for Fluent event collector
+
+fluent-plugin-reassemble (0.0.8)
+    Author: moaikids
+    Homepage: https://github.com/moaikids/fluent-plugin-reassemble
+
+    Re-assemble a stream data for Fluentd
+
+fluent-plugin-record-modifier (0.5.0)
+    Author: Masahiro Nakagawa
+    Homepage:
+    https://github.com/repeatedly/fluent-plugin-record-modifier
+
+    Filter plugin for modifying event record
+
+fluent-plugin-record-reformer (0.8.2)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-record-reformer
+
+    Fluentd plugin to add or replace fields of a event record
+
+fluent-plugin-record-serializer (0.1.0)
+    Author: IKUTA Masahito
+    Homepage:
+    http://github.com/cooldaemon/fluent-plugin-record-serializer
+
+    Fluentd output filter plugin for serialize record.
+
+fluent-plugin-record_splitter (0.1.3)
+    Author: Yuri Odagiri
+    Homepage: https://github.com/ixixi/fluent-plugin-record_splitter
+
+    output split array plugin for fluentd
+
+fluent-plugin-redeliver (0.1.0)
+    Author: Masatoshi Kawazoe (acidlemon)
+
+    simple tag-based redeliver plugin
+
+fluent-plugin-redis (0.2.0)
+    Author: Yuki Nishijima
+    Homepage: http://github.com/yuki24/fluent-plugin-redis
+
+    Redis output plugin for Fluent
+
+fluent-plugin-redis-counter (0.3.2)
+    Author: Buntaro Okada
+    Homepage: https://github.com/kbinani/fluent-plugin-redis-counter
+
+    Redis counter plugin for fluent
+
+fluent-plugin-redis-list (0.0.1)
+    Author: Pavel Sutyrin
+    Homepage: https://github.com/spacediver/fluent-plugin-redis
+
+    Redis output plugin for Fluent (push to list)
+
+fluent-plugin-redis-multi-type-counter (0.1.3)
+    Author: Jungtaek Lim
+    Homepage:
+    https://github.com/heartsavior/fluent-plugin-redis-multi-type-counte
+    r
+
+    Redis multi type counter plugin for fluent
+
+fluent-plugin-redis-publish (0.1.1)
+    Author: Daisuke Murase
+    Homepage: https://github.com/typester/fluent-plugin-redis-publish
+
+    fluent output plugin publishing logs to redis pub/sub
+
+fluent-plugin-redis-pubsub (0.0.1)
+    Author: Freddie Fujiwara
+    Homepage:
+    http://github.com/freddiefujiwara/fluent-plugin-redis-pubsub
+
+    redis-pubsub plugin for Fluentd
+
+fluent-plugin-redis-slowlog (0.0.2)
+    Author: shingo suzuki
+    Homepage: https://github.com/mominosin/fluent-plugin-redis-slowlog
+
+    Redis slowlog input plugin for Fluent event collector
+
+fluent-plugin-redis-store (0.1.1)
+    Authors: moaikids, HANAI Tohru aka pokehanai
+    Homepage: https://github.com/pokehanai/fluent-plugin-redis-store
+
+    Redis(zset/set/list/string/publish) output plugin for Fluentd
+
+fluent-plugin-redis-store-seldon (0.1.1)
+    Author: Clive Cox
+    Homepage: https://github.com/SeldonIO/fluent-plugin-redis-store
+
+    Redis(zset/set/list/string/publish) output plugin for Fluentd
+
+fluent-plugin-redis-store-wejick (0.0.8)
+    Authors: wejick, Gian Giovani
+    Homepage: https://github.com/wejick/fluent-plugin-redis-store
+
+    Redis(zset/set/list/string/publish) output plugin for Fluentd
+
+fluent-plugin-redis-url-tracker (0.2.1)
+    Authors: Yuki Nishijima, Kamil Pluta
+    Homepage: http://github.com/detfis/fluent-plugin-redis-url-tracker
+
+    Redis output plugin for Fluent
+
+fluent-plugin-redis_list_poller (1.0.1)
+    Author: Jonathan Serafini
+    Homepage:
+    https://github.com/JonathanSerafini/fluent-plugin-redis_list_poller
+
+    A fluentd redis input plugin supporting batch operations
+
+fluent-plugin-redislist (0.0.1)
+    Author: Ken Santo
+    Homepage: http://github.com/kensantou/fluent-plugin-redislist
+
+    Redis list type output plugin for Fluent
+
+fluent-plugin-redisstore (0.0.4)
+    Author: moaikids
+    Homepage: https://github.com/moaikids/fluent-plugin-redisstore
+
+    Redis(zset/set/list/string) output plugin for Fluentd
+
+fluent-plugin-redmine (0.5.0)
+    Author: Takuma kanari
+    Homepage: https://github.com/takumakanari
+
+    Output filter plugin to create ticket in redmine
+
+fluent-plugin-redoop (0.0.2)
+    Author: Aaron Lunsford
+    Homepage: https://github.com/awlunsfo/fluent-plugin-redoop
+
+    see description
+
+fluent-plugin-redshift (0.1.2)
+    Author: Masashi Miyazaki
+    Homepage: https://github.com/hapyrus/fluent-plugin-redshift
+
+    Amazon Redshift output plugin for Fluentd
+
+fluent-plugin-redshift-anton (1.0.2)
+    Author: Anton Kuchinsky
+    Homepage: https://github.com/akuchins/fluent-plugin-redshift-anton
+
+    Amazon Redshift output plugin for Fluentd with custom Redshift COPY
+    timeformat
+
+fluent-plugin-redshift-auto (1.0.1)
+    Author: Takashi Honda
+    Homepage:
+    https://github.com/takashi-honda/fluent-plugin-redshift-auto
+
+    Amazon Redshift output plugin for Fluentd with creating table
+
+fluent-plugin-redshift-aws-v1 (0.0.7)
+    Author: Keiji Yoshida
+    Homepage: https://github.com/yosssi/fluent-plugin-redshift
+
+    Amazon Redshift output plugin for Fluentd
+
+fluent-plugin-redshift-kwarter (0.0.3)
+    Authors: Masashi Miyazaki, Daniel Koepke
+    Homepage: https://github.com/kwarter/fluent-plugin-redshift
+
+    Amazon Redshift output plugin for Fluentd (updated by Kwarter)
+
+fluent-plugin-redshift-out (0.4.1)
+    Author: Naohiro Sakuma
+    Homepage: https://github.com/sakuma/fluent-plugin-redshift-out
+
+    Amazon Redshift output plugin for Fluentd
+
+fluent-plugin-reemit (0.2.1)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-reemit
+
+    Fluentd plugin to re-emit messages avoiding infinity match loop
+
+fluent-plugin-referer-parser (0.0.7)
+    Authors: TAGOMORI Satoshi, HARUYAMA Seigo
+    Homepage: https://github.com/haruyama/fluent-plugin-referer-parser
+
+    Fluentd plugin to parse UserAgent strings
+
+fluent-plugin-remote_syslog (0.3.2)
+    Author: Richard Lee
+    Homepage: https://github.com/dlackty/fluent-plugin-remote_syslog
+
+    Fluentd output plugin for remote syslog
+
+fluent-plugin-remove-empty (0.0.1)
+    Author: Chadin Anuwattanaporn
+    Homepage: https://github.com/newcmd001/fluent-plugin-remove-empty
+
+    Fluentd plugin to remove empty fields of a event record
+
+fluent-plugin-rename-key (0.2.0)
+    Authors: Shunwen Hsiao, Julian Grinblat
+    Homepage: https://github.com/shunwen/fluent-plugin-rename-key
+
+    Fluentd output plugin. Rename keys which match given regular
+    expressions, assign new tags and re-emit the records.
+
+fluent-plugin-replace (0.1.0)
+    Author: kaihar4
+    Homepage: https://github.com/kaihar4/fluent-plugin-replace
+
+    Fluentd plugin to replace the string with specified YAML
+
+fluent-plugin-resolv (0.0.3)
+    Author: Kohei MATSUSHITA
+    Homepage: https://github.com/ma2shita/fluent-plugin-resolv
+
+    Fluent plugin, IP address resolv and rewrite.
+
+fluent-plugin-resolv-filter (0.0.1)
+    Author: airforon
+    Homepage: https://github.com/airforon/fluent-plugin-resolv-filter
+
+    Converts the FQDN to the IP address.
+
+fluent-plugin-resque (0.2.1)
+    Author: Yuichi Tateno
+    Homepage: https://github.com/hotchpotch/fluent-plugin-resque
+
+    Resque enqueue plugin
+
+fluent-plugin-resque-ex (0.1.0)
+    Author: Yuichi Tateno
+    Homepage: https://github.com/iyagi15/fluent-plugin-resque-ex
+
+    Resque-ex enqueue plugin
+
+fluent-plugin-resque_stat (0.0.5)
+    Author: Spring_MT
+    Homepage: https://github.com/SpringMT/fluent-plugin-resque_stat
+
+    Fluent input plugin for Resque info
+
+fluent-plugin-retag (0.0.2)
+    Author: Masahiro Yamauchi
+    Homepage: https://github.com/algas/fluent-plugin-retag
+
+    Output filter plugin to retag
+
+fluent-plugin-rethink (0.1.0)
+    Author: Vinh Nguyen
+    Homepage: https://github.com/kureikain/fluent-plugin-rethink
+
+    RethinkDB plugin for Fluentd
+
+fluent-plugin-rewrite (0.0.13)
+    Author: Kentaro Kuribayashi
+    Homepage: http://github.com/kentaro/fluent-plugin-rewrite
+
+    Fluentd plugin to rewrite tags/values along with pattern matching
+    and re-emit them.
+
+fluent-plugin-rewrite-tag-filter (1.5.5)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-rewrite-tag-filter
+
+    Fluentd Output filter plugin. It has designed to rewrite tag like
+    mod_rewrite. Re-emmit a record with rewrited tag when a value
+    matches/unmatches with the regular expression. Also you can change a
+    tag from apache log by domain, status-code(ex. 500 error),
+    user-agent, request-uri, regex-backreference and so on with regular
+    expression.
+
+fluent-plugin-rewriteimage (0.0.1)
+    Author: bash0C7
+    Homepage: https://github.com/bash0C7/fluent-plugin-rewriteimage
+
+    Output filter plugin to rewrite messages from image path(or URL)
+    string to image data.
+
+fluent-plugin-riak (0.0.3)
+    Author: Kota UENISHI
+    Homepage: https://github.com/kuenishi/fluent-plugin-riak
+
+    Riak plugin for Fluent event collector
+
+fluent-plugin-riak2 (0.0.5)
+    Authors: Kota UENISHI, Matt Nunogawa
+    Homepage: https://github.com/collectivehealth/fluent-plugin-riak2
+
+    Riak 2.x plugin for Fluent event collector
+
+fluent-plugin-riak2f (0.0.2)
+    Author: koichi yanagimoto
+    Homepage: https://github.com/kyanagimoto/fluent-plugin-riak2f
+
+    Riak 2.x plugin for Fluent event collector
+
+fluent-plugin-riemann (0.0.3)
+    Author: Will Farrell
+    Homepage: https://github.com/wkf/fluent-plugin-riemann
+
+    Riemann output plugin for Fluent
+
+fluent-plugin-riemann-tulos (0.0.4)
+    Author: Will Farrell
+    Homepage: https://github.com/wkf/fluent-plugin-riemann
+
+    Riemann output plugin for Fluent
+
+fluent-plugin-route (0.1.3)
+    Authors: TAGOMORI Satoshi, FURUHASHI Sadayuki
+    Homepage: https://github.com/tagomoris/fluent-plugin-route
+
+    Fluentd plugin to route messages in fluentd processes
+
+fluent-plugin-rss (0.0.1)
+    Author: harukasan
+    Homepage: https://github.com/harukasan/fluent-plugin-rss
+
+    Fluent input plugin to fetch RSS feed items
+
+fluent-plugin-rtf-dash (0.0.1)
+    Author: Aiming Inc.
+
+
+
+fluent-plugin-ruby-kafka (0.1.0)
+    Author: Yoshimitsu Kokubo
+    Homepage: https://github.com/unplus/fluent-plugin-ruby-kafka
+
+    Kafka's produce fluentd plugin by ruby-kafka
+
+fluent-plugin-ruby-memory-usage-profiler (0.0.4)
+    Author: TAGOMORI Satoshi
+    Homepage:
+    https://github.com/tagomoris/fluent-plugin-ruby-memory-usage-profile
+    r
+
+    Fluentd input plugin for memory usage profile of Ruby runtime and OS
+
+fluent-plugin-ruby_one_liner (0.0.2)
+    Author: bash0C7
+    Homepage: https://github.com/bash0C7/fluent-plugin-ruby_one_liner
+
+    Fluentd plugin to run ruby one line of script
+
+fluent-plugin-s3 (0.7.1)
+    Authors: Sadayuki Furuhashi, Masahiro Nakagawa
+    Homepage: https://github.com/fluent/fluent-plugin-s3
+
+    Amazon S3 output plugin for Fluentd event collector
+
+fluent-plugin-s3-fork (0.4.3)
+    Author: Hayato Tomoda
+    Homepage: https://github.com/tomodian/fluent-plugin-s3
+
+    Amazon S3 output plugin for Fluentd event collector
+
+fluent-plugin-s3-input (0.0.1)
+    Author: Anthony Johnson
+    Homepage: https://github.com/ansoni/fluent-plugin-s3-input
+
+    Fluentd plugin to read a file from S3 and emit it
+
+fluent-plugin-s3in (0.1.2.2)
+    Author: Takeshi Shiihara
+    Homepage: https://github.com/shii-take/fluent-plugin-s3in
+
+    Write a short summary, because Rubygems requires one.
+
+fluent-plugin-samefile (0.0.3)
+    Author: Yuri Umezaki
+    Homepage: https://github.com/bungoume/fluent-plugin-samefile
+
+    Fluentd plugin to output same file
+
+fluent-plugin-sampling-filter (0.2.0)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-sampling-filter
+
+    fluentd plugin to pickup sample data from matched massages
+
+fluent-plugin-sar (0.0.4)
+    Author: Hirotaka Tajiri
+    Homepage: https://github.com/hirotaka-tajiri/fluent-plugin-sar
+
+    Fluentd input plugin to get sar result
+
+fluent-plugin-say (0.1.1)
+    Author: Shimpei Makimoto
+    Homepage: http://github.com/makimoto/fluent-plugin-say
+
+    Fluentd output plugin to say something by using 'say' command
+
+fluent-plugin-scribe (0.10.14)
+    Authors: Kazuki Ohta, TAGOMORI Satoshi
+    Homepage: https://github.com/fluent/fluent-plugin-scribe
+
+    Scribe Input/Output plugin for Fluentd event collector
+
+fluent-plugin-script (0.0.3)
+    Author: SNakano
+    Homepage: https://github.com/SNakano/fluent-plugin-script
+
+    Fluentd filter plugin to external ruby script
+
+fluent-plugin-script_append (0.1.0)
+    Author: Uchio KONDO
+    Homepage: https://github.com/udzura/fluent-plugin-script_append
+
+    A fluent plugin to add script-run result to existing json data
+
+fluent-plugin-secure-forward (0.4.3)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/tagomoris/fluent-plugin-secure-forward
+
+    Fluentd input/output plugin to forward over SSL with authentications
+
+fluent-plugin-select (0.0.3.1)
+    Author: Kohei Tomita
+    Homepage: https://github.com/tomity/fluent-plugin-select
+
+    fluent-plugin-select is the non-buffered plugin that can be filtered
+    by ruby script.
+
+fluent-plugin-sendgrid-event (0.0.5)
+    Author: Hiroaki Sano
+    Homepage: https://github.com/hiroakis/fluent-plugin-sendgrid-event
+
+    Fluent input plugin to receive sendgrid event.
+
+fluent-plugin-sendmail (0.1.0)
+    Author: muddydixon
+    Homepage: https://github.com/muddydixon/fluent-plugin-sendmail
+
+    Fluentd plugin to parse and merge sendmail syslog.
+
+fluent-plugin-sensu (1.0.1)
+    Author: MIYAKAWA Taku
+    Homepage: https://github.com/miyakawataku/fluent-plugin-sensu
+
+    Fluentd output plugin to send checks to sensu-client.
+
+fluent-plugin-sentry (0.0.5)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-sentry
+
+    Fluentd output plugin that sends aggregated errors/exception events
+    to Sentry. Sentry is a event logging and aggregation platform.
+
+fluent-plugin-sentry-http (0.1.1)
+    Author: IKUTA Masahito
+    Homepage: http://github.com/cooldaemon/fluent-plugin-sentry-http
+
+    Fluentd input plugin that receive exceptions from the Sentry
+    clients(Raven).
+
+fluent-plugin-serialport (0.0.3)
+    Author: MATSUMOTO Katsuyoshi
+    Homepage: https://github.com/katsyoshi/fluent-plugin-serialport
+
+    fluentd plugin for serial port
+
+fluent-plugin-ses (0.0.4)
+    Author: Spring_MT
+    Homepage: https://github.com/SpringMT/fluent-plugin-ses
+
+    Fluent output plugin for AWS SES
+
+fluent-plugin-setproctitle (0.0.1)
+    Author: Tatsuhiko Kubo
+    Homepage: https://github.com/cubicdaiya/fluent-plugin-setproctitle
+
+    plugin for renaming fluentd process name
+
+fluent-plugin-sforce (0.0.2)
+    Author: Makoto Tajitsu
+    Homepage: https://github.com/tzmfreedom/fluent-plugin-sforce
+
+    Fluent Plugin to export data from Salesforce.com.
+
+fluent-plugin-sidekiq (0.0.4)
+    Author: Alex Scarborough
+    Homepage: https://github.com/GoCarrot/fluent-plugin-sidekiq
+
+    Sidekiq plugin for Fluentd
+
+fluent-plugin-simple-logentries (0.1.1)
+    Author: sowawa
+    Homepage: https://github.com/sowawa/fluent-plugin-simple-logentries
+
+    Logentries output plugin for Fluent event collector
+
+fluent-plugin-simple-to-hash (0.0.2)
+    Author: Augusto Nishi
+    Homepage:
+    http://github.com/DEVTecnologia/fluent-plugin-simple-to-hash
+
+    fluentd filter plugin for converting simple variable to hash
+
+fluent-plugin-simplearithmetic (0.0.3)
+    Author: Takahiro Kamatani
+    Homepage: https://github.com/buhii/fluent-plugin-simplearithmetic
+
+    Fluent plugin to calculate messages.
+
+fluent-plugin-sixpack (0.2.0)
+    Author: Naoki AINOYA
+    Homepage: https://github.com/ainoya/fluent-plugin-sixpack
+
+    Fluentd output plugin to post numbers to sixpack (by seatgeek)
+
+fluent-plugin-slack (0.6.4)
+    Authors: Keisuke SOGAWA, Naotoshi Seo
+    Homepage: https://github.com/sowawa/fluent-plugin-slack
+
+    fluent Slack plugin
+
+fluent-plugin-slackboard (0.1.0)
+    Author: Tatsuhiko Kubo
+    Homepage: https://github.com/cubicdaiya/fluent-plugin-slackboard
+
+    plugin for proxying message to slackboard
+
+fluent-plugin-slackrtm (0.2.4)
+    Author: Arata Tanaka
+    Homepage: https://github.com/tarata/fluent-plugin-slackrtm
+
+    Slack Real Time Messagina input plugin for Fluentd
+
+fluent-plugin-slfparser (0.0.6)
+    Author: Fabian Kajzar
+    Homepage: https://github.com/Fabian-K/fluent-plugin-slfparser
+
+    Fluentd plugin to parse SLF4J based logs.
+
+fluent-plugin-sndacs (0.0.3)
+    Author: Sparkle
+    Homepage: https://github.com/sparkle/fluent-plugin-sndacs
+
+    Sndacs output plugin for Fluent event collector
+
+fluent-plugin-snmp (0.0.9)
+    Author: hiro-su
+
+    Input plugin to snmp
+
+fluent-plugin-snmptrap (0.0.1)
+    Author: Alex Pena
+    Homepage: https://github.com/Bigel0w/fluent-plugin-snmptrap
+
+    Fluentd input plugin for SNMP Traps
+
+fluent-plugin-sns (2.1.7)
+    Author: Yuri Odagiri
+    Homepage: https://github.com/ixixi/fluent-plugin-sns
+
+    Amazon SNS output plugin for Fluent event collector
+
+fluent-plugin-solr (0.1.1)
+    Author: Nobutaka Nakazawa
+    Homepage: http://github.com/btigit/fluent-plugin-solr
+
+    Solr output plugin for Fluent event collector
+
+fluent-plugin-sort (1.0.0)
+    Author: Project Hatohol
+    Homepage: https://github.com/project-hatohol/fluent-plugin-sort
+
+    A Fluentd plugin that sorts buffered messages
+
+fluent-plugin-specinfra_inventory (0.2.3)
+    Author: Masashi Terui
+    Homepage:
+    https://github.com/marcy-terui/fluent-plugin-specinfra_inventory
+
+    Specinfra Host Inventory Plugin for Fluentd
+
+fluent-plugin-spectrum (0.0.8)
+    Authors: Alex Pena, Ling Zhang
+    Homepage: https://github.com/Bigel0w/fluent-plugin-spectrum
+
+    Fluentd plugin for managing monitoring alerts from CA Spectrum
+
+fluent-plugin-split (0.0.4)
+    Author: Hiroshi Toyama
+    Homepage: https://github.com/toyama0919/fluent-plugin-split
+
+    Output Split String Plugin for fluentd
+
+fluent-plugin-split-array (0.0.1)
+    Author: SNakano
+    Homepage: https://github.com/SNakano/fluent-plugin-split-array
+
+    Fluentd filter plugin to split array
+
+fluent-plugin-splunk (0.0.1.1)
+    Author: Abhishek Parolkar
+    Homepage: https://github.com/parolkar/fluent-plugin-splunk
+
+    Splunk output plugin for Fluent event collector
+
+fluent-plugin-splunk-ex (1.0.2)
+    Author: Trevor Gattis
+    Homepage: https://github.com/gtrevg/fluent-plugin-splunk-ex
+
+    Splunk output plugin for Fluent event collector.  It supports
+    reconnecting on socket failure as well as exporting the data as json
+    or in key/value pairs
+
+fluent-plugin-splunk-http-eventcollector (0.0.4)
+    Author: Bryce Chidester
+    Homepage:
+    https://github.com/brycied00d/fluent-plugin-splunk-http-eventcollect
+    or
+
+    Splunk output plugin for Fluentd
+
+fluent-plugin-splunkapi (0.2.0)
+    Author: Keisuke Nishida
+    Homepage: https://github.com/k24d/fluent-plugin-splunkapi
+
+    Splunk output plugin (REST API / Storm API) for Fluent event
+    collector
+
+fluent-plugin-splunkapi-ssln (0.0.2)
+    Author: Kristian Brimble
+    Homepage: https://github.com/kbrimble/fluent-plugin-splunkapi
+
+    Splunk output plugin (REST API / Storm API) for Fluentd event
+    collector
+
+fluent-plugin-sql (0.5.2)
+    Author: Sadayuki Furuhashi
+    Homepage: https://github.com/frsyuki/fluent-plugin-sql
+
+    SQL input/output plugin for Fluentd event collector
+
+fluent-plugin-sql_fingerprint (0.0.1)
+    Author: Takahiro Kikumoto
+    Homepage: https://github.com/kikumoto/fluent-plugin-sql_fingerprint
+
+    A Fluent filter plugin to convert sql to sql's fingerprint
+
+fluent-plugin-sqlite3 (0.1.2)
+    Author: Tomotaka Sakuma
+    Homepage: https://github.com/tmtk75/fluent-plugin-sqlite3.git
+
+    fluentd output to sqlite3
+
+fluent-plugin-sqs (1.7.1)
+    Author: Yuri Odagiri
+    Homepage: https://github.com/ixixi/fluent-plugin-sqs
+
+    Amazon SQS input/output plugin for Fluent event collector
+
+fluent-plugin-sqs-check-size (0.1.0)
+    Author: Nao Akechi
+    Homepage: https://github.com/nakc/fluent-plugin-sqs
+
+    Amazon SQS input/output plugin for Fluent event collector
+
+fluent-plugin-sqs-poll (0.1.1)
+    Author: Richard Li
+    Homepage: https://github.com/ecwws/fluent-plugin-sqs-poll
+
+    fluent sqs poll input
+
+fluent-plugin-sstp (0.0.0)
+    Author: bash0C7
+    Homepage: https://github.com/bash0C7/fluent-plugin-sstp
+
+    Fluentd output plugin to send server using Sakura Script Transfer
+    Protocol(SSTP)
+
+fluent-plugin-stathat (0.0.1)
+    Author: f440
+    Homepage: https://github.com/f440/fluent-plugin-stathat/
+
+    StatHat output plugin for Fluentd.
+
+fluent-plugin-stats (0.3.6)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-stats
+
+    Fluentd plugin to calculate statistics such as sum, max, min, avg
+
+fluent-plugin-stats-notifier (0.0.4)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-stats-notifier
+
+    Fluentd plugin to calculate statistics and then thresholding
+
+fluent-plugin-statsd (1.0.3)
+    Author: Chris Song
+    Homepage: https://github.com/fakechris/fluent-plugin-statsd
+
+    fluentd output plugin to send metrics to Esty StatsD monitor
+
+fluent-plugin-statsd-event (0.1.1)
+    Author: Atlassian
+    Homepage: https://github.com/atlassian/fluent-plugin-statsd_event
+
+    fluentd plugin for statsd event
+
+fluent-plugin-statsd-output (1.1.1)
+    Author: Chris Song
+    Homepage: https://github.com/lingochamp/fluent-plugin-statsd
+
+    fluentd output filter plugin to send metrics to Esty StatsD
+
+fluent-plugin-statsd_event (0.1.0)
+    Author: Atlassian
+    Homepage: https://github.com/atlassian/fluent-plugin-statsd_event
+
+    fluentd plugin for statsd event
+
+fluent-plugin-statsite (0.0.7)
+    Author: OKUNO Akihiro
+    Homepage: https://github.com/choplin/fluent-plugin-statsite
+
+    Fluentd statsite plugin
+
+fluent-plugin-stdin (0.1.1)
+    Author: Masahiro Nakagawa
+    Homepage: https://github.com/repeatedly/fluent-plugin-stdin
+
+    Fluentd plugin for reading events from stdin
+
+fluent-plugin-stdout-pp (0.1.0)
+    Author: Masahiro Sano
+    Homepage: https://github.com/sabottenda/fluent-plugin-stdout-pp
+
+    A fluentd plugin to pretty print json with color to stdout
+
+fluent-plugin-stdout_ex (0.0.1)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-stdout_ex
+
+    Fluentd out_stdout extension
+
+fluent-plugin-storm (0.0.2)
+    Author: Hidenori Suzuki
+    Homepage: https://github.com/niyonmaruz/fluent-plugin-storm
+
+    a fluent plugin
+
+fluent-plugin-string-scrub (0.1.0)
+    Author: Noriaki Katayama
+    Homepage: https://github.com/kataring/fluent-plugin-string-scrub
+
+    Fluentd Output filter plugin.
+
+fluent-plugin-sumologic (0.0.2)
+    Author: memorycraft
+    Homepage: https://github.com/memorycraft/fluent-plugin-sumologic
+
+    sumologic is log management system. this plugin is fluent output
+    plugin send to sumologic
+
+fluent-plugin-sumologic-carsonoid (0.0.3)
+    Authors: memorycraft, carsonoid
+    Homepage: https://github.com/carsonoid/fluent-plugin-sumologic
+
+    sumologic is log management system. this plugin is fluent output
+    plugin send to sumologic
+
+fluent-plugin-sumologic-cloud-syslog (0.1.7)
+    Author: Acquia Engineering
+    Homepage:
+    https://github.com/acquia/fluent-plugin-sumologic-cloud-syslog
+
+    Fluent Sumologic Cloud Syslog plugin
+
+fluent-plugin-sumologic-mattk42 (0.0.4)
+    Author: mattk42
+    Homepage: https://github.com/mattk42/fluent-plugin-sumologic
+
+    sumologic is log management system. this plugin is fluent output
+    plugin send to sumologic
+
+fluent-plugin-suppress (0.0.6)
+    Author: FUJIWARA Shunichiro
+    Homepage: https://github.com/fujiwara/fluent-plugin-suppress
+
+    Fluentd plugin to suppress same messages
+
+fluent-plugin-swift (0.0.2)
+    Author: yuuzi41
+    Homepage: https://github.com/yuuzi41/fluent-plugin-swift
+
+    OpenStack Storage Service (Swift) output plugin for Fluentd event
+    collector
+
+fluent-plugin-systemd (0.0.4)
+    Author: Ed Robinson
+    Homepage: https://github.com/assemblyline/fluent-plugin-systemd
+
+    Input plugin to read from systemd journal.
+
+fluent-plugin-systemtap (0.0.3)
+    Author: Masaki Matsushita
+
+    Fluentd input plugin for systemtap
+
+fluent-plugin-tag-ignore (0.0.1)
+    Author: Shota Fukumori (sora_h)
+
+    this fluentd-plugin allows you to specify ignore patterns for match
+    directive.
+
+fluent-plugin-tagdata (0.0.1)
+    Author: Fukui Masayuki
+    Homepage: https://github.com/msfukui/fluent-plugin-tagdata
+
+    Fluentd plugin to put the tag records in the data.
+
+fluent-plugin-tagfile (0.0.1)
+    Author: taka84u9
+    Homepage: https://github.com/taka84u9/fluent-plugin-tagfile
+
+    Fluent output plugin to handle output directory by source host using
+    events tag.
+
+fluent-plugin-tagged_copy (0.0.2)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-tagged_copy
+
+    Fluentd out_copy extension to do tagging before copy
+
+fluent-plugin-tagged_udp (0.0.7)
+    Author: Toyokazu Akiyama
+    Homepage: https://github.com/toyokazu/fluent-plugin-tagged_udp
+
+    fluentd input/output plugin for tagged UDP message
+
+fluent-plugin-tai64n_parser (0.2.0)
+    Authors: Akira Maeda, Naotoshi Seo
+    Homepage: https://github.com/glidenote/fluent-plugin-tai64n_parser
+
+    Fluentd plugin to parse the tai64n format log.
+
+fluent-plugin-tail-asis (0.0.3)
+    Author: TERAOKA Yoshinori
+    Homepage: https://github.com/yteraoka/fluent-plugin-tail-asis
+
+    fluentd input plugin, whole line read into single key, no regexp
+    used, fast
+
+fluent-plugin-tail-ex (0.1.1)
+    Author: Yoshihisa Tanaka
+    Homepage: https://github.com/yosisa/fluent-plugin-tail-ex
+
+    Extended tail input plugin
+
+fluent-plugin-tail-ex-asis (0.1.5)
+    Author: Yoshihisa Tanaka
+    Homepage: https://github.com/bryanyork/fluent-plugin-tail-ex-asis
+
+    Extended tail input plugin
+
+fluent-plugin-tail-ex-rotate (0.0.4)
+    Author: Yuta Mizushima
+    Homepage: https://github.com/dwango/fluent-plugin-tail-ex-rotate
+
+    customize log rotate timing
+
+fluent-plugin-tail-lite (0.0.1)
+    Author: OKUNO Akihiro
+    Homepage: https://github.com/choplin/fluent-plugin-tail-lite
+
+    Fluentd input plugin which read text files and emit each line as it
+    is.
+
+fluent-plugin-tail-multiline (0.1.5)
+    Author: Tomohisa Ota
+    Homepage: http://github.com/tomohisaota/fluent-plugin-tail-multiline
+
+    Extend tail plugin to support log with multiple line
+
+fluent-plugin-tail-multiline-ex (0.0.3)
+    Author: Yoshiharu Mori
+    Homepage: https://github.com/y-mori0110/fluent-plugin-multiline-ex
+
+    merge tail_ex and tail_multiline input plugin
+
+fluent-plugin-tail_path (0.1.0)
+    Authors: szhem, Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-tail_path
+
+    Fluentd in_tail extension to add `path` field
+
+fluent-plugin-tailer (0.0.1)
+    Author: saber_chica
+
+    Extend tail plugin to insert into head internal IP address or
+    hostname
+
+fluent-plugin-tailpath (0.0.2)
+    Author: Jacob Wirth
+    Homepage: https://github.com/xthexder/fluent-plugin-tailpath
+
+    Fluentd plugin to tail files and add the file path to the message
+
+fluent-plugin-td (0.10.29)
+    Author: Treasure Data, Inc.
+    Homepage: http://www.treasuredata.com/
+
+    Treasure Data Cloud Data Service plugin for Fluentd
+
+fluent-plugin-td-monitoring (0.2.2)
+    Author: Masahiro Nakagawa
+    Homepage: http://www.treasuredata.com/
+
+
+
+fluent-plugin-terminal_notifier (0.1.0)
+    Author: Hiroshi Hatake
+    Homepage:
+    https://github.com/cosmo0920/fluent-plugin-terminal_notifier
+
+    Fluent TerminalNotifier plugin.
+
+fluent-plugin-threshold (0.2.0)
+    Author: moulin
+    Homepage: https://github.com/takyoshi/fluent-plugin-threshold
+
+    fluent-plugin-threshold is the simple filter using a threshold.
+
+fluent-plugin-time-sliced-filter (0.1.0)
+    Author: Genki Sugawara
+    Homepage:
+    https://bitbucket.org/winebarrel/fluent-plugin-time-sliced-filter
+
+    TimeSlicedOutput Plugin to aggregate by unit time
+
+fluent-plugin-time_parser (0.0.6)
+    Authors: Carlos Donderis, Michael H. Oshita
+    Homepage: http://github.com/cads/fluent-plugin-time_parser
+
+    Fluentd plugin to parse the time parameter.
+
+fluent-plugin-timestamper (0.0.1)
+    Author: Masaki Matsushita
+    Homepage: https://github.com/Glasssaga/fluent-plugin-timestamper
+
+    Fluentd output plugin which adds timestamp field to record in
+    various formats.
+
+fluent-plugin-to_js (0.0.3)
+    Author: dixen
+    Homepage: https://github.com/dixentw/fluent-plugin-to_s
+
+    Plugin that adds whole record to to_s field, json format
+
+fluent-plugin-to_s (0.0.3)
+    Author: airtoxin
+    Homepage: https://github.com/airtoxin/fluent-plugin-to_s
+
+    Plugin that adds whole record to to_s field
+
+fluent-plugin-top (0.1.1)
+    Author: Tetsu Izawa (@moccos)
+    Homepage: https://github.com/moccos/fluent-plugin-top
+
+    Fluentd top command input plugin
+
+fluent-plugin-tumblr (0.0.2)
+    Author: bash0C7
+    Homepage: https://github.com/bash0C7/fluent-plugin-tumblr
+
+    Fluentd output plugin to post entry to your tumblr
+
+fluent-plugin-twilio (0.0.3)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-twilio
+
+    Fluentd Output plugin to make a call with Twilio VoIP API. Twiml
+    supports text-to-speech with many languages ref.
+    https://www.twilio.com/docs/api/twiml/say
+
+fluent-plugin-twitter (0.5.4)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-twitter
+
+    Fluentd Input/Output plugin to collect/process tweets with Twitter
+    Streaming API.
+
+fluent-plugin-twittersearch (0.0.3)
+    Author: Freddie Fujiwara
+    Homepage:
+    http://github.com/freddiefujiwara/fluent-plugin-twittersearch
+
+    twittersearch plugin for Fluentd
+
+fluent-plugin-typecast (0.2.0)
+    Author: MORIYA Taro
+    Homepage: http://github.com/tarom/fluent-plugin-typecast
+
+    typecast output plugin for fluentd
+
+fluent-plugin-typetalk (0.0.9)
+    Authors: tksmd, umakoz
+    Homepage: https://github.com/nulab/fluent-plugin-typetalk
+
+    fluent plugin to send message to typetalk
+
+fluent-plugin-ua-parser (1.1.0)
+    Author: Yuri Umezaki
+    Homepage: https://github.com/bungoume/fluent-plugin-ua-parser
+
+    Fluentd filter plugin to parse user-agent
+
+fluent-plugin-udp (0.0.1)
+    Author: Abhishek Parolkar
+    Homepage: https://github.com/parolkar/fluent-plugin-udp
+
+    This input plugin allows you to collect incoming events over UDP
+    instead of TCP
+
+fluent-plugin-unique-counter (0.1.3)
+    Authors: Keiji Matsuzaki, Takesato
+    Homepage: http://aiming.github.io/fluent-plugin-unique-counter/
+
+    fluentd unique counter plugin.
+
+fluent-plugin-unit-time-filter (0.1.4)
+    Author: Genki Sugawara
+    Homepage:
+    https://bitbucket.org/winebarrel/fluent-plugin-unit-time-filter
+
+    Plug-in to aggregate by unit time
+
+fluent-plugin-unwind (0.0.1)
+    Author: Sho SAWADA
+    Homepage: https://github.com/bitcellar-labs/fluent-plugin-unwind
+
+    A fluentd plugin that unwind array to multiple items.
+
+fluent-plugin-uri-parser (0.0.2)
+    Author: Daichi HIRATA
+    Homepage: https://github.com/daichirata/fluent-plugin-uri-parser
+
+    This is a Fluentd plugin to parse uri and query string in log
+    messages.
+
+fluent-plugin-uri_decoder (0.2.0)
+    Author: Yasuharu Ozaki
+    Homepage: https://github.com/YasuOza/fluent-plugin-uri_decoder
+
+    Fluent plugin to decode uri encoded value.
+
+fluent-plugin-validate-tag-filter (0.2.1)
+    Author: adorechic
+    Homepage:
+    https://github.com/adorechic/fluent-plugin-validate-tag-filter
+
+    Fluentd filter plugin which validates tag formats.
+
+fluent-plugin-vertica (0.0.2)
+    Author: Erik Selin
+    Homepage: http://tyro89.github.com/fluent-plugin-vertica
+
+    Fluentd output plugin for Vertica.
+
+fluent-plugin-vertica-query (0.0.7)
+    Author: John Dodson
+    Homepage: https://github.com/intentmedia/fluent-plugin-vertica-query
+
+    Fluentd Input plugin to execute Vertica query and fetch rows. It is
+    useful for stationary interval metrics measurement. Forked from
+    Kentaro Yoshida's fluent-plugin-mysql-query gem.
+
+fluent-plugin-viki (0.1.5)
+    Author: Zhe Wang
+    Homepage: https://github.com/viki-org/fluent-plugin-viki
+
+    Viki's custom fluentd input plugin.
+
+fluent-plugin-warp10 (0.0.1)
+    Author: Aurelien Hebert
+    Homepage: https://github.com/cityzendata/fluentd-plugin-warp10.git
+
+    fluent plugin to send metrics to Warp10
+
+fluent-plugin-watch-process (0.0.3)
+    Author: Kentaro Yoshida
+    Homepage: https://github.com/y-ken/fluent-plugin-watch-process
+
+    Fluentd Input plugin to collect continual process information via ps
+    command. It is useful for cron/barch process monitoring.
+
+fluent-plugin-weather (0.0.1)
+    Author: Takatoshi Matsumoto
+    Homepage: https://github.com/ToQoz/fluent-plugin-weather
+
+    fluent-plugin-weather
+
+fluent-plugin-webhdfs (0.5.1)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/fluent/fluent-plugin-webhdfs
+
+    Fluentd plugin to write data on HDFS over WebHDFS, with flexible
+    formatting
+
+fluent-plugin-webhook-github (0.1.1)
+    Author: uu59
+    Homepage: https://github.com/uu59/fluent-plugin-webhook-github
+
+    fluentd input plugin for receive GitHub webhook
+
+fluent-plugin-webhook-mackerel (0.0.1)
+    Author: mackerelio
+    Homepage:
+    https://mackerel.com/mackerelio/fluent-plugin-webhook-mackerel
+
+    fluentd input plugin for receiving Mackerel webhook
+
+fluent-plugin-websocket (0.1.7)
+    Author: IZAWA Tetsu (@moccos)
+    Homepage: https://github.com/moccos/fluent-plugin-websocket
+
+    Fluentd websocket output plugin
+
+fluent-plugin-websocket-ruby-1.9 (0.1.8)
+    Author: IZAWA Tetsu (@moccos)
+    Homepage:
+    https://github.com/mikeatlas/fluent-plugin-websocket-ruby-1.9
+
+    Fluentd websocket output plugin
+
+fluent-plugin-websphere-iib (1.0)
+    Author: superguillen
+    Homepage:
+    https://github.com/superguillen/fluent-plugin-websphere-iib
+
+    Input plugin for websphere Integration Bus syslog
+
+fluent-plugin-wendelin (0.2)
+    Author: Kirill Smelkov
+    Homepage: https://lab.nexedi.com/nexedi/fluent-plugin-wendelin
+
+    Fluentd output to Wendelin
+
+fluent-plugin-werkzeug-profiler (0.0.3)
+    Author: Kenta MORI
+    Homepage:
+    https://github.com/zoncoen/fluent-plugin-werkzeug-profiler.git
+
+    Fluent input plugin for Werkzeug WSGI application profiler
+    statistics.
+
+fluent-plugin-winevtlog (0.0.4)
+    Author: okahashi117
+
+    Input plugin to read windows event log.
+
+fluent-plugin-wire-protocol-compat (0.2.0)
+    Author: Tomás Rojas
+    Homepage:
+    https://github.com/bitex-la/fluent-plugin-wire-protocol-compat
+
+    Adds in_forward wire protocol support to in_udp and in_tcp
+
+fluent-plugin-with-extra-fields-parser (0.0.1)
+    Author: hiraro
+    Homepage:
+    https://github.com/hiraro/fluentd-plugin-with-extra-fields-parser
+
+    Fluentd parser plugin
+
+fluent-plugin-woothee (0.2.1)
+    Author: TAGOMORI Satoshi
+    Homepage: https://github.com/woothee/fluent-plugin-woothee
+
+    Fluentd plugin to parse UserAgent strings with woothee parser. It
+    adds device information or filter records with specific device
+    types.
+
+fluent-plugin-xml-parser (0.0.5)
+    Author: Toyokazu Akiyama
+    Homepage: http://github.com/toyokazu/fluent-plugin-xml-parser
+
+    fluentd xml parser plugin
+
+
+FROM fluent/fluentd:latest-onbuild
+
+fluent-plugin-xymon (0.0.1)
+    Author: bash0C7
+    Homepage: https://github.com/bash0C7/fluent-plugin-xymon
+
+    Fluentd output plugin to post message to xymon
+
+fluent-plugin-yammer (0.0.1)
+    Author: Shinohara Teruki
+    Homepage: https://github.com/ts-3156/fluent-plugin-yammer
+
+    Fluentd Output plugin to process yammer messages with Yammer API.
+
+fluent-plugin-yo (0.0.1)
+    Author: Uchio KONDO
+    Homepage: https://github.com/udzura/fluent-plugin-yo
+
+    A fluentd plugin to send Yo
+
+fluent-plugin-yohoushi (0.1.4)
+    Author: Naotoshi Seo
+    Homepage: https://github.com/sonots/fluent-plugin-yohoushi
+
+    Fluentd plugin to post data to yohoushi
+
+fluent-plugin-zabbix (0.2.0)
+    Author: FUJIWARA Shunichiro
+    Homepage: https://github.com/fujiwara/fluent-plugin-zabbix
+
+    Output data plugin to Zabbix (like zabbix_sender)
+
+fluent-plugin-zabbix-agent (0.2.0)
+    Author: Genki Sugawara
+    Homepage: https://github.com/winebarrel/fluent-plugin-zabbix-agent
+
+    Fluentd input plugin for Zabbix agent.
+
+fluent-plugin-zabbix-simple (1.0.0)
+    Author: NAKANO Hideo
+    Homepage: https://github.com/sunny4381/fluent-plugin-zabbix-simple
+
+    Output data plugin to Zabbix (like zabbix_sender)
+
+fluent-plugin-zabbix-simple-bufferd (1.0.0)
+    Author: Katsuhiro Miura
+    Homepage:
+    https://github.com/katsuhiro-miura/fluent-plugin-zabbix-simple
+
+    Output data plugin to Zabbix (like zabbix_sender)
+
+fluent-plugin-zmq (0.0.3)
+    Author: OZAWA Tsuyoshi
+    Homepage: https://github.com/oza/fluent-plugin-zmq
+
+    zmq plugin for fluent, an event collector
+
+fluent-plugin-zmq-pub (0.0.4)
+    Author: OGIBAYASHI Hironori
+
+    0MQ publisher/subscriber plugin for fluentd, use 0MQ v3.2 or greater
+    version
+
+fluent-plugin-zoomdata (0.0.1)
+    Author: Jun Ohtani
+    Homepage: https://github.com/johtani/fluent-plugin-zoomdata
+
+    see zoomdata http://www.zoomdata.com
+
+sm-fluent-plugin-sql (0.5.1)
+    Author: Sadayuki Furuhashi
+    Homepage: https://github.com/frsyuki/fluent-plugin-sql
+
+    SQL input/output plugin for Fluentd event collector
