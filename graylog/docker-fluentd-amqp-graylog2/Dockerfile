@@ -8,7 +8,7 @@ USER root
 RUN \
  apk --no-cache --update add sudo build-base ruby-dev &&\
 
- sudo -u fluent gem install fluent-plugin-amqp fluent-plugin-input-gelf gelf &&\
+ sudo -u fluent gem install fluent-plugin-amqp fluent-plugin-input-gelf gelf fluent-plugin-record-modifier &&\
  apk add ca-certificates wget && update-ca-certificates && apk add openssl &&\
  wget https://raw.githubusercontent.com/emsearcy/fluent-plugin-gelf/master/lib/fluent/plugin/out_gelf.rb -O /fluentd/plugins/out_gelf.rb &&\
 
