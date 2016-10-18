@@ -20,5 +20,5 @@ docker-compose up -d graylog
 docker-compose -f docker-compose-hello.yml up hello-via-gelf
 ```
 
-# Admire output in graylog
+## Admire output in graylog
 ![succes!](https://github.com/marcelmaatkamp/docker-compose-applications/blob/master/graylog/contrib/Screen%20Shot%202016-10-18%20at%2016.05.01.png)
