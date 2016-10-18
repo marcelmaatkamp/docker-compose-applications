@@ -49,7 +49,6 @@ services:
   links:
    - mongodb:mongo
    - elasticsearch-master:elasticsearch
-   - rabbitmq:rabbitmq
   depends_on:
    - mongodb
    - elasticsearch-master
