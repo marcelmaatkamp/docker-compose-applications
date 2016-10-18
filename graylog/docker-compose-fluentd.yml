@@ -22,6 +22,15 @@ services:
   volumes:
     - elastic-data:/usr/share/elasticsearch/data
 
+ kibana:
+  image: kibana
+  restart: always
+  hostname: kibana
+  ports:
+   - "5601:5601"
+  links:
+   - "elasticsearch-master:elasticsearch"
+
  mongodb:
   image: mongo:3
   restart: always
@@ -52,8 +61,36 @@ services:
    - rabbitmq:rabbitmq
   depends_on:
    - mongodb
+   - rabbitmq
    - elasticsearch-master
    - elasticsearch-node01
+
+ rabbitmq:
+  image: rabbitmq:management
+  restart: always
+  hostname: rabbitmq
+  ports:
+   - 15672:15672
+  environment:
+    RABBITMQ_NODENAME: rabbitmq@rabbitmq
+  volumes:
+   - rabbitmq-data:/var/lib/rabbitmq/mnesia
+
+ fluentd:
+  image: fluent/fluentd
+  build: docker-fluentd-amqp-graylog2
+  restart: always
+  links:
+   - graylog:graylog
+   - rabbitmq:rabbitmq
+  volumes:
+   - fluentd-logs:/fluentd/log
+   - ./docker-fluentd-amqp-graylog2/fluent.conf:/fluentd/etc/fluent.conf
+  environment:
+   - FLUENTD_CONF=fluent.conf
+  ports:
+   - "24224:24224"
+   - "5140:5140"
 
 volumes:
  mongodb-data:
@@ -61,3 +98,5 @@ volumes:
  graylog-data:
  graylog-conf:
  elastic-data: 
+ fluentd-logs:
+ rabbitmq-data:
