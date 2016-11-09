@@ -1,3 +1,6 @@
 [submodule "luaradio/docker-luaradio"]
 	path = luaradio/docker-luaradio
 	url = https://github.com/marcelmaatkamp/docker-luaradio.git
+[submodule "alpine/alpine-aports"]
+	path = alpine/alpine-aports
+	url = https://github.com/marcelmaatkamp/alpine-aports.git

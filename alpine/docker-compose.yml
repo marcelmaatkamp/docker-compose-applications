@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+
+ openssh: 
+  image: danielguerra/alpine-sdk-build:3.1
+  command: build main openssh
+  volumes:
+   - ./packages:/home/sdk
