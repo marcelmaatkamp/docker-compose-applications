@@ -1,9 +1,14 @@
 version: '2'
-
 services:
-
- openssh: 
+ axel: 
   image: danielguerra/alpine-sdk-build:3.1
-  command: build main openssh
+  command: build main axel
   volumes:
-   - ./packages:/home/sdk
+   - ./:/home/sdk
+
+ bully:   
+  image: danielguerra/alpine-sdk-build:3.1
+  command: build testing bully
+  volumes:
+   - ./:/home/sdk
+   - ./alpine-aports/testing/bully:/tmp/aports/testing/bully
