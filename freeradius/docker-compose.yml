@@ -4,7 +4,7 @@ services:
 
  freeradius:
   image: "marcelmaatkamp/freeradius"
-  build: "docker-alpine-radius/"
+# build: "docker-alpine-radius/"
   ports:
    - "1812:1812/udp"
    - "1813:1813"
@@ -18,7 +18,7 @@ services:
 
  freeradius-test:
   image: "marcelmaatkamp/freeradius"
-  build: "docker-alpine-radius/"
+# build: "docker-alpine-radius/"
   command: "radtest testing password freeradius 0 SECRET"
   networks:
    mynet:
