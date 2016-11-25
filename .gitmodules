@@ -4,3 +4,6 @@
 [submodule "alpine/alpine-aports"]
 	path = alpine/alpine-aports
 	url = https://github.com/marcelmaatkamp/alpine-aports.git
+[submodule "freeradius/docker-alpine-radius"]
+	path = freeradius/docker-alpine-radius
+	url = https://github.com/marcelmaatkamp/docker-alpine-radius.git

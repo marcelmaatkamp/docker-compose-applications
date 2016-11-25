@@ -1,0 +1,24 @@
+version: '2'
+
+services:
+
+ freeradius:
+  image: "marcelmaatkamp/freeradius"
+  build: "docker-alpine-radius/"
+  ports:
+   - "1812:1812/udp"
+   - "1813:1813"
+   - "18120:18120"
+  environment:
+   - DEVICE_NAME=router_wireless
+   - DEVICE_HOSTNAME=freeradius
+   - DEVICE_SECRET=SECRET
+   - USERNAME=testing
+   - PASSWORD=password
+
+ freeradius-test:
+  image: "marcelmaatkamp/freeradius"
+  build: "docker-alpine-radius/"
+  command: "radtest testing password freeradius 0 SECRET"
+  links:
+   - "freeradius:freeradius"
