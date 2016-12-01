@@ -14,7 +14,7 @@ services:
   hostname: "hello"
 
  tor:
-# image: goldy/tor-hidden-service
+  image: "marcelmaatkamp/tor-authenticated-hidden-service"
   build: "docker-tor-hidden-service/"
   links:
    - "hello"
