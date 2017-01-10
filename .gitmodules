@@ -1,12 +1,12 @@
 [submodule "luaradio/docker-luaradio"]
 	path = luaradio/docker-luaradio
 	url = https://github.com/marcelmaatkamp/docker-luaradio.git
-[submodule "alpine/alpine-aports"]
-	path = alpine/alpine-aports
-	url = https://github.com/marcelmaatkamp/alpine-aports.git
 [submodule "freeradius/docker-alpine-radius"]
 	path = freeradius/docker-alpine-radius
 	url = https://github.com/marcelmaatkamp/docker-alpine-radius.git
 [submodule "tor/hidden_services/auth_hidden_services/docker-tor-hidden-service"]
 	path = tor/hidden_services/auth_hidden_services/docker-tor-hidden-service
 	url = https://github.com/marcelmaatkamp/docker-tor-hidden-service.git
+[submodule "thingsboard/thingsboard"]
+	path = thingsboard/thingsboard
+	url = https://github.com/marcelmaatkamp/thingsboard.git
