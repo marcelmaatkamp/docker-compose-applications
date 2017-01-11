@@ -1,0 +1,35 @@
+version: '2'
+
+services:
+
+ thingsboard:
+  build:
+   context: .
+   dockerfile: Dockerfile.run
+  image: anapsix/alpine-java
+  # command: bash -c 'cd /thingsboard/application && java -jar thingsboard-1.1.0-SNAPSHOT-boot.jar'
+  env_file:
+   - ./thingsboard/docker/thingsboard.env
+  entrypoint: ./run_thingsboard.sh
+  volumes:
+   - ./cache/application:/thingsboard/application
+  ports:  
+   - "8090:8080"
+   - "1884:1883"
+   - "5683:5683"
+  external_links:
+   - thingsboard_db_1:db
+  
+ zk:
+  image: "zookeeper:3.4.9"
+  restart: always
+
+ rabbitmq:
+  image: marcelmaatkamp/rabbitmq-mqtt-ldap
+  restart: always
+  hostname: rabbitmq
+  environment:
+   - RABBITMQ_NODENAME=rabbitmq
+  ports: 
+   - 15673:15672
+   - 1883:1883

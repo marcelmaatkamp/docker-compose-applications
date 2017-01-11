@@ -1,0 +1,16 @@
+version: '2'
+
+services:
+ 
+ db:
+  image: "cassandra:3.9"
+  volumes:
+   - ./cache/cassandra:/var/lib/cassandra"
+
+ thingsboard-db-schema:
+  image: "thingsboard/thingsboard-db-schema:1.0.1"
+  env_file:
+   - ./thingsboard/docker/thingsboard-db-schema.env
+  volumes:
+   - ./thingsboard/docker/thingsboard-db-schema/install_schema.sh:/install_schema.sh
+  entrypoint: bash -c /install_schema.sh
