@@ -30,6 +30,11 @@ services:
   hostname: rabbitmq
   environment:
    - RABBITMQ_NODENAME=rabbitmq
+  volumes:
+   - rabbitmq:/var/lib/rabbitmq/
   ports: 
    - 15673:15672
    - 1883:1883
+
+volumes:
+ rabbitmq:

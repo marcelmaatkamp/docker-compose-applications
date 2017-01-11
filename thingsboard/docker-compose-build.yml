@@ -2,7 +2,7 @@ version: '2'
 
 services:
  
- thingsboard:
+ thingsboard-build:
   build:
    context: .
    dockerfile: Dockerfile.build
