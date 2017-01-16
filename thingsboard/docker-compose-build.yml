@@ -7,10 +7,10 @@ services:
    context: .
    dockerfile: Dockerfile.build
 # command: bash -c 'cd /thingsboard && mvn package -pl application -am -Dmaven.test.skip=true'
-  command: bash -c 'cd /thingsboard && mvn package'
+  command: bash -c 'cd /thingsboard && mvn clean install'
   volumes:
    - ./cache/m2:/root/.m2
    - ./cache/npm:/root/.npm
    - ./cache/gradle:/root/.gradle
-   - ./cache/application:/thingsboard/application/target
+#   - ./cache/application:/thingsboard/application/target
    - ./thingsboard:/thingsboard

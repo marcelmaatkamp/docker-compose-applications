@@ -10,9 +10,13 @@ services:
   # command: bash -c 'cd /thingsboard/application && java -jar thingsboard-1.1.0-SNAPSHOT-boot.jar'
   env_file:
    - ./thingsboard/docker/thingsboard.env
+  environment:
+   - MQTT_START_LOCAL_SERVER=false
+   - MQTT_BIND_ADDRESS=rabbitmq
   entrypoint: ./run_thingsboard.sh
   volumes:
    - ./cache/application:/thingsboard/application
+   - ./cache/log:/var/log/thingsboard/
   ports:  
    - "8090:8080"
    - "1884:1883"
