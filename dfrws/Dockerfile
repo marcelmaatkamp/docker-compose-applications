@@ -14,4 +14,5 @@ RUN wget http://dfrws.capibara.com/macwd.E01
 RUN python ./setup.py build
 RUN python ./setup.py install
 RUN useradd mattockfs -d /var/mattock -m
-
+RUN cp bin/* /usr/local/bin/
+RUN cp mattockfs.json /etc/
