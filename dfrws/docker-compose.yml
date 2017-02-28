@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+ dfrws:
+  build: .
+  command: bash
+  devices:
+   - /dev/fuse:/dev/fuse
+  cap_add:
+   - ALL
