@@ -1,0 +1,9 @@
+version: '2'
+services:
+
+ hello-via-gelf:
+  image: hello-world
+  logging:
+   driver: "gelf"
+   options:
+    gelf-address: "udp://localhost:12201"

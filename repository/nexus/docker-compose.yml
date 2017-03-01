@@ -1,9 +1,33 @@
 version: '2'
 
 services:
- nexus3:
-  image: sonatype/nexus3
-  volumes:
-   - nexus3:/nexus-data
+ https:
+  image: steveltn/https-portal
+  restart: always
+  depends_on:
+   - nexus
+  links:
+   - nexus:nexus
   ports:
-   - 8081:8081
+    - "80:80"
+    - "443:443"
+  environment:
+   - STAGE=local
+   - WEBSOCKET=true
+   - CLIENT_MAX_BODY_SIZE=0
+   - DOMAINS=nexus -> http://nexus:18544
+
+ nexus:
+  image: sonatype/nexus3
+  restart: always
+  volumes:
+   - nexus:/nexus-data
+  ports:
+   - 8093:8081
+   - 18443:18443
+   - 18444:18444
+   - 18543:18543
+   - 5000:18544
+
+volumes:
+ nexus:

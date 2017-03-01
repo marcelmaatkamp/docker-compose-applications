@@ -1,0 +1,5 @@
+#!/bin/bash
+docker-compose -f docker-compose-run.yml stop thingsboard &&\
+docker-compose -f docker-compose-run.yml rm -f thingsboard &&\
+bin/build &&\
+docker-compose -f docker-compose-run.yml up -d thingsboard 
