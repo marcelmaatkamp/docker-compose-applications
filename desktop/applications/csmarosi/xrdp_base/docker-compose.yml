@@ -1,0 +1,8 @@
+version: '3'
+services:
+ xrdp_base:
+  image: xrdp_base
+  build: .
+  ports:
+   - "3389:3389"
+

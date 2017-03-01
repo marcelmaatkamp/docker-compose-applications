@@ -23,7 +23,7 @@ services:
   image: mattermost/mattermost-prod-db
   hostname: db
   volumes:
-    - data-mattermost-data:/var/lib/postgresql/data
+#    - data-mattermost-data:/var/lib/postgresql/data
     - /etc/localtime:/etc/localtime:ro
 
  mattermost-app:

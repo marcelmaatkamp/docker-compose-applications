@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+ fusion:
+  image: elagekanerepos/freeswitch
+  ports:
+   - 80/tcp
+   - 443/tcp
+   - 8021/tcp
+   - 2812/tcp
+   - 5060/tcp 
+   - 5060/udp 
+   - 5080/tcp 
+   - 5080/udp
+   - 5061/tcp 
+   - 5061/udp 
+   - 5081/tcp
+   - 5081/udp
+   - 7443/tcp
