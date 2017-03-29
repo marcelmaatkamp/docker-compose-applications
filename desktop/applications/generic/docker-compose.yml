@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+ docker:
+  image: docker:dind
+ 
+ rdp:
+  image: danielguerra/alpine-xfce4-xrdp
+  restart: always
+  ports:
+   - "3389:3389"
+   - "4848:22"
+  environment: 
+   - DOCKER_HOST=tcp://docker:2375
+
+ 

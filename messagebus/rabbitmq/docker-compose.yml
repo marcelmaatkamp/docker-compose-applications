@@ -6,6 +6,8 @@ services:
   restart: always
   hostname: rabbitmq
   ports:
+   - 5671:5671
+   - 5672:5672
    - 15672:15672
   environment:
     RABBITMQ_NODENAME: rabbitmq@rabbitmq
