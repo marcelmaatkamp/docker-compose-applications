@@ -1,0 +1,24 @@
+version: '2'
+services:
+
+ gogs:
+  image: gogs/gogs
+  ports:
+   - "10022:22" 
+   - "10080:3000"
+  volumes:
+   - gogs:/data
+
+ mysql:
+  image: mysql
+  restart: always
+  hostname: mysql
+  environment:
+   - MYSQL_ROOT_PASSWORD=my-secret-pw
+  volumes:
+   - mysql:/var/lib/mysql/
+   - ./conf/mysql:/docker-entrypoint-initdb.d/
+
+volumes:
+ gogs:
+ mysql:
