@@ -1,0 +1,9 @@
+version: '3'
+services:
+ esp8266:
+  image: twhtanghk/docker.esp8266
+  devices: 
+   - /dev/ttyUSB0:/dev/ttyUSB0
+  volumes:
+   - ./data:/data
+
