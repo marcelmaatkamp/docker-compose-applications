@@ -1,15 +1,33 @@
-version: '2'
-
+version: "2"
 services:
+
+ https:
+  image: steveltn/https-portal
+  ports:
+   - "80:80"
+   - "443:443"
+  links:
+   - rabbitmq
+  restart: always
+  volumes:
+    - https:/var/lib/https-portal
+    - https:/var/www/vhosts
+  environment:
+    - STAGE=production
+    - DOMAINS=rabbitmq.${IP_ADDRESS}.nip.io -> http://rabbitmq:15672
+
  rabbitmq:
   image: marcelmaatkamp/rabbitmq-mqtt-ldap
   restart: always
   hostname: rabbitmq
   ports:
    - 5671:5671
-   - 5672:5672
-   - 15672:15672
   environment:
-    RABBITMQ_NODENAME: rabbitmq@rabbitmq
+   - RABBITMQ_NODENAME=rabbitmq@rabbitmq.${IP_ADDRESS}.nip.io
   volumes:
-   - ./volumes/rabbitmq/mnesia:/var/lib/rabbitmq/mnesia
+   - rabbitmq:/var/lib/rabbitmq/mnesia
+   - https:/var/lib/https
+
+volumes:
+ rabbitmq:
+ https:
