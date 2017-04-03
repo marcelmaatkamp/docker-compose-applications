@@ -1,4 +1,4 @@
-# AMQPS with LetsEncrypt in Docker
+# AMQPS with LetsEncrypt
 
 # Introduction
 
