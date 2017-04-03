@@ -13,18 +13,23 @@ services:
     - https:/var/lib/https-portal
     - https:/var/www/vhosts
   environment:
+#   - STAGE=local
     - STAGE=production
-    - DOMAINS=rabbitmq.${IP_ADDRESS}.nip.io -> http://rabbitmq:15672
+    - DOMAINS=rabbitmq.${IP_ADDRESS}.${DNS_MAPPER} -> http://rabbitmq:15672
 
  rabbitmq:
   image: marcelmaatkamp/rabbitmq-mqtt-ldap
   restart: always
   hostname: rabbitmq
+  command: bash -c "envsubst < /etc/rabbitmq/rabbitmq.config.envsubst > /etc/rabbitmq/rabbitmq.config && rabbitmq-server"
   ports:
    - 5671:5671
   environment:
-   - RABBITMQ_NODENAME=rabbitmq@rabbitmq.${IP_ADDRESS}.nip.io
+   - RABBITMQ_NODENAME=rabbitmq@rabbitmq
+   - DNS_MAPPER=${DNS_MAPPER}
+   - IP_ADDRESS=${IP_ADDRESS}
   volumes:
+   - ./conf/rabbitmq.config:/etc/rabbitmq/rabbitmq.config.envsubst
    - rabbitmq:/var/lib/rabbitmq/mnesia
    - https:/var/lib/https
 
