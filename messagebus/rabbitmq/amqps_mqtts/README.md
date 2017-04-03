@@ -38,8 +38,9 @@ docker-compose exec rabbitmq bash -c \
 
 # rabbitmq.conf
 
-```
+The rabbitmq.conf loads the the following certificates from https://github.com/SteveLTN/https-portal
 
+```
 [
  {ssl, [{versions, ['tlsv1.2', 'tlsv1.1']}]},
  {rabbit, [
