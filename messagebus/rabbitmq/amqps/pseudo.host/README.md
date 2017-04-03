@@ -33,6 +33,8 @@
 
 # Test
 ```
-openssl s_client -connect 12.34.56.78:5671 -cert client/cert.pem -key client/key.pem \
-  -CAfile testca/cacert.pem
+openssl s_client -connect 12.34.56.78:5671 \
+ -CAfile /var/lib/https/rabbitmq.12.34.56.78.pseudo.host/production/chained.pem \
+ -cert /var/lib/https/rabbitmq.12.34.56.78.pseudo.host/production/signed.crtclient/cert.pem \
+ -key /var/lib/https/rabbitmq.12.34.56.78.pseudo.host/production/domain.key
 ```
