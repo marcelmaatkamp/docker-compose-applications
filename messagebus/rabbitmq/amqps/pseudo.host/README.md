@@ -1,6 +1,10 @@
 # NIP.IO
 
-# Introduction`
+# Introduction
+
+```
+DNS_MAPPER=pseudo.host IP_ADDRESS=12.34.56.78 docker-compose up
+```
 
 # rabbitmq.conf
 
