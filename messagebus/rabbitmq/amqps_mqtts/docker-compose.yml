@@ -24,6 +24,7 @@ services:
   command: bash -c "envsubst < /etc/rabbitmq/rabbitmq.config.envsubst > /etc/rabbitmq/rabbitmq.config && rabbitmq-server"
   ports:
    - 5671:5671
+   - 8883:8883
   environment:
    - RABBITMQ_NODENAME=rabbitmq@rabbitmq
    - DNS_MAPPER=${DNS_MAPPER}
