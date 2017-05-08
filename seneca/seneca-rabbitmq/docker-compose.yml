@@ -14,9 +14,6 @@ services:
   build: .
   environment:
    - AMQP_URL=amqp://rabbitmq
-   - AMQP_EXCHANGE=geo
-   - AMQP_EXCHANGE_TYPE=fanout
-   - AMQP_QUEUE=geo.traccar
 
 volumes:
  rabbitmq:
