@@ -1,0 +1,28 @@
+{
+  "name": "seneca-rabbitmq",
+  "version": "1.0.0",
+  "description": "Seneca Rabbitmq",
+  "main": "start.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "winston": "^2.3.1",
+    "mqtt": "~2.2.0",
+    "convict": "^3.0.0",
+    "seneca": "^3.3.0",
+    "seneca-amqp-transport": "^2.1.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "edenb",
+  "license": "MIT"
+}
