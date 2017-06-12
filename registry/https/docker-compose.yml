@@ -1,0 +1,30 @@
+version: '2'
+services:
+
+ https:
+  image: steveltn/https-portal
+  ports:
+   - "80:80"
+   - "443:443"
+  restart: always
+  volumes:
+   - https:/var/lib/https-portal
+   - https:/var/www/vhosts
+  environment:
+   - STAGE=production
+
+ registry:
+  image: registry:2
+  restart: always
+  ports:
+   - "5000:5000"
+  environment:
+   - REGISTRY_HTTP_TLS_CERTIFICATE=/etc/docker/certs.d/traccar.omniresponse.com/production/chained.pem
+   - REGISTRY_HTTP_TLS_KEY=/etc/docker/certs.d/traccar.omniresponse.com/production/domain.key
+  volumes:
+   - registry:/var/lib/registry
+   - https:/etc/docker/certs.d/
+
+volumes:
+ https:
+ registry:
