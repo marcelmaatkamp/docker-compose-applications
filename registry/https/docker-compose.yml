@@ -19,8 +19,8 @@ services:
   ports:
    - "5000:5000"
   environment:
-   - REGISTRY_HTTP_TLS_CERTIFICATE=/etc/docker/certs.d/traccar.omniresponse.com/production/chained.pem
-   - REGISTRY_HTTP_TLS_KEY=/etc/docker/certs.d/traccar.omniresponse.com/production/domain.key
+   - REGISTRY_HTTP_TLS_CERTIFICATE=/etc/docker/certs.d/<<HOSTNAME>>/production/chained.pem
+   - REGISTRY_HTTP_TLS_KEY=/etc/docker/certs.d/<<HOSTNAME>>/production/domain.key
   volumes:
    - registry:/var/lib/registry
    - https:/etc/docker/certs.d/
