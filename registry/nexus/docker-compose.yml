@@ -1,0 +1,36 @@
+version: '2'
+services:
+
+ https:
+  image: steveltn/https-portal
+  restart: always
+  ports:
+   - "80:80"
+   - "443:443"
+  volumes:
+   - https:/var/lib/https-portal
+   - https:/var/www/vhosts
+  environment:
+   - STAGE=production
+
+# $ HOSTNAME=boe.bla.com docker-compose up -d https
+# $ docker-compose exec https bash
+#   https$ openssl pkcs12 -inkey /var/lib/https-portal/traccar.omniresponse.com/production/domain.key -in /var/lib/https-portal/traccar.omniresponse.com/production/chained.pem -export -out /var/lib/https-portal/traccar.omniresponse.com/production/jetty.pkcs12
+# $ docker-compose run nexus ash
+#   nexus$ /opt/sonatype/nexus # /usr/lib/jvm/java-1.8-openjdk/jre/bin/keytool -importkeystore -srckeystore /var/lib/https-portal/traccar.omniresponse.com/production/jetty.pkcs12 -srcstoretype PKCS12 -destkeystore /nexus-data/keystore.jks
+#   (and choose a password like PASSWORD)
+ nexus:
+  image: clearent/nexus
+  restart: always
+  volumes:
+   - nexus:/nexus-data
+   - https:/var/lib/https-portal
+  environment:
+   - JKS_PASSWORD=<<PASSWORD>>
+  ports:
+   - 8443:8443
+   - 5000:5000
+   
+volumes:
+ https:
+ nexus:
