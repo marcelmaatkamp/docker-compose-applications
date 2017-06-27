@@ -1,0 +1,8 @@
+version: '2'
+services:
+ nagios:
+  image: jasonrivers/nagios:latest
+  ports: 
+   - 8090:80
+  volumes:
+   - ./objects/lon.cfg:/opt/nagios/etc/objects/lon.cfg 

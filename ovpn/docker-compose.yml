@@ -1,0 +1,19 @@
+version: '2'
+services:
+
+ vpn:
+  image: dperson/openvpn-client
+  cap_add:
+   - net_admin
+  environment:
+   TZ: 'Europe/Amsterdam'
+  read_only: true
+  tmpfs:
+   - /tmp
+  restart: unless-stopped
+  security_opt:
+   - label:disable
+  stdin_open: true
+  tty: true
+  volumes:
+   - /dev/net:/dev/net:z

@@ -1,6 +1,11 @@
 version: '2'
 services:
 
+ ssh:
+  image: jdeathe/centos-ssh:centos-7
+  ports:
+   - "2020:22"
+
  rabbitmq:
   image: marcelmaatkamp/rabbitmq-mqtt-ldap
   restart: always
@@ -13,6 +18,7 @@ services:
  seneca:
   build: .
   environment:
+   - LOG_LEVEL=${LOG_LEVEL}
    - AMQP_URL=amqp://rabbitmq
 
 volumes:

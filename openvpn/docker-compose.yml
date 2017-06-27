@@ -1,0 +1,33 @@
+version: '2'
+services:
+
+ openvpn:
+  image: jkleczkowski/nginx-ovpn-client
+  read_only: true
+  tmpfs:
+   - /tmp
+  restart: unless-stopped
+  command: openvpn --config /etc/openvpn/client.ovpn
+  devices:
+   - "/dev/net/tun:/dev/net/tun"
+  cap_add:
+   - NET_ADMIN
+  security_opt:
+   - label:disable
+  stdin_open: true
+  tty: true
+  volumes:
+   - ./vpn:/etc/openvpn 
+   - /dev/net:/dev/net:z
+
+ ssh:
+  image: jdeathe/centos-ssh:centos-7
+  depends_on:
+   - openvpn
+  ports:
+   - "2222:22"
+  volumes:
+   - ssh:/home/app-admin/.ssh/authorized_keys
+
+volumes:
+ ssh:

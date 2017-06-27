@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+
+ guacd:
+  hostname: guacd
+  image: danielguerra/guacamole-guacd
+ guadb:
+  hostname: guadb
+  image: danielguerra/guacamole-db
+  environment:
+    - MYSQL_ROOT_PASSWORD=mypass
+ guaweb:
+  image: danielguerra/guacamole-webserver
+  links:
+    - guacd
+    - "guadb:db"
+    - desktop
+  ports:
+    - "8080:8080"
+ desktop:
+  image: danielguerra/alpine-xfce4-xrdp
+  environment:
+   - USER=root
+  volumes:
+   - ./contrib/desktop/bookmarks.json:/home/alpine/Desktop/bookmarks.json

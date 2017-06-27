@@ -10,6 +10,8 @@
     "winston": "^2.3.1",
     "mqtt": "~2.2.0",
     "convict": "^3.0.0",
+    "lodash": "^4.17.4",
+    "bluebird": "^3.5.0",
     "seneca": "^3.3.0",
     "seneca-amqp-transport": "^2.1.0"
   },
