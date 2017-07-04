@@ -2,6 +2,4 @@ version: '2'
 
 services:
  isniff:
-  build: 
-   context: iSniff-GPS
-   dockerfile: Dockerfile
+  build: .
