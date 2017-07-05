@@ -10,3 +10,6 @@
 [submodule "thingsboard/thingsboard"]
 	path = thingsboard/thingsboard
 	url = https://github.com/marcelmaatkamp/thingsboard.git
+[submodule "iSniff-GPS"]
+	path = sniffer/isniff/iSniff-GPS
+	url = https://github.com/marcelmaatkamp/iSniff-GPS
