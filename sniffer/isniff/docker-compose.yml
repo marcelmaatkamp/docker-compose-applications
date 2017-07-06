@@ -2,4 +2,42 @@ version: '2'
 
 services:
  isniff:
-  build: .
+  build: iSniff-GPS/
+# privileged: true
+# network_mode: "host"
+# network_mode: none
+  ports:
+   - 8000:8000
+# devices: 
+#  - mon0
+  cap_add:
+   - ALL
+  environment:
+   - WIGLE_USERNAME=${WIGLE_USERNAME}
+   - WIGLE_PASSWORD=${WIGLE_PASSWORD}
+  volumes:
+   - ./data:/data
+
+ tor:
+  image: goldy/tor-hidden-service
+# image: marcelmaatkamp/tor-hidden-service
+# image: strm/tor-hiddenservice-nginx
+  links:
+   - isniff
+  environment:
+   - ISNIFF_PORTS=80:8000
+  volumes:
+   - tor-keys:/var/lib/tor/hidden_service/
+
+ ap:
+  image: forcedinductionz/docker-ap
+  privileged: true
+  network_mode: "host"
+  environment:
+   - INTERFACE=wlx001f1fed5baa
+  devices:
+    - wlx001f1fed5baa
+
+volumes:
+ tor-keys:
+  driver: local
