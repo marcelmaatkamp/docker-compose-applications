@@ -1,0 +1,21 @@
+version: '2'
+
+services:
+
+ nexus:
+  build: .
+  restart: always
+  volumes:
+   - nexus:${NEXUS_KEYSTORE}
+  environment:
+   - NEXUS_KEYSTORE=/nexus-data
+   - KEYSTOREPASSWORD=${KEYSTOREPASSWORD}
+   - KEYMANAGERPASSWORD=${KEYMANAGERPASSWORD}
+   - TRUSTSTOREPASSWORD=${TRUSTSTOREPASSWORD}
+   - JKS_PASSWORD=${KEYSTOREPASSWORD}
+  ports:
+   - 8443:8443
+   - 5000:5000
+
+volumes:
+ nexus:
