@@ -1,5 +1,5 @@
 # Freeradius
-Set the ip-range which will connect to the server and the server-secret in `clients.conf`, set the user/password combination in `users`. 
+Set the ip-range which will connect to the server and the server-secret in [clients.conf](https://github.com/marcelmaatkamp/docker-compose-applications/blob/master/freeradius/clients.conf), set the user/password combination in [users](https://github.com/marcelmaatkamp/docker-compose-applications/blob/master/freeradius/users). 
 
 ## Start the server
 ```
