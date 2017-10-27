@@ -20,6 +20,7 @@ ENV \
 RUN useradd -m user
 RUN echo "user ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
+RUN echo "yes" | npm install nativescript -g --unsafe-perm
 USER user
 WORKDIR /home/user
 
@@ -45,3 +46,6 @@ RUN sudo npm install -g nativescript
 RUN sudo chown -R user:user .
 RUN npm install
 RUN sudo npm install gulp -g
+RUN sudo npm install nativescript -g --unsafe-perm
+RUN tns
+
