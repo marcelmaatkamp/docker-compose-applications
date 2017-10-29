@@ -2,15 +2,11 @@ FROM node:8.2.0
 
 RUN echo "deb http://ftp.de.debian.org/debian jessie-backports main" >> /etc/apt/sources.list
 RUN \
+ dpkg --add-architecture i386 &&\
  apt-get update && \
- apt-get install -t jessie-backports -y openjdk-8-jdk ca-certificates-java
-
-RUN \
- dpkg --add-architecture i386 && \
- apt-get update && apt-get install -y unzip file git curl zip sudo libncurses5:i386 libstdc++6:i386 zlib1g:i386 \
- && apt-get clean \
- && rm -rf /var/lib/apt/lists /var/cache/apt
-
+ apt-get install -t jessie-backports -y openjdk-8-jdk ca-certificates-java unzip file git curl zip sudo libncurses5:i386 libstdc++6:i386 zlib1g:i386 vim &&\
+ apt-get clean &&\
+ rm -rf /var/lib/apt/lists /var/cache/apt
 RUN ln -s /bin/true /usr/local/bin/mkdirp
 
 ENV \
@@ -21,7 +17,6 @@ ENV \
 RUN useradd -m user
 RUN echo "user ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
-# RUN echo "yes" | npm install nativescript -g --unsafe-perm
 USER user
 WORKDIR /home/user
 
@@ -40,9 +35,9 @@ RUN wget $GRADLE_URL -O gradle.zip \
 ENV PATH="/home/user/gradle/bin:${ANDROID_HOME}/tools:${ANDROID_HOME}/tools/bin:${ANDROID_HOME}/platform-tools:${PATH}"
 
 # --- 
-RUN sudo echo "yes" | npm install nativescript -g --unsafe-perm
+RUN echo "yes" | sudo npm install nativescript -g --unsafe-perm
 
-RUN git clone https://github.com/marcelmaatkamp/angular-seed-advanced.git
+RUN git clone https://github.com/NathanWalker/angular-seed-advanced.git
 WORKDIR angular-seed-advanced
 RUN mkdir -p nativescript/app
 RUN sudo npm install -g nativescript

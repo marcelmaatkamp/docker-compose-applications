@@ -1,14 +1,11 @@
 FROM node:8.2.0
 RUN echo "deb http://ftp.de.debian.org/debian jessie-backports main" >> /etc/apt/sources.list
 RUN \
+ dpkg --add-architecture i386 &&\
  apt-get update && \
- apt-get install -t jessie-backports -y openjdk-8-jdk ca-certificates-java
-
-RUN \
- dpkg --add-architecture i386 && \
- apt-get update && apt-get install -y unzip file git curl zip sudo libncurses5:i386 libstdc++6:i386 zlib1g:i386 \
- && apt-get clean \
- && rm -rf /var/lib/apt/lists /var/cache/apt
+ apt-get install -t jessie-backports -y openjdk-8-jdk ca-certificates-java unzip file git curl zip sudo libncurses5:i386 libstdc++6:i386 zlib1g:i386 vim &&\
+ apt-get clean &&\
+ rm -rf /var/lib/apt/lists /var/cache/apt
 
 RUN ln -s /bin/true /usr/local/bin/mkdirp
 
@@ -45,12 +42,10 @@ USER user
 RUN git clone https://github.com/marcelmaatkamp/angular-seed-advanced.git
 WORKDIR angular-seed-advanced
 RUN mkdir -p nativescript/app
-RUN sudo npm install -g nativescript
+RUN sudo npm install nativescript -g --unsafe-perm
 RUN sudo chown -R user:user .
 RUN npm install
 RUN sudo npm install gulp -g
-RUN sudo npm install nativescript -g --unsafe-perm
 RUN sdkmanager "platform-tools" "platforms;android-26" "extras;android;m2repository" "build-tools;26.0.2"
-# RUN sudo npm install tns-core-modules@3.1.0 -g
 RUN sed -i 's/require/global.require/g' /home/user/angular-seed-advanced/nativescript/node_modules/tns-core-modules/profiling/profiling.js
 RUN npm run build.android
