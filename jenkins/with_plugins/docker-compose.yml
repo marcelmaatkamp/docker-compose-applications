@@ -1,0 +1,14 @@
+version: '2'
+services:
+ jenkins:
+  build:
+    context: .
+  ports:
+   - 8080:8080
+   - 50000:5000
+  volumes:
+   - jenkins:/var/jenkins_home
+   - ./plugins.txt:/usr/share/jenkins/plugins.txt
+
+volumes:
+ jenkins:

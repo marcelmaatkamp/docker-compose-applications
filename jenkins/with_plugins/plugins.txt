@@ -1,0 +1,6 @@
+docker-plugin
+docker-slaves
+ansible
+gitlab-plugin
+redmine
+git
